@@ -1,0 +1,12 @@
+export const HHapar1 = require('./1.jpg');
+export const HHapar2 = require('./2.jpg');
+export const HHapar3 = require('./3.jpg');
+export const HHapar4 = require('./4.jpg');
+export const HHapar5 = require('./5.jpg');
+export const HHapar6 = require('./6.jpg');
+export const HHapar7 = require('./7.jpg');
+export const HHapar8 = require('./8.jpg');
+export const HHapar9 = require('./9.jpg');
+export const HHapar10 = require('./10.jpg');
+export const HHapar11 = require('./11.jpg');
+export const HHapar12 = require('./12.jpg');

@@ -1,0 +1,11 @@
+export const APapar1 = require('./1.jpg');
+export const APapar2 = require('./2.jpg');
+export const APapar3 = require('./3.jpg');
+export const APapar4 = require('./4.jpg');
+export const APapar5 = require('./5.jpg');
+export const APapar6 = require('./6.jpg');
+export const APapar7 = require('./7.jpg');
+export const APapar8 = require('./8.jpg');
+export const APapar9 = require('./9.jpg');
+export const APapar10 = require('./10.jpg');
+export const APapar11 = require('./11.jpg');

@@ -1,0 +1,21 @@
+export const startCoffe1 = require('./1.jpg');
+export const startCoffe2 = require('./2.jpg');
+export const startCoffe3 = require('./3.jpg');
+export const startCoffe4 = require('./4.jpg');
+export const startCoffe5 = require('./5.jpg');
+export const startCoffe6 = require('./6.jpg');
+export const startCoffe7 = require('./7.jpg');
+export const startCoffe8 = require('./8.jpg');
+export const startCoffe9 = require('./9.jpg');
+export const startCofee10 = require('./10.jpg');
+export const startCoffe11 = require('./11.jpg');
+export const startCoffe12 = require('./12.jpg');
+export const startCoffe13 = require('./13.jpg');
+export const startCoffe14 = require('./14.jpg');
+export const startCoffe15 = require('./15.jpg');
+export const startCoffe16 = require('./16.jpg');
+export const startCoffe17 = require('./17.jpg');
+export const startCoffe18 = require('./18.jpg');
+export const startCoffe19 = require('./19.jpg');
+export const startCoffe20 = require('./20.jpg');
+

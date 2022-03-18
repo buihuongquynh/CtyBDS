@@ -1,0 +1,9 @@
+export const sweet1 = require('./1.jpg');
+export const sweet2 = require('./2.jpg');
+export const sweet3 = require('./3.jpg');
+export const sweet4 = require('./4.jpg');
+export const sweet5 = require('./5.jpg');
+export const sweet6 = require('./6.jpg');
+export const sweet7 = require('./7.jpg');
+export const sweet8 = require('./8.jpg');
+export const sweet9 = require('./9.jpg');

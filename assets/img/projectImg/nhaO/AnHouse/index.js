@@ -1,0 +1,13 @@
+export const anHouse1 = require('./1.jpg');
+export const anHouse2 = require('./2.jpg');
+export const anHouse3 = require('./3.jpg');
+export const anHouse4 = require('./4.jpg');
+export const anHouse5 = require('./5.jpg');
+export const anHouse6 = require('./6.jpg');
+export const anHouse7 = require('./7.jpg');
+export const anHouse8 = require('./8.jpg');
+export const anHouse9 = require('./9.jpg');
+export const anHouse10 = require('./10.jpg');
+export const anHouse11 = require('./11.jpg');
+export const anHouse12 = require('./12.jpg');
+export const anHouse13 = require('./13.jpg');
