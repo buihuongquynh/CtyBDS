@@ -30,7 +30,7 @@ const ListImgProject = () => {
           <div className="listImg">
             <Slider {...settings}>
               {listData && listData[0]?.img?.map((item, index) => (
-                <img src={item} alt="" />
+                <img style={{height:'93vh'}} src={item} alt="" />
               ))}
             </Slider>
           </div>

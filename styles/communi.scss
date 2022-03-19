@@ -1,13 +1,53 @@
+
+.homeBannerLeft{
+  animation: left .8s ease infinite;
+  animation-iteration-count: 1;
+}
+.homeBannerRight{
+  animation: right .8s ease infinite;
+  animation-iteration-count: 1;
+}
+.homeBannerBottom{
+    animation: bottom .8s ease infinite;
+    animation-iteration-count: 1;
+  }
+@keyframes left {
+  from{
+    transform: translateX(-500px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+@keyframes bottom {
+    from{
+      transform: translateY(500px);
+    }
+    to{
+      transform: translateY(0px);
+    }
+  }
+@keyframes right {
+  from{
+    transform: translateX(500px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
 .communication{
+    .img_banner{
+        width: 72%;
+    }
     width: 90%;
     margin: 0 auto;
     padding-top: 40px;
     img{
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     p{
-        font-size: 20px;
+        font-size: 27px;
         margin-bottom: 0;
     }
     .para{
@@ -23,7 +63,7 @@
         text-align: center;
     }
     .cents{
-        font-size: 30px !important;
+        font-size: 50px !important;
         font-weight: 600;
         text-align: center;
     }
@@ -33,7 +73,8 @@
           
             img{
                 width: 100%;
-                height: 55vh;
+                margin-top: 10px;
+                height: 68vh;
             }
         }
     }

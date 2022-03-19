@@ -14,15 +14,15 @@ export default function Home() {
     <div className="home">
       <div className="banner__home">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 center">
+          <div className="col-lg-6 col-md-6 col-sm-12 center homeBannerLeft">
             <div className="center_banner">
               <div className="smaill_photo">
                 <img src={smImg.src} alt="" />
               </div>
-              <p className="title_banner">Phố thiết kế</p>
+              <p className="title_banner">Phố Thiết Kế</p>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 text-end big_img">
+          <div className="col-lg-6 col-md-6 col-sm-12 text-end big_img homeBannerRight">
             <img src={bigImg.src} alt="" />
           </div>{" "}
         </div>
@@ -30,11 +30,11 @@ export default function Home() {
       <div className="project">
         <Row>
           <Col className="ant-1" span={1}></Col>
-          <Col className="ant-22" span={22}>
-            <h1>Dự án</h1>
+          <Col className="ant-22" style={{margin: '0 15px'}} span={22}>
+            <h1 className="prj">Dự án</h1>
             {Project.map((item) => (
               <>
-                <div className="row-sb mt-100">
+                <div className="row-sb mt-80">
                   <div className="items-center">
                     <h2>{item.name}</h2>
                     <RightOutlined />
@@ -51,10 +51,12 @@ export default function Home() {
                       })
                     }
                   >
-                    <i className="home-view">Xem dự án</i>
+                    Xem thêm
                   </h2>
                 </div>
-                <ImgFixed src={item?.project[0]?.img[0]} />
+                <ImgFixed 
+                item={item}
+                src={item?.project[0]?.img[0]} />
               </>
             ))}
           </Col>

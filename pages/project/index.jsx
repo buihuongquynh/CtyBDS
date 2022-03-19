@@ -7,20 +7,20 @@ const Project = () => {
   const { dataProductCategory, Project } = data();
   return (
     <>
-      <div className=".project">
+      <div className="projects">
         
         <Row className="row-mobi">
           <Col className="mobi-none" span={4}></Col>
           
           <Col span={16}>
           <h1>CHUYÊN THIẾT KẾ - THI CÔNG TRỌN GÓI</h1>
-        <ul>
+        <ul className="list_pj">
           <li>- Nội thất nhà ở</li>
           <li>- Nội thất phòng thờ</li>
           <li>- Shop thời trang</li>
-          <li>- Café , Nhà Hàng , Trà Sữa</li>
-          <li>- Show room , Văn Phòng</li>
-          <li>- Shop phụ kiện , Mỹ Phẩm</li>
+          <li>- Cafe, nhà hàng, trà sữa</li>
+          <li>- Show room, văn phòng</li>
+          <li>- Shop phụ kiện, mỹ phẩm</li>
           <li>- Show room dược phẩm</li>
         </ul>
             {Project?.map((item) => (

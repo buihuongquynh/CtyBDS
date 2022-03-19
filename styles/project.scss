@@ -1,3 +1,15 @@
+.row-mobi{
+    animation: top .8s ease infinite;
+    animation-iteration-count: 1;
+}
+@keyframes top {
+    from{
+      transform: translateY(1000px);
+    }
+    to{
+      transform: translateY(0);
+    }
+  }
 .imgProject{
     transition: .4s;
     position: relative;
@@ -30,11 +42,14 @@
     opacity: 0;
     font-size: 30px;
     font-style: oblique;
-    color: white;
+    color: yellow;
     font-weight: 600;
     position: absolute;
     top: 100%;
     left: 50%;
     z-index: 9999;
     transform: translate(-50%, -50%);
+}
+.list_pj{
+    font-size: 20px;
 }

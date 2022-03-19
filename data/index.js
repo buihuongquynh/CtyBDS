@@ -222,7 +222,7 @@ for (const [key, value] of Object.entries(Moyan)) {
 
     {
       id: 2,
-      name: "cafe - nhà hàng - trà sữa",
+      name: "Cafe - Nhà hàng - Trà sữa",
       project: [
         {
           id: 1,
