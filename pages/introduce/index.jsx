@@ -10,12 +10,12 @@ const Introduct = () => {
     <>
       <div className="Introduct">
         <div className="row">
-          <div className="img_cent homeLeft about_me col-lg-6 col-md-6 col-sm-12">
-            <img style={{ height: "100%" }} src={tamnhin.src} alt="img" />
+          <div className="homeLeft item col-lg-6 col-md-6 col-sm-12">
+            <img className=""src={tamnhin.src} alt="img" />
           </div>
-          <div className="about_me homeBannerTop col-lg-6 col-md-6 col-sm-12">
+          <div className=" homeBannerTop item1 col-lg-6 col-md-6 col-sm-12">
             <div className="Center_tit">
-              <div className="tits">
+              <div className="">
                 <h1>VỀ CHÚNG TÔI</h1>
                 <p>
                   - Với đội ngũ KTS trẻ, nhiệt tình của Phố Thiêt Kế. Chúng tôi tự
@@ -42,9 +42,9 @@ const Introduct = () => {
             </div>
           </div>
        
-        <div className="about_me homeBannerBot col-lg-6 col-md-6 col-sm-12">
+        <div className=" homeBannerBot item col-lg-6 col-md-6 col-sm-12">
           <div className="Center_tit">
-            <div className="tit">
+            <div className="">
               <br/>
               <br/>
               <h1>TẦM NHÌN – SỨ MỆNH </h1>
@@ -78,10 +78,10 @@ const Introduct = () => {
             </div>
           </div>
         </div>
-        <div className="homeRight img_cents about_me col-lg-6 col-md-6 col-sm-12">
+        <div className="homeRight item1 col-lg-6 col-md-6 col-sm-12">
           <img
-            className="img_bottom"
-            style={{ height: "100%", width:"66%" }}
+            className=" "
+          
             src={vechungtoi.src}
             alt="img"
           />

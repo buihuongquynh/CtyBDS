@@ -64,6 +64,8 @@
   }
 }
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   font-size: 16px !important;
   font-family: 'Josefin Slab', serif;
 font-family: 'Montserrat', sans-serif;
@@ -292,6 +294,7 @@ a{
   height: 565px;
 }
 @media (max-width: 992px) {
+
   .row-mobi{
     margin: 0 15px;
   }
@@ -333,8 +336,36 @@ a{
     max-width: 3% !important;
   }
 }
+.mt-100{
+  margin-top: 100px;
+}
 @media (max-width: 786px) {
-  
+  .footer p{
+    white-space: normal;
+  }
+  .footer{
+    font-size: 15px;
+  }
+  .mt-80{
+    margin-top: 20px;
+  }
+  .prj{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  body .home{
+    margin: 0 !important;
+  }
+  .smaill_photo{
+    width: 100% !important;
+  }
+  .center_banner{
+    transform: translateY(0) !important;
+    margin-bottom: 10px;
+  }
+  .big_img img{
+    max-height: 100% !important;
+  }
   .mobile{
     display: block;
   }
@@ -342,23 +373,61 @@ a{
     display: none;
   }
   body .home .title_banner {
-    font-size: 50px;
+    font-size: 33px;
     font-weight: 300;
+    margin-bottom: 0 !important;
+    width: 90% !important;
   }
   .ant-1 {
     display: none !important;
   }
   .project {
-    margin: 0 30px !important;
+    margin: 0 10px !important;
     .ant-row {
       display: block !important;
     }
   }
   .ant-22 {
     max-width: 100% !important;
+    margin: 0 !important;
   }
   h2 {
-    font-size: 18px !important;
+    font-size: 17px !important;
+  }
+
+
+
+  //@at-root
+  .Introduct{
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+  }
+  .img_cent{
+    padding-right: 0 !important;
+  }
+  // .Introduct img{
+  //   width: 100% !important;
+  // }
+  .tits{
+    margin-top: 15px;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .tit br{
+    display: none;
+  }
+  .img_cents{
+    padding-left: 0 !important;
+  }
+
+  .Introduct .img_bottom{
+    margin-top: 0 !important;
+  }
+  .img_top{
+    margin-top: 10px;
   }
 }
 .center_banner{
@@ -380,16 +449,22 @@ a{
   }
 }
 .Introduct{
-  margin-right: 132px;
+  .item1{
+    padding: 20px 200px 20px 100px;
+  }
+  .item{
+    padding: 20px 100px 20px 200px;
+  }
+  // margin-right: 132px;
   margin-top: 100px;
   margin-bottom: 100px;
   img{
     // width: 73%;
-    height: 100%;
+    // height: 100%;
     }
     .img_bottom{
       // width: 73% !important;
-      height: 118% !important;
+      // height: 118%;
       margin-top: 118px;
     }
   .Center_tit{
@@ -458,4 +533,10 @@ a{
 }
 .showMore{
   font-weight: 600;
+}
+.Introduct{
+  img{
+    width: 100%;
+    height: 600px;
+  }
 }
