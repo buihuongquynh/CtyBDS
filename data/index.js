@@ -219,25 +219,8 @@ for (const [key, value] of Object.entries(Moyan)) {
         },
       ]
     },
-
     {
       id: 2,
-      name: "Cafe - Nhà hàng - Trà sữa",
-      project: [
-        {
-          id: 1,
-          name: "Restourant HH",
-          img: Restous,
-        },
-        {
-          id: 2,
-          name: "Star coffe",
-          img: startCofees,
-        },
-      ]
-    },
-    {
-      id: 3,
       name: "Shop thời trang",
       project: [
         {
@@ -253,13 +236,29 @@ for (const [key, value] of Object.entries(Moyan)) {
       ]
     },
     {
-      id: 4,
+      id: 3,
       name: "Shop phụ kiện, mĩ phẩm",
       project: [
         {
           id: 1,
           name: "SWEET",
           img: Sweets,
+        },
+      ]
+    },
+    {
+      id: 4,
+      name: "Cafe - Nhà hàng - Trà sữa",
+      project: [
+        {
+          id: 1,
+          name: "Restourant HH",
+          img: Restous,
+        },
+        {
+          id: 2,
+          name: "Star coffe",
+          img: startCofees,
         },
       ]
     },

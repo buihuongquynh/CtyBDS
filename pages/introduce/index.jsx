@@ -15,7 +15,7 @@ const Introduct = () => {
           </div>
           <div className="about_me homeBannerTop col-lg-6 col-md-6 col-sm-12">
             <div className="Center_tit">
-              <div className="tit">
+              <div className="tits">
                 <h1>VỀ CHÚNG TÔI</h1>
                 <p>
                   - Với đội ngũ KTS trẻ, nhiệt tình của Phố Thiêt Kế. Chúng tôi tự
@@ -78,10 +78,10 @@ const Introduct = () => {
             </div>
           </div>
         </div>
-        <div className="homeRight img_cent about_me col-lg-6 col-md-6 col-sm-12">
+        <div className="homeRight img_cents about_me col-lg-6 col-md-6 col-sm-12">
           <img
             className="img_bottom"
-            style={{ height: "100%" }}
+            style={{ height: "100%", width:"66%" }}
             src={vechungtoi.src}
             alt="img"
           />

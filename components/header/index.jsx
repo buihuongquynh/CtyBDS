@@ -26,15 +26,7 @@ const Header = () => {
   return (
     <>
       <nav className="web">
-        <div style={{ cursor: "pointer" }} className="brand web">
-          <Image
-            onClick={() => router.push("/")}
-            src={Logo}
-            alt="Picture of the author"
-            width={60}
-            height={60}
-          />
-        </div>
+        
         <ul>
           <li onClick={() => setIsModalVisible(false)}>
             <Link href="/">TRANG CHỦ</Link>

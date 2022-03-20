@@ -9,13 +9,12 @@ const ProjectCategory = ({ data }) => {
     <>
       <div className={styles.ProjectCategory}>
         <div className={`${styles.categoryName} row-sb`}>
-          <h2>{data.name}</h2>
+          <h2 className="textTransform">{data.name}</h2>
           <div className="items-center mr-30">
             <b onClick={() => router.push(
               {
                 pathname: "list-project-category",
                 query: { 
-                 
                   id: data.id
                 },
               }
@@ -32,13 +31,24 @@ const ProjectCategory = ({ data }) => {
               if (index < 4) {
                 return (
                   <div className="col-md-6 col-sm-12 hoverImg">
-                    <div onClick={() => router.push({
-                      pathname: "list-img-project/[ids]/[id]",
-                      query: { 
-                        ids:  data.id, 
-                        id: item.id
-                      },
-                    })} className={`${styles.imgProject} scale_hv`}>
+                    <div 
+                    // onClick={() => router.push({
+                    //   pathname: "list-img-project/[ids]/[id]",
+                    //   query: { 
+                    //     ids:  data.id, 
+                    //     id: item.id
+                    //   },
+                    // })} 
+                    onClick={() => router.push(
+                      {
+                        pathname: "/list-img-project",
+                        query: { 
+                          ids:  data.id, 
+                          id: item.id
+                        },
+                      }
+                      )}
+                    className={`${styles.imgProject} scale_hv`}>
                       <img src={item.img[0]} className="imgProject " alt="project" />
                       <div className="text">{item.name}</div>
                     </div>

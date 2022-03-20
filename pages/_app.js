@@ -35,7 +35,7 @@ function App({ Component, pageProps }) {
         }}
       />
       <Head>
-        <title>project bất động sản</title>
+        <title>Phố Thiết Kế</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet"/>

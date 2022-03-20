@@ -76,13 +76,20 @@ font-family: 'Source Sans Pro', sans-serif;
       font-size: 25px;
     }
     .title_banner {
+      width: 100%;
+      opacity: .8;
+      border-radius: 40px;
+      background: #6A9CB6;
       font-size: 60px;
       font-family: 'Lora', serif !important;
       font-weight: 300;
-      color: #c1b8bc;
+      color: white;
      text-align: center;
       font-weight: 600;
-  
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     p {
       font-size: 18px;
@@ -161,7 +168,7 @@ nav {
   left: 0;
   width: 100%;
   height: 80px;
-  padding: 0 100px;
+  padding: 0 40px;
   box-sizing: border-box;
   z-index: 9999;
   background-color: white;
@@ -198,7 +205,9 @@ nav ul li a {
   display: block;
   height: 80px;
   line-height: 80px;
-  padding: 0 20px;
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
   box-sizing: border-box;
   color: rgb(36, 35, 35);
   text-decoration: none;
@@ -211,9 +220,9 @@ nav ul li a:hover:before {
   transform: scaleX(1);
 }
 
-nav ul li a:hover {
-  color: #4b52b4;
-}
+// nav ul li a:hover {
+//   color: #4b52b4;
+// }
 .footer .footer-items .footer-item4 {
   float: left;
   width: calc(100% / 8);
@@ -371,14 +380,15 @@ a{
   }
 }
 .Introduct{
+  margin-right: 132px;
   margin-top: 100px;
   margin-bottom: 100px;
   img{
-    width: 73%;
+    // width: 73%;
     height: 100%;
     }
     .img_bottom{
-      width: 73% !important;
+      // width: 73% !important;
       height: 118% !important;
       margin-top: 118px;
     }
@@ -391,12 +401,18 @@ a{
 
 }
 .tit{
-  margin: 0 114px;
+  margin-right: 114px;
+  margin-left: 281px;
+}
+.tits{
+  margin-right: 129px;
+  margin-left: 114px;
 }
 .project{
   margin-top: 50px;
   h2{
     cursor: pointer;
+    text-transform: uppercase;
   }
 }
 .ant-modal-wrap{
@@ -406,7 +422,14 @@ a{
 .img_cent{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 114px;
+}
+.img_cents{
+  padding-left: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .projects{
   margin-top: 100px;
@@ -432,4 +455,7 @@ a{
 }
 .view_map{
   text-align: right;
+}
+.showMore{
+  font-weight: 600;
 }

@@ -41,7 +41,8 @@ export default function Home() {
                   </div>
 
 
-                  <h2
+                  <a
+                  className="showMore"
                     onClick={() =>
                       Router.push({
                         pathname: "list-project-category",
@@ -52,7 +53,7 @@ export default function Home() {
                     }
                   >
                     Xem thêm
-                  </h2>
+                  </a>
                 </div>
                 <ImgFixed 
                 item={item}

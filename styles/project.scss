@@ -40,9 +40,9 @@
     z-index: 999999;
     transition: .4s;
     opacity: 0;
+    font-family: Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     font-size: 30px;
-    font-style: oblique;
-    color: yellow;
+    color: rgb(24, 37, 209);
     font-weight: 600;
     position: absolute;
     top: 100%;
@@ -50,6 +50,11 @@
     z-index: 9999;
     transform: translate(-50%, -50%);
 }
-.list_pj{
-    font-size: 20px;
+.pj_cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textTransform{
+    text-transform: uppercase;
 }
