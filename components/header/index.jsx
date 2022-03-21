@@ -1,11 +1,10 @@
 // @flow
 import React, { useState } from "react";
-import Logo from "../../assets/img/logo1.jpg";
+import Logo from "../../assets/img/logo.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Modal, Popover, Button } from "antd";
-import styles from "./styles.module.scss";
+import { Modal, Dropdown } from "antd";
 import HeaderMobile from "../content-header-mobile";
 import Contact from "../content-contact";
 const Header = () => {
@@ -26,7 +25,15 @@ const Header = () => {
   return (
     <>
       <nav className="web">
-        
+        <div style={{ cursor: "pointer" }} className="brand web">
+          <Image
+            onClick={() => router.push("/")}
+            src={Logo}
+            alt="Picture of the author"
+            width={60}
+            height={60}
+          />
+        </div>
         <ul>
           <li onClick={() => setIsModalVisible(false)}>
             <Link href="/">TRANG CHỦ</Link>
@@ -37,7 +44,7 @@ const Header = () => {
           <li onClick={() => setIsModalVisible(false)}>
             <Link href="/project">DỰ ÁN</Link>
           </li>
-          
+
           <li>
             <a onClick={showModal}>TIN TỨC</a>
             <Modal
@@ -56,7 +63,18 @@ const Header = () => {
         </ul>
       </nav>
       <nav className="mobile">
-        <Popover
+        <div className="mobile_cent">
+          <div style={{ cursor: "pointer" }} className="brand web">
+            <Image
+              onClick={() => router.push("/")}
+              src={Logo}
+              alt="Picture of the author"
+              width={60}
+              height={60}
+            />
+          </div>
+          <div>
+            {/* <Popover
           placement="bottom"
           content={<HeaderMobile showModal={showModal} />}
           trigger="click"
@@ -68,8 +86,21 @@ const Header = () => {
             <div className="item"></div>
 
           </div>
-          {/* <Button>fff</Button> */}
-        </Popover>
+        </Popover> */}
+            <Dropdown
+              overlay={<HeaderMobile />}
+              placement="bottom"
+              trigger={["click"]}
+              arrow={{ pointAtCenter: true }}
+            >
+              <div className="humbeger">
+                <div className="item"></div>
+                <div className="item"></div>
+                <div className="item"></div>
+              </div>
+            </Dropdown>
+          </div>
+        </div>
       </nav>
     </>
   );

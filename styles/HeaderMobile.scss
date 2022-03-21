@@ -1,9 +1,21 @@
 .HeaderMobile{
-    color: black;
+    
+    margin-top: 11px;
+    background: white;
+    width: 119px;
+    padding: 0 17px;
+    a{
+        color: black;
+        font-weight: bold;
+    }
+}
+.mobile_cent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
 }
 .humbeger{
-    position: absolute !important;
-    margin-top: 20px;
     .item{
         width: 25px;
         height: 3px;

@@ -18,10 +18,10 @@ const HeaderMobile = ({showModal}) => {
         <li>
         <Link href="/communication">Liên hệ</Link>
         </li>
-        {/* <li>
-          <a onClick={showModal}>Tin Tức</a>
+        <li>
+          <a href="/contact">Tin Tức</a>
   
-        </li> */}
+        </li>
       </ul>
     </div>
   );

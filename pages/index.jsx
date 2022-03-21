@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="banner__home">
-        <div className="row">
+        <div className="row" style={{alignItems:'center'}}>
           <div className="col-lg-6 col-md-6 col-sm-12 center homeBannerLeft">
             <div className="center_banner">
               <div className="smaill_photo">
@@ -34,7 +34,7 @@ export default function Home() {
             <h1 className="prj">Dự án</h1>
             {Project.map((item) => (
               <>
-                <div className="row-sb mt-80">
+                <div className="row-sb mt-30">
                   <div className="items-center">
                     <h2>{item.name}</h2>
                     <RightOutlined />

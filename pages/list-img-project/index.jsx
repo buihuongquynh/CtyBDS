@@ -22,9 +22,8 @@ const ListImgProject = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  console.log(ids,"ids")
   return (
-    <>
+    <div className="list_img">
       <Row>
         <Col span={3}></Col>
         <Col span={18}>
@@ -59,7 +58,7 @@ const ListImgProject = () => {
         </Col>
         <Col span={3}></Col>
       </Row>
-    </>
+    </div>
   );
 };
 export default ListImgProject;
