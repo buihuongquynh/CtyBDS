@@ -4,7 +4,9 @@
 @import "./footer.scss";
 @import "./project.scss";
 @import "./contact.scss";
-
+.item_col{
+  width: 16%;
+}
 .logo {
   img {
     width: 50px;
@@ -172,7 +174,7 @@ nav {
   left: 0;
   width: 100%;
   height: 80px;
-  padding: 0 40px;
+  padding-right:40px;
   box-sizing: border-box;
   z-index: 9999;
   background-color: white;
@@ -183,6 +185,7 @@ nav .brand {
   height: 100%;
   line-height: 80px;
   display: flex;
+  margin-left: 17%;
   align-items: center;
 }
 
@@ -284,6 +287,7 @@ nav ul li a:hover:before {
   a {
     color: black;
     font-size: 15px;
+    margin-bottom: 5px;
   }
 }
 .mobile {
@@ -342,6 +346,25 @@ nav ul li a:hover:before {
   margin-top: 100px;
 }
 @media (max-width: 786px) {
+  nav ul {
+    transition: .5s;
+    background-color: white;
+    border-radius: 10px;
+    float: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+  }
+  .img_home{
+    img{
+      width: 100%;
+    }
+  }
+  .styles_img_fixed__2SzPE{
+    height: 30vh !important;
+  }
   .communication .cent {
     transform: translateY(0) !important;
 }
@@ -367,6 +390,8 @@ font-size: 23px;
   }
   .footer {
     font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .mt-80 {
     margin-top: 20px;
@@ -403,11 +428,17 @@ font-size: 23px;
       height: auto !important;
     }
     .item {
-      padding: 10px !important;
+      padding: 15px !important;
     }
     .item1 {
-      padding: 10px !important;
+      padding: 15px !important;
     }
+  }
+  .contact{
+    padding: 0 16px;
+  }
+  .slick-dots li{
+    margin: 0 0 !important;
   }
   .web {
     display: none;
@@ -439,7 +470,7 @@ font-size: 23px;
     white-space: nowrap;
   }
   .slick-slide img {
-    height: auto !important;
+    height: auto  !important;
   }
   .list_img {
     .ant-col-3 {

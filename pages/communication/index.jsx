@@ -25,12 +25,12 @@ const Communication = () => {
             <span>Đc: 74 Thôi Hữu, P.Ngọc Trạo, TP.Thanh Hóa</span>
             
             <br />
-            <span>Email: Phothietke@gmail.com</span>
+            <span>Email: phothietke10@gmail.com</span>
              <br />
-             <span>Phone: K/S.Lê Nhung: 0372559079</span>
+             <span>Phone: KTS.Lê Nhung: 0372559079</span>
              <br />
 
-            <span className="phone_mr">K/S.Lê Trọng: 0396158898 </span>
+            <span className="phone_mr">KTS.Lê Trọng: 0396158898 </span>
           </p>
         </div>
       </div>

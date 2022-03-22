@@ -11,7 +11,7 @@ import * as Vapar from "../assets/img/projectImg/nhaO/V apartment"
 import * as Sweet from "../assets/img/projectImg/phukienmipham/SWEET"
 import * as Berg from "../assets/img/projectImg/shopgiaytui/Berg _ Lee"
 import * as Moyan from "../assets/img/projectImg/shopgiaytui/Moyan Shop"
-
+import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
 const data = () => {
  const Restous = []
  const startCofees = []
@@ -25,6 +25,7 @@ const data = () => {
  const Sweets = []
  const Bergs = []
  const Moyans = []
+ const H2Homes = []
  for (const [key, value] of Object.entries(Restou)) {
   Restous.push(value.default.src)
 }
@@ -61,132 +62,9 @@ for (const [key, value] of Object.entries(Berg)) {
 for (const [key, value] of Object.entries(Moyan)) {
   Moyans.push(value.default.src)
 }
-  const dataProductHome = [
-    {
-      id: 1,
-      name: "Z Community Center",
-      img: "https://static.wixstatic.com/media/c837a6_c702cc51a7144072b3515edb490ad130~mv2.jpg/v1/fill/w_1453,h_700,al_c,q_85,usm_0.66_1.00_0.01/c837a6_c702cc51a7144072b3515edb490ad130~mv2.webp",
-      description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​",
-    },
-    {
-      id: 2,
-      name: "South Library",
-      img: "https://static.wixstatic.com/media/c837a6_98793bd523ee4439afb7e49a7a15fdb0~mv2.jpg/v1/fill/w_1453,h_700,al_b,q_85,usm_0.66_1.00_0.01/c837a6_98793bd523ee4439afb7e49a7a15fdb0~mv2.webp",
-      description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​",
-    },
-    {
-      id: 3,
-      name: "Z Community Center",
-      img: "https://static.wixstatic.com/media/c837a6_0dab066d199041ee93ab263afa018116~mv2.jpg/v1/fill/w_1453,h_700,al_t,q_85,usm_0.66_1.00_0.01/c837a6_0dab066d199041ee93ab263afa018116~mv2.webp",
-      description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​",
-    },
-    {
-      id: 4,
-      name: "Z Community Center",
-      img: "https://static.wixstatic.com/media/c837a6_79defd1e6757469ab15ce4c4bcdec260~mv2.jpg/v1/fill/w_1453,h_700,al_b,q_85,usm_0.66_1.00_0.01/c837a6_79defd1e6757469ab15ce4c4bcdec260~mv2.webp",
-      description:
-        "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.​",
-    },
-  ];
-  
-  const dataProductCategory = [
-    {
-      id: 1,
-      name: "Căn hộ chung cư",
-      img: [
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-
-      ],
-    },
-    {
-      id: 2,
-      name: "Nhà ở",
-      img: [
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-
-      ],
-    },
-    {
-      id: 3,
-      name: "shop quần áo ",
-      img: [
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-
-      ],
-    },
-    {
-      id: 4,
-      name: "cafe",
-      img: [
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-        {
-          src: img.src,
-          name: "name project"
-        },
-
-      ],
-    }
-  ]
-  
+for (const [key, value] of Object.entries(H2Home)) {
+  H2Homes.push(value.default.src)
+}
   const Project = [
     {
       id: 1,
@@ -216,6 +94,11 @@ for (const [key, value] of Object.entries(Moyan)) {
           id: 5,
           name: "V apartment",
           img: Vapars,
+        },
+        {
+          id: 6,
+          name: "H2 HOMES",
+          img: H2Homes,
         },
       ]
     },
@@ -252,14 +135,14 @@ for (const [key, value] of Object.entries(Moyan)) {
       project: [
         {
           id: 1,
-          name: "Restourant HH",
-          img: Restous,
-        },
-        {
-          id: 2,
           name: "Star coffe",
           img: startCofees,
         },
+        {
+          id: 2,
+          name: "Restourant HH",
+          img: Restous,
+        },      
       ]
     },
     {
@@ -280,8 +163,6 @@ for (const [key, value] of Object.entries(Moyan)) {
     },
   ]
   return {
-    dataProductHome,
-    dataProductCategory,
     Project
   };
 };

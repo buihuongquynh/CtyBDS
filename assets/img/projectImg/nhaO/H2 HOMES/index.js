@@ -1,0 +1,14 @@
+export const h2Home1 = require('./1.jpg');
+export const h2Home2 = require('./2.jpg');
+export const h2Home3 = require('./3.jpg');
+export const h2Home4 = require('./4.jpg');
+export const h2Home5 = require('./5.jpg');
+export const h2Home6 = require('./6.jpg');
+export const h2Home7 = require('./7.jpg');
+export const h2Home8 = require('./8.jpg');
+export const h2Home9 = require('./9.jpg');
+export const h2Home10 = require('./10.jpg');
+export const h2Home11 = require('./11.jpg');
+export const h2Home12 = require('./12.jpg');
+export const h2Home13 = require('./13.jpg');
+export const h2Home14 = require('./14.jpg');

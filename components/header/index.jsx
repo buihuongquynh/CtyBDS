@@ -1,14 +1,19 @@
 // @flow
 import React, { useState } from "react";
-import Logo from "../../assets/img/logo.jpg";
+import Logo from "../../assets/img/logo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Row, Col, Popover } from "antd";
 import { useRouter } from "next/router";
 import { Modal, Dropdown } from "antd";
 import HeaderMobile from "../content-header-mobile";
 import Contact from "../content-contact";
 const Header = () => {
   const router = useRouter();
+  const [showForm, setShowForm] = useState(false);
+  const handleShow = () => {
+    setShowForm(!showForm);
+  };
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -74,31 +79,20 @@ const Header = () => {
             />
           </div>
           <div>
-            {/* <Popover
-          placement="bottom"
-          content={<HeaderMobile showModal={showModal} />}
-          trigger="click"
-          style={{top:'50px'}}
-        >
-          <div className="humbeger">
-            <div className="item"></div>
-            <div className="item"></div>
-            <div className="item"></div>
-
-          </div>
-        </Popover> */}
-            <Dropdown
-              overlay={<HeaderMobile />}
-              placement="bottom"
-              trigger={["click"]}
-              arrow={{ pointAtCenter: true }}
+            <div
+              style={{ cursor: "pointer" }}
+              onClick={handleShow}
+              className="humbeger"
             >
-              <div className="humbeger">
-                <div className="item"></div>
-                <div className="item"></div>
-                <div className="item"></div>
+              <div className="item"></div>
+              <div className="item"></div>
+              <div className="item"></div>
+            </div>
+            {showForm && (
+              <div className="content_form">
+                <HeaderMobile />
               </div>
-            </Dropdown>
+            )}
           </div>
         </div>
       </nav>
