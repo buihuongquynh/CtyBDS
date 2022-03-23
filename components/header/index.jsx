@@ -90,7 +90,7 @@ const Header = () => {
             </div>
             {showForm && (
               <div className="content_form">
-                <HeaderMobile />
+                <HeaderMobile setShowForm={setShowForm}/>
               </div>
             )}
           </div>

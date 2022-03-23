@@ -300,7 +300,30 @@ nav ul li a:hover:before {
 .about_me {
   height: 565px;
 }
+@media (max-width: 1100px) {
+  .smaill_photo{
+    width: 420px !important;
+  }
+  .big_img img {
+    width: 95%;
+  }
+}
 @media (max-width: 992px) {
+  .homeBannerLeft, .homeBannerRight, .homeLeft, .homeRight, .homeBannerTop, .homeBannerBot, .row-mobi{
+    animation:none !important;
+  }
+  .smaill_photo{
+    width: 100% !important;
+  }
+  .big_img img {
+    width: 100%;
+  }
+  nav .brand{
+    margin-left: 5%;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
   .row-mobi {
     margin: 0 15px;
   }
@@ -345,7 +368,15 @@ nav ul li a:hover:before {
 .mt-100 {
   margin-top: 100px;
 }
-@media (max-width: 786px) {
+@media (max-width: 1350px) {
+  .communication .cents{
+    font-size: 28px !important;
+  }
+}
+@media (max-width: 1200px) {
+  nav .brand{
+    margin-left: 5%;
+  }
   nav ul {
     transition: .5s;
     background-color: white;
@@ -380,7 +411,7 @@ nav ul li a:hover:before {
   height: auto !important;
 }
 .communication p {
-font-size: 23px;
+font-size: 18px;
 }
 .communication .phone_mr{
   margin-left: 0 !important;
@@ -389,7 +420,7 @@ font-size: 23px;
     white-space: normal !important;
   }
   .footer {
-    font-size: 15px;
+    font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
   }

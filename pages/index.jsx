@@ -15,7 +15,7 @@ export default function Home() {
     <div className="home">
       <div className="banner__home">
         <div className="row" style={{alignItems:'center'}}>
-          <div className="col-lg-6 col-md-6 col-sm-12 center homeBannerLeft">
+          <div className="col-lg-6 col-md-12 col-sm-12 center homeBannerLeft">
             <div className="center_banner">
               <div className="smaill_photo">
                 <img src={smImg.src} alt="" />
@@ -23,7 +23,7 @@ export default function Home() {
               <p className="title_banner">Phố Thiết Kế</p>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 text-end big_img homeBannerRight">
+          <div className="col-lg-6 col-md-12 col-sm-12 text-end big_img homeBannerRight">
             <img src={bigImg.src} alt="" />
           </div>{" "}
         </div>

@@ -14,11 +14,11 @@ const Communication = () => {
             alignItems: "center",
             justifyContent: "center",
           }}
-          className="col-md-5 homeBannerLeft"
+          className="col-lg-5 col-md-12 homeBannerLeft"
         >
           <img className="img_banner" src={logoBanner.src} alt="" />
         </div>
-        <div className="col-md-7 para homeBannerRight">
+        <div className="col-lg-7 col-md-12 para homeBannerRight">
           <p className="cent">
             <p className="cents">Công ty cổ phần kiến trúc - Nội thất </p>
             <p className="cents">Phố Thiết Kế </p>
