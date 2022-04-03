@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="home">
       <div className="banner__home">
-        <div className="row" style={{alignItems:'center'}}>
+        <div className="row" style={{ alignItems: "center" }}>
           <div className="col-lg-6 col-md-12 col-sm-12 center homeBannerLeft">
             <div className="center_banner">
               <div className="smaill_photo">
@@ -31,7 +31,7 @@ export default function Home() {
       <div className="project web">
         <Row>
           <Col className="ant-1" span={1}></Col>
-          <Col className="ant-22" style={{margin: '0 15px'}} span={22}>
+          <Col className="ant-22" style={{ margin: "0 15px" }} span={22}>
             <h1 className="prj">Dự án</h1>
             {Project.map((item) => (
               <>
@@ -41,9 +41,8 @@ export default function Home() {
                     <RightOutlined />
                   </div>
 
-
                   <a
-                  className="showMore"
+                    className="showMore"
                     onClick={() =>
                       Router.push({
                         pathname: "list-project-category",
@@ -56,9 +55,7 @@ export default function Home() {
                     Xem thêm
                   </a>
                 </div>
-                <ImgFixed 
-                item={item}
-                src={item?.project[0]?.img[0]} />
+                <ImgFixed item={item} src={item?.project[0]?.img[0]} />
               </>
             ))}
           </Col>
@@ -66,9 +63,9 @@ export default function Home() {
         </Row>
       </div>
       <div className="mobile project">
-      <Row>
+        <Row>
           <Col className="ant-1" span={1}></Col>
-          <Col className="ant-22" style={{margin: '0 15px'}} span={22}>
+          <Col className="ant-22" style={{ margin: "0 15px" }} span={22}>
             <h1 className="prj">Dự án</h1>
             {Project.map((item) => (
               <>
@@ -78,9 +75,8 @@ export default function Home() {
                     <RightOutlined />
                   </div>
 
-
                   <a
-                  className="showMore"
+                    className="showMore"
                     onClick={() =>
                       Router.push({
                         pathname: "list-project-category",
@@ -93,9 +89,7 @@ export default function Home() {
                     Xem thêm
                   </a>
                 </div>
-                <MobileHome 
-                item={item}
-                src={item?.project[0]?.img[0]} />
+                <MobileHome item={item} src={item?.project[0]?.img[0]} />
               </>
             ))}
           </Col>

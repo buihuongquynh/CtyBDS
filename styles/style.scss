@@ -372,11 +372,13 @@ nav ul li a:hover:before {
   .communication .cents{
     font-size: 28px !important;
   }
+ 
 }
 @media (max-width: 1200px) {
   nav .brand{
     margin-left: 5%;
   }
+  
   nav ul {
     transition: .5s;
     background-color: white;
@@ -444,10 +446,7 @@ font-size: 18px;
   .big_img img {
     max-height: 100% !important;
   }
-  .mobile {
-    display: block;
-    border-bottom: 1px solid #cacaca;
-  }
+ 
   .projects {
     h1 {
       text-align: center;
@@ -471,9 +470,7 @@ font-size: 18px;
   .slick-dots li{
     margin: 0 0 !important;
   }
-  .web {
-    display: none;
-  }
+ 
   body .home .title_banner {
     font-size: 33px;
     font-weight: 300;

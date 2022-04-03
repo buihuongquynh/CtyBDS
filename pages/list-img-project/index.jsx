@@ -24,10 +24,14 @@ const ListImgProject = () => {
   };
   return (
     <div className="list_img">
+      
       <Row>
         <Col span={3}></Col>
         <Col span={18}>
           <div className="listImg">
+            <h1>{listData[0]?.name}</h1>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{listData[0]?.desc}</p>
+           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{listData[0]?.desc1}</p>
             <Slider {...settings}>
               {listData && listData[0]?.img?.map((item, index) => (
                 <img style={{height:'93vh'}} src={item} alt="" />
