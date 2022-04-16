@@ -15,6 +15,11 @@ const ImgFixed = ({src, item}) => {
       },
     }
     )}
+  // onClick={() =>
+  //   Router.push({
+  //     pathname: `/list-img-project/${item?.id}/${item?.project[0].id}`,
+  //   })
+  // } 
   style={{backgroundImage: `url(${src})`}} className={styles.img_fixed}></div>;
 };
 export default ImgFixed;
