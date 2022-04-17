@@ -28,32 +28,48 @@ const ListImgProject = () => {
         <Col span={3}></Col>
         <Col span={18}>
           <div className="listImg">
+            <h1>{listData && listData[0]?.name}</h1>
+            <i>Dự án: {Project[ids - 1]?.name}</i> <br/>
+            <i>Đơn vị thiết kế và thi công: Phố Thiết kế</i><br/>
+            <i>Hotline: 0396158898</i><br/>
+            <p><i>Văn phòng: 74 Thôi Hữu, Ngọc Trạo, Thanh Hoá</i></p>
+            <p>
+              {listData && listData[0]?.des}
+            </p>
+            <p>
+              {listData && listData[0]?.des1}
+            </p>
             <Slider {...settings}>
-              {listData && listData[0]?.img?.map((item, index) => (
-                <img style={{height:'93vh'}} src={item} alt="" />
-              ))}
+              {listData &&
+                listData[0]?.img?.map((item, index) => (
+                  <img style={{ height: "93vh" }} src={item} alt="" />
+                ))}
             </Slider>
           </div>
           <div className="row">
-            {listOrtherData&& listOrtherData?.map((item, index) => {
-              if (index < 4) {
-                return (
-                  <a 
-                  // onClick={() => router.push(`list-img-project/${ids}/${item.id}`)}
-                  onClick={() => router.push({
-                    pathname: "/list-img-project",
-                    query: { 
-                      ids:  ids, 
-                      id: item.id
-                    },
-                  })} 
-                  className="col-md-3 wrap-img">
-                    <img className="img_list" src={item?.img[0]} alt="" />
-                    <div className="text">{item?.name}</div>
-                  </a>
-                );
-              }
-            })}
+            {listOrtherData &&
+              listOrtherData?.map((item, index) => {
+                if (index < 4) {
+                  return (
+                    <a
+                      // onClick={() => router.push(`list-img-project/${ids}/${item.id}`)}
+                      onClick={() =>
+                        router.push({
+                          pathname: "/list-img-project",
+                          query: {
+                            ids: ids,
+                            id: item.id,
+                          },
+                        })
+                      }
+                      className="col-md-3 wrap-img"
+                    >
+                      <img className="img_list" src={item?.img[0]} alt="" />
+                      <div className="text">{item?.name}</div>
+                    </a>
+                  );
+                }
+              })}
           </div>
         </Col>
         <Col span={3}></Col>

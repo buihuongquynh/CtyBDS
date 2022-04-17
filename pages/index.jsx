@@ -28,7 +28,7 @@ export default function Home() {
           </div>{" "}
         </div>
       </div>
-      <div className="project web">
+      {/* <div className="project web">
         <Row>
           <Col className="ant-1" span={1}></Col>
           <Col className="ant-22" style={{margin: '0 15px'}} span={22}>
@@ -64,8 +64,8 @@ export default function Home() {
           </Col>
           <Col className="ant-1" span={1}></Col>
         </Row>
-      </div>
-      <div className="mobile project">
+      </div> */}
+      <div className="project">
       <Row>
           <Col className="ant-1" span={1}></Col>
           <Col className="ant-22" style={{margin: '0 15px'}} span={22}>
