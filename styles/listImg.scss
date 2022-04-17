@@ -1,4 +1,15 @@
 .listImg {
+  .flex{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    .left{
+      width: 30%;
+    }
+    .right{
+      width: 70%;
+    }
+  }
   max-width: 100%;
   margin-bottom: 30px;
   i{

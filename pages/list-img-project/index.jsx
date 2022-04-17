@@ -28,23 +28,29 @@ const ListImgProject = () => {
         <Col span={3}></Col>
         <Col span={18}>
           <div className="listImg">
-            <h1>{listData && listData[0]?.name}</h1>
-            <i>Dự án: {Project[ids - 1]?.name}</i> <br/>
-            <i>Đơn vị thiết kế và thi công: Phố Thiết kế</i><br/>
-            <i>Hotline: 0396158898</i><br/>
-            <p><i>Văn phòng: 74 Thôi Hữu, Ngọc Trạo, Thanh Hoá</i></p>
-            <p>
-              {listData && listData[0]?.des}
-            </p>
-            <p>
-              {listData && listData[0]?.des1}
-            </p>
             <Slider {...settings}>
               {listData &&
                 listData[0]?.img?.map((item, index) => (
                   <img style={{ height: "93vh" }} src={item} alt="" />
                 ))}
             </Slider>
+            <div className="flex">
+              <div className="left">
+                <h1>{listData && listData[0]?.name}</h1>
+                <i>Dự án: {Project[ids - 1]?.name}</i> <br />
+                <i>Đơn vị thiết kế và thi công: Phố Thiết kế</i>
+                <br />
+                <i>Hotline: 0396158898</i>
+                <br />
+                <p>
+                  <i>Văn phòng: 74 Thôi Hữu, Ngọc Trạo, Thanh Hoá</i>
+                </p>
+              </div>
+              <div className="right">
+                <p>{listData && listData[0]?.des}</p>
+                <p>{listData && listData[0]?.des1}</p>
+              </div>
+            </div>
           </div>
           <div className="row">
             {listOrtherData &&
