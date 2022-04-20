@@ -1,6 +1,18 @@
 .footer{
-    font-family: Courier,Courier New,Lucida Sans Typewriter,Lucida Typewriter,monospace;
     text-align: center;
     padding: 30px 0;
-    font-size: 19px;
+    font-size: 27px;
 }
+.footer br{
+    display: none;
+}
+@media (max-width: 1100px) {
+    .footer br{
+        display: block;
+    }
+  }
+  @media (max-width: 1600px) {
+    .footer .br2{
+        display: block;
+    }
+  }

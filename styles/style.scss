@@ -7,10 +7,18 @@
 .item_col{
   width: 16%;
 }
+.img_fixed{
+  padding: 3.5rem 1rem 0 1rem;
+  text-align: center;
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
 .project{
   img{
     width: 100%;
-    height: 80vh;
   }
 }
 .logo {
@@ -429,7 +437,7 @@ font-size: 18px;
     white-space: normal !important;
   }
   .footer {
-    font-size: 18px;
+    font-size: 22px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -509,7 +517,7 @@ font-size: 18px;
     font-size: 22px;
     white-space: nowrap;
   }
-  .slick-slide img {
+  .listImg .slick-slide img {
     height: auto  !important;
   }
   .list_img {

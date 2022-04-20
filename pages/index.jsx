@@ -11,10 +11,11 @@ import bigImg from "../assets/img/homeImg/trangchu/anh to.jpg";
 import Router from "next/router";
 export default function Home() {
   const { Project } = data();
+  console.log(Project,"Project")
   return (
     <div className="home">
       <div className="banner__home">
-        <div className="row" style={{alignItems:'center'}}>
+        <div className="row" style={{ alignItems: "center" }}>
           <div className="col-lg-6 col-md-12 col-sm-12 center homeBannerLeft">
             <div className="center_banner">
               <div className="smaill_photo">
@@ -65,39 +66,43 @@ export default function Home() {
           <Col className="ant-1" span={1}></Col>
         </Row>
       </div> */}
+
       <div className="project">
-      <Row>
+        <Row>
           <Col className="ant-1" span={1}></Col>
-          <Col className="ant-22" style={{margin: '0 15px'}} span={22}>
+          <Col className="ant-22" style={{ margin: "0 15px" }} span={22}>
             <h1 className="prj">Dự án</h1>
-            {Project.map((item) => (
-              <>
-                <div className="row-sb mt-30">
-                  <div className="items-center">
-                    <h2>{item.name}</h2>
-                    <RightOutlined />
+            {Project.map((item) => {
+              const listSrc = [];
+              item?.project?.forEach((element) =>
+                listSrc.push(element?.img[0])
+              );
+              return (
+                <>
+                  <div className="row-sb mt-30">
+                    <div className="items-center">
+                      <h2>{item.name}</h2>
+                      <RightOutlined />
+                    </div>
+
+                    <a
+                      className="showMore"
+                      onClick={() =>
+                        Router.push({
+                          pathname: "list-project-category",
+                          query: {
+                            id: item.id,
+                          },
+                        })
+                      }
+                    >
+                      Xem thêm
+                    </a>
                   </div>
-
-
-                  <a
-                  className="showMore"
-                    onClick={() =>
-                      Router.push({
-                        pathname: "list-project-category",
-                        query: {
-                          id: item.id,
-                        },
-                      })
-                    }
-                  >
-                    Xem thêm
-                  </a>
-                </div>
-                <MobileHome 
-                item={item}
-                src={item?.project[0]?.img[0]} />
-              </>
-            ))}
+                  <MobileHome items={item} src={listSrc} />
+                </>
+              );
+            })}
           </Col>
           <Col className="ant-1" span={1}></Col>
         </Row>
