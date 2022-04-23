@@ -13,9 +13,10 @@ const MobileHome = ({ src, items }) => {
     dots: false,
     arrows: false,
     // infinite: true,
-    // speed: 500,
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
+    speed: 500,
+    pauseOnHover: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
   return (
     <>

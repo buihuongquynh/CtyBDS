@@ -55,7 +55,6 @@ const ListImgProject = () => {
           <div className="row">
             {listOrtherData &&
               listOrtherData?.map((item, index) => {
-                if (index < 4) {
                   return (
                     <a
                       // onClick={() => router.push(`list-img-project/${ids}/${item.id}`)}
@@ -74,7 +73,7 @@ const ListImgProject = () => {
                       <div className="text">{item?.name}</div>
                     </a>
                   );
-                }
+                
               })}
           </div>
         </Col>

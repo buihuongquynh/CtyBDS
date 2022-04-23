@@ -1,0 +1,12 @@
+export const medicine1 = require('./0.jpg');
+export const medicine2 = require('./1.jpg');
+export const medicine3 = require('./2.jpg');
+export const medicine4 = require('./3.jpg');
+export const medicine5 = require('./4.jpg');
+export const medicine6 = require('./6.jpg');
+export const medicine7 = require('./7.jpg');
+export const medicine8 = require('./8.jpg');
+export const medicine9 = require('./9.jpg');
+export const medicine10 = require('./10.jpg');
+export const medicine11 = require('./11.jpg');
+export const medicine12 = require('./12.jpg');

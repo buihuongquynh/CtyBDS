@@ -28,7 +28,6 @@ const ProjectCategory = ({ data }) => {
         <div className={`${styles.listImage}`}>
           <div className="row">
             {data?.project?.map((item, index) => {
-              if (index < 4) {
                 return (
                   <div className="col-md-6 col-sm-12 hoverImg">
                     <div 
@@ -54,7 +53,6 @@ const ProjectCategory = ({ data }) => {
                     </div>
                   </div>
                 );
-              }
             })}
           </div>
         </div>

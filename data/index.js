@@ -9,12 +9,14 @@ import * as HHapar from "../assets/img/projectImg/nhaO/HH apartment"
 import * as Qapar from "../assets/img/projectImg/nhaO/Q apartment"
 import * as Vapar from "../assets/img/projectImg/nhaO/V apartment"
 import * as Sweet from "../assets/img/projectImg/phukienmipham/SWEET"
-import * as Berg from "../assets/img/projectImg/shopgiaytui/Berg _ Lee"
-import * as Moyan from "../assets/img/projectImg/shopgiaytui/Moyan Shop"
+import * as Berg from "../assets/img/projectImg/shopThoiTrang/Berg _ Lee"
+import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
 import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
-import * as bergsLee from "../assets/img/projectImg/shopQuanAo/bergsLee"
-// import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
+import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
+import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 const data = () => {
+  const medicines = []
+  const anCoffes = []
  const Restous = []
  const startCofees = []
  const IfGames = []
@@ -28,13 +30,12 @@ const data = () => {
  const Bergs = []
  const Moyans = []
  const H2Homes = []
- const BergsLee = []
  const LinhSpas = []
-//  for (const [key, value] of Object.entries(LinhSpa)) {
-//   LinhSpas.push(value.default.src)
-// }
- for (const [key, value] of Object.entries(bergsLee)) {
-  BergsLee.push(value.default.src)
+for (const [key, value] of Object.entries(medicine)) {
+  medicines.push(value.default.src)
+}
+ for (const [key, value] of Object.entries(anCoffe)) {
+  anCoffes.push(value.default.src)
 }
  for (const [key, value] of Object.entries(Restou)) {
   Restous.push(value.default.src)
@@ -154,8 +155,8 @@ for (const [key, value] of Object.entries(H2Home)) {
           id: 1,
           name: "SWEET",
           img: Sweets,
-          des: "",
-          des1: ""
+          des: "Mở cửa tiệm đẹp thu hút được sự chú ý của khách hàng không chỉ bởi chất lượng dịch vụ thái độ nhân viên mà còn ảnh hưởng rất nhiều bởi phong cách kiến trúc không gian nhất là với mảng spa làm đẹp.",
+          des1: "Mỗi dự án khi thiết kế luôn đảm bảo bạn có được một cửa tiệm hoàn hảo từng chi tiết phù hợp với khả năng tài chính. Cho dù bạn có số vốn nhiều hay ít thì bạn vẫn sở hữu một cửa tiệm đẹp, phong cách cho riêng mình."
         },
         {
           id: 2,
@@ -183,7 +184,14 @@ for (const [key, value] of Object.entries(H2Home)) {
           img: Restous,
           des: "",
           des1: ""
-        },      
+        },  
+        {
+          id: 2,
+          name: "An Coffee",
+          img: anCoffes,
+          des: "",
+          des1: ""
+        },         
       ]
     },
     {
@@ -206,11 +214,18 @@ for (const [key, value] of Object.entries(H2Home)) {
         },
       ]
     },
+   
     {
       id: 6,
-      name:"Cửa hàng quần áo",
+      name:"Show room dược phẩm",
       project: [
-        
+        {
+          id: 1,
+          name: "Show room dược phẩm",
+          img: medicines,
+          des: "",
+          des1: ""
+        },
       ]
     },
   ]
