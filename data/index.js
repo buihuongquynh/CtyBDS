@@ -12,9 +12,11 @@ import * as Sweet from "../assets/img/projectImg/phukienmipham/SWEET"
 import * as Berg from "../assets/img/projectImg/shopThoiTrang/Berg _ Lee"
 import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
 import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
+import * as penHouse from "../assets/img/projectImg/nhaO/pen house"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 const data = () => {
+  const penHouses = []
   const medicines = []
   const anCoffes = []
  const Restous = []
@@ -31,6 +33,9 @@ const data = () => {
  const Moyans = []
  const H2Homes = []
  const LinhSpas = []
+for (const [key, value] of Object.entries(penHouse)) {
+  penHouses.push(value.default.src)
+}
 for (const [key, value] of Object.entries(medicine)) {
   medicines.push(value.default.src)
 }
@@ -121,6 +126,13 @@ for (const [key, value] of Object.entries(H2Home)) {
           id: 6,
           name: "H2 HOMES",
           img: H2Homes,
+          des: "",
+          des1: ""
+        },
+        {
+          id: 6,
+          name: "Pen House",
+          img: penHouses,
           des: "",
           des1: ""
         },
@@ -217,11 +229,11 @@ for (const [key, value] of Object.entries(H2Home)) {
    
     {
       id: 6,
-      name:"Show room dược phẩm",
+      name:"Dan dược phẩm",
       project: [
         {
           id: 1,
-          name: "Show room dược phẩm",
+          name: "Dan dược phẩm",
           img: medicines,
           des: "",
           des1: ""
