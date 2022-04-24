@@ -229,7 +229,7 @@ for (const [key, value] of Object.entries(H2Home)) {
    
     {
       id: 6,
-      name:"Dan dược phẩm",
+      name:"Show room dược phẩm",
       project: [
         {
           id: 1,
