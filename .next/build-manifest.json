@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/list-img-project": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/list-img-project.js"
+    ],
     "/project": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

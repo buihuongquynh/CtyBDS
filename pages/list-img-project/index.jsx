@@ -31,7 +31,7 @@ const ListImgProject = () => {
             <Slider {...settings}>
               {listData &&
                 listData[0]?.img?.map((item, index) => (
-                  <img style={{ height: "93vh" }} src={item} alt="" />
+                  <img  src={item} alt="" />
                 ))}
             </Slider>
             <div className="flex">
