@@ -11,7 +11,6 @@ import bigImg from "../assets/img/homeImg/trangchu/anh to.jpg";
 import Router from "next/router";
 export default function Home() {
   const { Project } = data();
-  console.log(Project,"Project")
   return (
     <div className="home">
       <div className="banner__home">
@@ -99,6 +98,9 @@ export default function Home() {
                       Xem thêm
                     </a>
                   </div>
+                  {/* <ImgFixed 
+                item={item}
+                src={item?.project[0]?.img[0]} /> */}
                   <MobileHome items={item} src={listSrc} />
                 </>
               );

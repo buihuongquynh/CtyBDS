@@ -517,8 +517,11 @@ font-size: 18px;
     font-size: 22px;
     white-space: nowrap;
   }
+  .listImg .img{
+    height: 100%;
+  }
   .listImg .slick-slide img {
-    height: auto  !important;
+    height: 100%  !important;
   }
   .list_img {
     .ant-col-3 {

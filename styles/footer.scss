@@ -2,12 +2,16 @@
     text-align: center;
     padding: 30px 0;
     font-size: 27px;
+    br{
+        display: none;
+    }
 }
 
 @media (max-width: 1100px) {
     .footer br{
         display: block;
     }
+    
   }
   @media (max-width: 1600px) {
     .footer .br2{

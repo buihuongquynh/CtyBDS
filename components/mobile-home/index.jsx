@@ -3,7 +3,7 @@ import * as React from "react";
 import styles from "./styles.module.scss";
 import { useRouter } from "next/router";
 import Slider from "react-slick";
-
+import ImgFixed from "../img-fixed";
 const MobileHome = ({ src, items }) => {
   const router = useRouter();
   console.log(items,"items")
@@ -22,7 +22,6 @@ const MobileHome = ({ src, items }) => {
     <>
     {
       src.length > 0 &&
-    
       <Slider {...settings}>
         {src &&
           src?.map((item, index) => (
@@ -38,7 +37,8 @@ const MobileHome = ({ src, items }) => {
               }
               className="img_home"
             >
-              <img className="img_fixed" src={item} alt="" />
+              <ImgFixed src={item}/>
+              {/* <img className="img_fixed" src={item} alt="" /> */}
             </div>
           ))}
       </Slider>

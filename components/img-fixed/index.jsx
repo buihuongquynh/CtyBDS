@@ -2,19 +2,19 @@
 import * as React from "react";
 import styles from './styles.module.scss';
 import { useRouter } from "next/router";
-const ImgFixed = ({src, item}) => {
+const ImgFixed = ({src}) => {
   const router = useRouter();
   return <div 
   
-  onClick={() => router.push(
-    {
-      pathname: "/list-img-project",
-      query: { 
-        ids: item?.id,
-        id: item?.project[0].id
-      },
-    }
-    )}
+  // onClick={() => router.push(
+  //   {
+  //     pathname: "/list-img-project",
+  //     query: { 
+  //       ids: item?.id,
+  //       id: item?.project[0].id
+  //     },
+  //   }
+  //   )}
   // onClick={() =>
   //   Router.push({
   //     pathname: `/list-img-project/${item?.id}/${item?.project[0].id}`,
