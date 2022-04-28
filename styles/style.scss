@@ -323,8 +323,8 @@ nav ul li a:hover:before {
   }
 }
 @media (max-width: 992px) {
-  .img_home img{
-    height: 45vh;
+  .listImg .img{
+    height: 40vh !important;
   }
   .homeBannerLeft, .homeBannerRight, .homeLeft, .homeRight, .homeBannerTop, .homeBannerBot, .row-mobi{
     animation:none !important;
@@ -517,12 +517,8 @@ font-size: 18px;
     font-size: 22px;
     white-space: nowrap;
   }
-  .listImg .img{
-    height: 100%;
-  }
-  .listImg .slick-slide img {
-    height: 100%  !important;
-  }
+ 
+  
   .list_img {
     .ant-col-3 {
       display: block;
