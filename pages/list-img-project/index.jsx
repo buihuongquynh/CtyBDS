@@ -47,8 +47,8 @@ const ListImgProject = () => {
                 </p>
               </div>
               <div className="right">
-                <pre>{listData && listData[0]?.des}</pre>
-                <pre>{listData && listData[0]?.des1}</pre>
+                <p>{listData && listData[0]?.des}</p>
+                <p>{listData && listData[0]?.des1}</p>
               </div>
             </div>
           </div>

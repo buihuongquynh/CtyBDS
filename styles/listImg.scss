@@ -21,7 +21,6 @@
     }
     .right{
       width: 70%;
-      text-align: justify;
     }
   }
   max-width: 100%;
@@ -62,7 +61,7 @@
     position: relative;
   }
   .text {
-    white-space: nowrap;
+      white-space: nowrap;
     z-index: 999999;
     transition: 0.4s;
     opacity: 0;
@@ -88,7 +87,4 @@
 }
 .slick-slide img {
   // height: 93vh;
-}
-.text{
-  white-space: nowrap;
 }
