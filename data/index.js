@@ -15,7 +15,7 @@ import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
-import * as LinhSpa from "../assets/img/projectImg/phukienmipham/Minastore"
+import * as Minastore from "../assets/img/projectImg/phukienmipham/Minastore"
 import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
 const data = () => {
   const medicines = []
@@ -160,19 +160,8 @@ toàn bộ nỗ lực của bạn để thu hút khách tới cửa hàng đều
           id: 2,
           name: "Moyan Shop",
           img: Moyans,
-          des: `Không gian cửa hàng là một trong những tiêu chí giúp bạn phân định được khách hàng tiềm năng
-và gia tăng giá trị cho sản phẩm/dịch vụ bạn đang kinh doanh.`,
-          des1: `2 chiếc áo giống nhau được đặt trong 2 không gian khác nhau, một cửa hàng chỉnh chu có gout
-từ bài trí không gian với một cửa hàng bình thường, bạn nghĩ chiếc áo nào sẽ được bán với giá cao hơn? 
-Chính vì thế không gian là một trong những điểm quan trong trong chiến lược kinh doanh của bạn.`,
-          des2: `Với kinh nghiệm nhiều năm trong mảng thiết kế cửa hàng, chúng tôi tự tin :
-      - Tư vấn làm shop, cửa hàng, tối ưu công năng sử dụng và gia tăng trải nghiệm mua sắm sản phẩm 
-dịch vụ cho khách hàng.
-      - Tư vấn theo từng xu hướng/ phù hợp với đối tượng khách hàng tiềm năng. 
-      - Vẽ phối cảnh 3D shop, cửa hàng
-      - Điều quan trọng nhất là GIÁ CẢ luôn cạnh tranh, công trình hoàn thành sẽ mang lại hài lòng cho 
-quý khách hàng.          
-          `
+          des: `Không gian cửa hàng là một trong những tiêu chí giúp bạn phân định được khách hàng tiềm năng và gia tăng giá trị cho sản phẩm/dịch vụ bạn đang kinh doanh.`,
+          des1: `2 chiếc áo giống nhau được đặt trong 2 không gian khác nhau, một cửa hàng chỉnh chu có gout từ bài trí không gian với một cửa hàng bình thường, bạn nghĩ chiếc áo nào sẽ được bán với giá cao hơn? Chính vì thế không gian là một trong những điểm quan trong trong chiến lược kinh doanh của bạn.`
         },
       ]
     },
@@ -231,8 +220,9 @@ thoải mái khi ghé qua đây làm đẹp.`,
           id: 3,
           name: "An Coffee",
           img: anCoffes,
-          des: "",
-          des1: ""
+          des: "Không chỉ kiến tạo không gian, chúng tôi kiến tạo trải nghiệm cho khách hàng. Đến với An Coffee, có lẽ, điều khiến các khách hàng say mê ngay từ cái nhìn đầu tiên có lẽ là không gian và kiến trúc nội thất độc nhất ở nơi đây.",
+          des1: "Hiện đại, độc đáo, phá cách là những gì mà KTS PTK đem đến cho không gian An Coffee. Không chỉ kỹ càng trong từng khâu lựa chọn nguyên vật liệu, mà việc sử dụng tone màu nâu đỏ ấn tượng làm chủ đạo, cùng phong cách  thiết kế Industrial với những hình khối mạnh mẽ - tất cả đã tạo nên một bức tranh toàn cảnh không gian An đầy tinh tế và mê hoặc lòng người.",
+          des1: "An Coffee hứa hẹn là một checkin ấn tượng, một không gian nghệ thuật sang trọng ngay giữa lòng Thanh Hóa đầy huyên náo và nhộn nhịp. "
         },    
         {
           id: 4,
@@ -251,10 +241,8 @@ thoải mái khi ghé qua đây làm đẹp.`,
           id: 1,
           name: "IF games",
           img: IfGames,
-          des: `1 Dự án khu vui chơi thú vị mà Phố Thiết Kế đã triển khai, một điểm đến lý tưởng cho các bạn
-           trẻ tại thành phố Thanh hóa`,
-          des1: `Định hình bản sắc thương hiệu thông qua việc tạo dựng 1 không gian trải nghiệm có cảm xúc
-hơn cho khách hàng, và cũng là điều mà Phố Thiết Kế muốn gửi gắm vào sản phẩm thiết kế & thi công lần này! `
+          des: `1 Dự án khu vui chơi thú vị mà Phố Thiết Kế đã triển khai, một điểm đến lý tưởng cho các bạn trẻ tại thành phố Thanh hóa`,
+          des1: `Định hình bản sắc thương hiệu thông qua việc tạo dựng 1 không gian trải nghiệm có cảm xúc hơn cho khách hàng, và cũng là điều mà Phố Thiết Kế muốn gửi gắm vào sản phẩm thiết kế & thi công lần này!`
         },
         {
           id: 2,
@@ -274,8 +262,9 @@ hơn cho khách hàng, và cũng là điều mà Phố Thiết Kế muốn gửi
           id: 1,
           name: "Nhà thuốc Thanh Hằng",
           img: medicines,
-          des: "",
-          des1: ""
+          des: "Khi thiết kế cửa hàng thuốc này, chúng tôi nghĩ ngay đến sử dụng 2 gam màu chủ đạo là trắng và xanh lá để thiết kế không gian. Sở dĩ chọn 2 sắc màu này là vì đây đều là các sắc màu đặc trưng trong ngành dược phẩm. Bên cạnh đó, nó tạo cảm giác về một không gian có tính sạch sẽ cao, không bị nặng nề cho người đến mua hàng.",
+          des1: `Ánh sáng tự nhiên cũng được tận dụng tối đa cho một không gian mở, phù hợp với đơn vị kinh doanh chuyên nghiệp.`,
+          des2: `Hệ thống tủ kệ trưng bày trong mẫu thiết kế hiệu thuốc được bố trí sát tường và hệ thống tủ thấp được sắp xếp phù hợp. Cách bố trí này sẽ giúp tiết kiệm diện tích cửa hàng, tận dụng được không gian mà không gây ra cảm giác chật chội, tù túng. Đồng thời tạo ra khoảng không rộng lớn ở giữa thoải mái đi lại.`
         },
       ]
     },
