@@ -14,6 +14,8 @@ import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
 import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
+import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
+import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
 const data = () => {
   const medicines = []
   const anCoffes = []
@@ -31,6 +33,7 @@ const data = () => {
  const Moyans = []
  const H2Homes = []
  const LinhSpas = []
+ const Quaybars = []
 
 for (const [key, value] of Object.entries(medicine)) {
   medicines.push(value.default.src)
@@ -76,6 +79,12 @@ for (const [key, value] of Object.entries(Moyan)) {
 }
 for (const [key, value] of Object.entries(H2Home)) {
   H2Homes.push(value.default.src)
+}
+for (const [key, value] of Object.entries(LinhSpa)) {
+  LinhSpas.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Quaybar)) {
+  Quaybars.push(value.default.src)
 }
   const Project = [
     {
@@ -136,15 +145,29 @@ for (const [key, value] of Object.entries(H2Home)) {
           id: 1,
           name: "Berg & Lee",
           img: Bergs,
-          des: "Không gian độc đáo nâng tầm giá trị cho store. Không chỉ thiết kế không gian mà chúng tôi còn thiết kế 'Trải nghiệm mua sắm' cho khách hàng  vì trải nghiệm tại điểm bán là điểm chạm quan trọng nhất và là cơ hội cuối cùng để biết được: liệu bạn sẽ chốt được đơn hàng đó hay toàn bộ nỗ lực của bạn để thu hút khách tới cửa hàng đều uổng phí.",
+          des: `Không gian độc đáo nâng tầm giá trị cho store. Không chỉ thiết kế không gian mà chúng tôi
+còn thiết kế 'Trải nghiệm mua sắm' cho khách hàng  vì trải nghiệm tại điểm bán là điểm chạm
+quan trọng nhất và là cơ hội cuối cùng để biết được: liệu bạn sẽ chốt được đơn hàng đó hay 
+toàn bộ nỗ lực của bạn để thu hút khách tới cửa hàng đều uổng phí.`,
           des1: ""
         },
         {
           id: 2,
           name: "Moyan Shop",
           img: Moyans,
-          des: "",
-          des1: ""
+          des: `Không gian cửa hàng là một trong những tiêu chí giúp bạn phân định được khách hàng tiềm năng
+và gia tăng giá trị cho sản phẩm/dịch vụ bạn đang kinh doanh.`,
+          des1: `2 chiếc áo giống nhau được đặt trong 2 không gian khác nhau, một cửa hàng chỉnh chu có gout
+từ bài trí không gian với một cửa hàng bình thường, bạn nghĩ chiếc áo nào sẽ được bán với giá cao hơn? 
+Chính vì thế không gian là một trong những điểm quan trong trong chiến lược kinh doanh của bạn.`,
+          des2: `Với kinh nghiệm nhiều năm trong mảng thiết kế cửa hàng, chúng tôi tự tin :
+      - Tư vấn làm shop, cửa hàng, tối ưu công năng sử dụng và gia tăng trải nghiệm mua sắm sản phẩm 
+dịch vụ cho khách hàng.
+      - Tư vấn theo từng xu hướng/ phù hợp với đối tượng khách hàng tiềm năng. 
+      - Vẽ phối cảnh 3D shop, cửa hàng
+      - Điều quan trọng nhất là GIÁ CẢ luôn cạnh tranh, công trình hoàn thành sẽ mang lại hài lòng cho 
+quý khách hàng.          
+          `
         },
       ]
     },
@@ -156,16 +179,22 @@ for (const [key, value] of Object.entries(H2Home)) {
           id: 1,
           name: "SWEET",
           img: Sweets,
-          des: "Mở cửa tiệm đẹp thu hút được sự chú ý của khách hàng không chỉ bởi chất lượng dịch vụ thái độ nhân viên mà còn ảnh hưởng rất nhiều bởi phong cách kiến trúc không gian nhất là với mảng spa làm đẹp.",
-          des1: "Mỗi dự án khi thiết kế luôn đảm bảo bạn có được một cửa tiệm hoàn hảo từng chi tiết phù hợp với khả năng tài chính. Cho dù bạn có số vốn nhiều hay ít thì bạn vẫn sở hữu một cửa tiệm đẹp, phong cách cho riêng mình."
+          des: `Mở cửa tiệm đẹp thu hút được sự chú ý của khách hàng không chỉ bởi chất lượng dịch vụ thái 
+độ nhân viên mà còn ảnh hưởng rất nhiều bởi phong cách kiến trúc không gian nhất là với mảng spa 
+làm đẹp.`,
+          des1: `Mỗi dự án khi thiết kế luôn đảm bảo bạn có được một cửa tiệm hoàn hảo từng chi tiết phù hợp
+với khả năng tài chính. Cho dù bạn có số vốn nhiều hay ít thì bạn vẫn sở hữu một cửa tiệm đẹp, phong cách 
+cho riêng mình.`
         },
-        // {
-        //   id: 2,
-        //   name: "LINH SPA",
-        //   img: LinhSpas,
-        //   des: "Bản thiết kế mang một tone hồng vô cùng ngọt ngào. Để tăng tính sang trọng, các KTS đã sử dụng đồ mạ vàng, hồng vừa giữ nét nữ tính vừa tăng giá trị không gian để bất kỳ khách hàng nào cũng thấy thoải mái khi ghé qua đây làm đẹp.",
-        //   des1: ""  
-        // },
+        {
+          id: 2,
+          name: "LINH SPA",
+          img: LinhSpas,
+          des: `Bản thiết kế mang một tone hồng vô cùng ngọt ngào. Để tăng tính sang trọng, các KTS đã sử 
+dụng đồ mạ vàng, hồng vừa giữ nét nữ tính vừa tăng giá trị không gian để bất kỳ khách hàng nào cũng thấy 
+thoải mái khi ghé qua đây làm đẹp.`,
+          des1: ""  
+        },
       ]
     },
     {
@@ -192,7 +221,14 @@ for (const [key, value] of Object.entries(H2Home)) {
           img: anCoffes,
           des: "",
           des1: ""
-        },         
+        },    
+        {
+          id: 4,
+          name: "Quaybar",
+          img: Quaybars,
+          des: "",
+          des1: ""
+        },      
       ]
     },
     {
@@ -203,8 +239,10 @@ for (const [key, value] of Object.entries(H2Home)) {
           id: 1,
           name: "IF games",
           img: IfGames,
-          des: "",
-          des1: ""
+          des: `1 Dự án khu vui chơi thú vị mà Phố Thiết Kế đã triển khai, một điểm đến lý tưởng cho các bạn
+           trẻ tại thành phố Thanh hóa`,
+          des1: `Định hình bản sắc thương hiệu thông qua việc tạo dựng 1 không gian trải nghiệm có cảm xúc
+hơn cho khách hàng, và cũng là điều mà Phố Thiết Kế muốn gửi gắm vào sản phẩm thiết kế & thi công lần này! `
         },
         {
           id: 2,
@@ -222,7 +260,7 @@ for (const [key, value] of Object.entries(H2Home)) {
       project: [
         {
           id: 1,
-          name: "Dan dược phẩm",
+          name: "Nhà thuốc Thanh Hằng",
           img: medicines,
           des: "",
           des1: ""
