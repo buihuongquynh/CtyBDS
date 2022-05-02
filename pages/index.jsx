@@ -78,7 +78,7 @@ export default function Home() {
               );
               return (
                 <>
-                  <div className="row-sb mt-30">
+                  <div className="row-sb mt-10 mb-10">
                     <div className="items-center">
                       <h2>{item.name}</h2>
                       <RightOutlined />
