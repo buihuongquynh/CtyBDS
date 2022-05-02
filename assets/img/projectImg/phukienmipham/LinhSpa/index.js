@@ -8,3 +8,5 @@ export const LinhSpa6 = require('./6.jpg');
 export const LinhSpa7 = require('./7.jpg');
 export const LinhSpa8 = require('./8.jpg');
 export const LinhSpa9 = require('./9.jpg');
+export const LinhSpa10 = require('./10.jpg');
+
