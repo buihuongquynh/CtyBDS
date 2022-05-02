@@ -15,7 +15,7 @@ import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
-import * as LinhSpa from "../assets/img/projectImg/phukienmipham/Minastore"
+import * as Minastore from "../assets/img/projectImg/phukienmipham/Minastore"
 import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
 const data = () => {
   const medicines = []
