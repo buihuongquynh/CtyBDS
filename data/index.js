@@ -15,6 +15,7 @@ import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
+import * as LinhSpa from "../assets/img/projectImg/phukienmipham/Minastore"
 import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
 const data = () => {
   const medicines = []
@@ -34,6 +35,7 @@ const data = () => {
  const H2Homes = []
  const LinhSpas = []
  const Quaybars = []
+ const Minastores = []
 
 for (const [key, value] of Object.entries(medicine)) {
   medicines.push(value.default.src)
@@ -85,6 +87,9 @@ for (const [key, value] of Object.entries(LinhSpa)) {
 }
 for (const [key, value] of Object.entries(Quaybar)) {
   Quaybars.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Minastore)) {
+  Minastores.push(value.default.src)
 }
   const Project = [
     {
@@ -193,6 +198,13 @@ cho riêng mình.`
           des: `Bản thiết kế mang một tone hồng vô cùng ngọt ngào. Để tăng tính sang trọng, các KTS đã sử 
 dụng đồ mạ vàng, hồng vừa giữ nét nữ tính vừa tăng giá trị không gian để bất kỳ khách hàng nào cũng thấy 
 thoải mái khi ghé qua đây làm đẹp.`,
+          des1: ""  
+        },
+        {
+          id: 3,
+          name: "Mina Store",
+          img: Minastores,
+          des: ``,
           des1: ""  
         },
       ]
