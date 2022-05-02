@@ -37,8 +37,14 @@ const MobileHome = ({ src, items }) => {
               }
               className="img_home"
             >
+              <div className="web">
               <ImgFixed src={item}/>
-              {/* <img className="img_fixed" src={item} alt="" /> */}
+              </div>
+              <div className="mobile">
+                <img className="img_slide" src={item} alt="" />
+              </div>
+              
+             
             </div>
           ))}
       </Slider>
