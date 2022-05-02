@@ -143,8 +143,18 @@ for (const [key, value] of Object.entries(H2Home)) {
           id: 2,
           name: "Moyan Shop",
           img: Moyans,
-          des: "",
-          des1: ""
+          des: `Với kinh nghiệm nhiều năm trong mảng thiết kế cửa hàng, chúng tôi tự tin:
+          - Tư vấn làm shop, cửa hàng, tối ưu công năng sử dụng và gia tăng trải nghiệm mua sắm sản phẩm dịch vụ cho khách hàng.
+          - Tư vấn theo từng xu hướng/ phù hợp với đối tượng khách hàng tiềm năng. 
+          - Vẽ phối cảnh 3D shop, cửa hàng
+          - Điều quan trọng nhất là GIÁ CẢ luôn cạnh tranh, công trình hoàn thành sẽ mang lại hài lòng cho quý khách hàng.
+          `,
+          des1: `Với kinh nghiệm nhiều năm trong mảng thiết kế cửa hàng, chúng tôi tự tin:
+          - Tư vấn làm shop, cửa hàng, tối ưu công năng sử dụng và gia tăng trải nghiệm mua sắm sản phẩm dịch vụ cho khách hàng.
+          - Tư vấn theo từng xu hướng/ phù hợp với đối tượng khách hàng tiềm năng. 
+          - Vẽ phối cảnh 3D shop, cửa hàng
+          - Điều quan trọng nhất là GIÁ CẢ luôn cạnh tranh, công trình hoàn thành sẽ mang lại hài lòng cho quý khách hàng.
+          `
         },
       ]
     },
