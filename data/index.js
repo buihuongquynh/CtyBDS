@@ -158,7 +158,13 @@ for (const [key, value] of Object.entries(Minastore)) {
           name: "Moyan Shop",
           img: Moyans,
           des: `Không gian cửa hàng là một trong những tiêu chí giúp bạn phân định được khách hàng tiềm năng và gia tăng giá trị cho sản phẩm/dịch vụ bạn đang kinh doanh.`,
-          des1: `2 chiếc áo giống nhau được đặt trong 2 không gian khác nhau, một cửa hàng chỉnh chu có gout từ bài trí không gian với một cửa hàng bình thường, bạn nghĩ chiếc áo nào sẽ được bán với giá cao hơn? Chính vì thế không gian là một trong những điểm quan trong trong chiến lược kinh doanh của bạn.`
+          des1: `2 chiếc áo giống nhau được đặt trong 2 không gian khác nhau, một cửa hàng chỉnh chu có gout từ bài trí không gian với một cửa hàng bình thường, bạn nghĩ chiếc áo nào sẽ được bán với giá cao hơn? Chính vì thế không gian là một trong những điểm quan trong trong chiến lược kinh doanh của bạn.`,
+          des2: `👉 Với kinh nghiệm nhiều năm trong mảng thiết kế cửa hàng, chúng tôi tự tin :
+- Tư vấn làm shop, cửa hàng, tối ưu công năng sử dụng và gia tăng trải nghiệm mua sắm sản phẩm dịch vụ cho khách hàng.
+- Tư vấn theo từng xu hướng/ phù hợp với đối tượng khách hàng tiềm năng. 
+- Vẽ phối cảnh 3D shop, cửa hàng
+- Điều quan trọng nhất là GIÁ CẢ luôn cạnh tranh, công trình hoàn thành sẽ mang lại hài lòng cho quý khách hàng.
+`
         },
       ]
     },
