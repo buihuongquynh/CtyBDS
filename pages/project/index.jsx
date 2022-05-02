@@ -33,9 +33,7 @@ const Project = () => {
             <h2 style={{ marginTop: "20px" }}>
               Show room , Văn Phòng(Đang cập nhật)
             </h2>
-            <h2 style={{ marginTop: "20px" }}>
-              Show room dược phẩm(Đang cập nhật)
-            </h2>
+          
           </Col>
           <Col className="mobi-none" span={4}></Col>
         </Row>
