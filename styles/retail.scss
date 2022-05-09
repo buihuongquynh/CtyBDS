@@ -1,0 +1,25 @@
+.retail {
+  padding: 20px 120px;
+  .ant-tabs-tab-btn {
+    font-weight: 600 !important;
+  }
+  h3 {
+    margin: 20px 0 !important;
+  }
+}
+@media (max-width: 1200px) {
+  .retail {
+    padding: 20px 20px;
+  }
+  .ant-tabs-left{
+    display: block !important;
+}
+.ant-tabs-nav-list{
+    display: block !important;
+    flex-wrap: wrap !important;
+    white-space: normal  !important;
+}
+.ant-tabs-tab{
+    margin-top: 10px !important;
+}
+}

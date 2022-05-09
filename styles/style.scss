@@ -4,6 +4,8 @@
 @import "./footer.scss";
 @import "./project.scss";
 @import "./contact.scss";
+@import "./retail.scss";
+
 .item_col{
   width: 16%;
 }
@@ -178,7 +180,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin-bottom: 0 !important;
+  margin-bottom: 0 ;
   font-weight: 600;
 }
 
