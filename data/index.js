@@ -17,7 +17,14 @@ import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Sho
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
 import * as Minastore from "../assets/img/projectImg/phukienmipham/Minastore"
 import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
+import * as HHkitchen from "../assets/img/projectImg/nhaO/HH kitchen"
+import * as anTam from "../assets/img/projectImg/Show room dược phẩm/Nhà thuốc An Tâm"
+import * as DuplexApartment from "../assets/img/projectImg/nhaO/Duplex Apartment"
+
 const data = () => {
+  const DuplexApartments = []
+  const HHkitchens = []
+  const anTams = []
   const medicines = []
   const anCoffes = []
  const Restous = []
@@ -36,7 +43,15 @@ const data = () => {
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
-
+ for (const [key, value] of Object.entries(DuplexApartment)) {
+  DuplexApartments.push(value.default.src)
+}
+ for (const [key, value] of Object.entries(anTam)) {
+  anTams.push(value.default.src)
+}
+ for (const [key, value] of Object.entries(HHkitchen)) {
+  HHkitchens.push(value.default.src)
+}
 for (const [key, value] of Object.entries(medicine)) {
   medicines.push(value.default.src)
 }
@@ -138,6 +153,20 @@ for (const [key, value] of Object.entries(Minastore)) {
           img: H2Homes,
           des: "",
           des1: ""
+        },
+        {
+          id: 7,
+          name: "HH Kitchen",
+          img: HHkitchens,
+          des: "Để mỗi khi bước chân vào bếp là niềm cảm hứng nấu nướng lại tràn đầy. Phố thiết kế tin rằng gian bếp và khu vực bàn ăn là nơi gắn kết yêu thương giữa các thành viên trong gia đình. Đó là nơi trổ tài nấu nướng của mẹ, của bà. Là nơi thử nghiệm các món mới của con cháu. Cũng là nơi các ông bố nịnh vợ bằng bữa sáng ngon lành dù có phần hơi vụng về. ",
+          des1: "Cùng Phố thiết kế ngắm nhìn thiết kế phòng bếp và phòng ăn của dự án nhà phố nhé!"
+        },
+        {
+          id: 8,
+          name: "Duplex Apartment",
+          img: DuplexApartments,
+          des: "Căn hộ Duplex với cá tính mạnh được thể hiện qua đường nét hiện đại, sử dụng đa dạng nguyên vật liệu cùng phong cách nội thất theo xu hướng metalic (kim loại mạ vàng kết hợp với đá) gia tăng giá trị cảm quan cho không gian trở nên sang trọng, tinh tế hơn. Sự khác biệt với cảm xúc rất riêng giữa lòng thành phố Thanh Hoá!",
+          des1: "Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với tổ ấm của bạn!"
         },
       ]
     },
@@ -262,6 +291,14 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: "Khi thiết kế cửa hàng thuốc này, chúng tôi nghĩ ngay đến sử dụng 2 gam màu chủ đạo là trắng và xanh lá để thiết kế không gian. Sở dĩ chọn 2 sắc màu này là vì đây đều là các sắc màu đặc trưng trong ngành dược phẩm. Bên cạnh đó, nó tạo cảm giác về một không gian có tính sạch sẽ cao, không bị nặng nề cho người đến mua hàng.",
           des1: `Ánh sáng tự nhiên cũng được tận dụng tối đa cho một không gian mở, phù hợp với đơn vị kinh doanh chuyên nghiệp.`,
           des2: `Hệ thống tủ kệ trưng bày trong mẫu thiết kế hiệu thuốc được bố trí sát tường và hệ thống tủ thấp được sắp xếp phù hợp. Cách bố trí này sẽ giúp tiết kiệm diện tích cửa hàng, tận dụng được không gian mà không gây ra cảm giác chật chội, tù túng. Đồng thời tạo ra khoảng không rộng lớn ở giữa thoải mái đi lại.`
+        },
+        {
+          id: 1,
+          name: "Nhà thuốc An Tâm",
+          img: anTams,
+          des: `"dược phẩm xanh, sống an lành"`,
+          des1: `Thiết kế lần này được xây dựng cho một cửa hàng thuốc, chính vì thế yếu tố sáng sủa, thư thái được đặt lên hàng đầu. Trắng, xanh lá là 2 màu đặc trưng của ngành y - dược, có khả năng ""chữa lành cảm xúc"" gợi đến sự sạch sẽ, thanh khiết, sự tin cậy, tận tâm của đội ngũ các y bác sĩ. Chính vì thế mà KTS PTK đã lựa chọn 2 gam màu này là tone màu chủ đạo cho nhà thuốc An Tâm. `,
+          des2: `Kệ, tủ được bố trí khéo léo, tạo sự thông thoáng trong không gian, tăng sự thuận tiện và trải nghiệm mua sắm của khách hàng.`
         },
       ]
     },

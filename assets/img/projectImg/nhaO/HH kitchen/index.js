@@ -1,0 +1,14 @@
+export const HHkitchen1 = require('./1.jpg');
+export const HHkitchen2 = require('./2.jpg');
+export const HHkitchen3 = require('./3.jpg');
+export const HHkitchen4 = require('./4.jpg');
+export const HHkitchen5 = require('./5.jpg');
+export const HHkitchen6 = require('./6.jpg');
+export const HHkitchen7 = require('./7.jpg');
+export const HHkitchen8 = require('./8.jpg');
+export const HHkitchen9 = require('./9.jpg');
+export const HHkitchen10 = require('./10.jpg');
+export const HHkitchen11 = require('./11.jpg');
+export const HHkitchen12 = require('./12.jpg');
+export const HHkitchen13 = require('./13.jpg');
+export const HHkitchen14 = require('./14.jpg');
