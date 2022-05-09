@@ -11,11 +11,11 @@ const CardPr = ({item}) => {
       cover={
         <img
           alt="example"
-          src={item.src}
+          src={item?.src}
         />
       }
     >
-      <Meta title={item.name} description={item.des} />
+      <Meta title={item?.name} description={item?.des} />
     </Card>
   );
 };
