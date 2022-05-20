@@ -123,7 +123,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 2,
           name: "AP apartment",
           img: APapars,
-           des: "Căn hộ Duplex với cá tính mạnh được thể hiện qua đường nét hiện đại, sử dụng đa dạng nguyên vật liệu cùng phong cách nội thất theo xu hướng metalic (kim loại mạ vàng kết hợp với đá) gia tăng giá trị cảm quan cho không gian trở nên sang trọng, tinh tế hơn. Sự khác biệt với cảm xúc rất riêng giữa lòng thành phố Thanh Hoá!",
+           des: "Căn hộ AP apartment với cá tính mạnh được thể hiện qua đường nét hiện đại, sử dụng đa dạng nguyên vật liệu cùng phong cách nội thất theo xu hướng metalic (kim loại mạ vàng kết hợp với đá) gia tăng giá trị cảm quan cho không gian trở nên sang trọng, tinh tế hơn. Sự khác biệt với cảm xúc rất riêng giữa lòng thành phố Thanh Hoá!",
           des1: "Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với tổ ấm của bạn!"
         },
         {
