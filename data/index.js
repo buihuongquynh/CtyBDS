@@ -123,8 +123,8 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 2,
           name: "AP apartment",
           img: APapars,
-          des: "",
-          des1: ""
+           des: "Căn hộ Duplex với cá tính mạnh được thể hiện qua đường nét hiện đại, sử dụng đa dạng nguyên vật liệu cùng phong cách nội thất theo xu hướng metalic (kim loại mạ vàng kết hợp với đá) gia tăng giá trị cảm quan cho không gian trở nên sang trọng, tinh tế hơn. Sự khác biệt với cảm xúc rất riêng giữa lòng thành phố Thanh Hoá!",
+          des1: "Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với tổ ấm của bạn!"
         },
         {
           id: 3,
@@ -161,13 +161,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: "Để mỗi khi bước chân vào bếp là niềm cảm hứng nấu nướng lại tràn đầy. Phố thiết kế tin rằng gian bếp và khu vực bàn ăn là nơi gắn kết yêu thương giữa các thành viên trong gia đình. Đó là nơi trổ tài nấu nướng của mẹ, của bà. Là nơi thử nghiệm các món mới của con cháu. Cũng là nơi các ông bố nịnh vợ bằng bữa sáng ngon lành dù có phần hơi vụng về. ",
           des1: "Cùng Phố thiết kế ngắm nhìn thiết kế phòng bếp và phòng ăn của dự án nhà phố nhé!"
         },
-        {
-          id: 8,
-          name: "Duplex Apartment",
-          img: DuplexApartments,
-          des: "Căn hộ Duplex với cá tính mạnh được thể hiện qua đường nét hiện đại, sử dụng đa dạng nguyên vật liệu cùng phong cách nội thất theo xu hướng metalic (kim loại mạ vàng kết hợp với đá) gia tăng giá trị cảm quan cho không gian trở nên sang trọng, tinh tế hơn. Sự khác biệt với cảm xúc rất riêng giữa lòng thành phố Thanh Hoá!",
-          des1: "Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với tổ ấm của bạn!"
-        },
+        
       ]
     },
     {
