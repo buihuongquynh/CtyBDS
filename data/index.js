@@ -293,7 +293,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           des2: `Hệ thống tủ kệ trưng bày trong mẫu thiết kế hiệu thuốc được bố trí sát tường và hệ thống tủ thấp được sắp xếp phù hợp. Cách bố trí này sẽ giúp tiết kiệm diện tích cửa hàng, tận dụng được không gian mà không gây ra cảm giác chật chội, tù túng. Đồng thời tạo ra khoảng không rộng lớn ở giữa thoải mái đi lại.`
         },
         {
-          id: 1,
+          id: 2,
           name: "Nhà thuốc An Tâm",
           img: anTams,
           des: `"dược phẩm xanh, sống an lành"`,
