@@ -1,8 +1,8 @@
 import img from "../assets/img/thiet-ke-noi-that-chung-cu-1065.jpg"
-import * as Restou from "../assets/img/projectImg/cafeNhahang/restourant"
+
 import * as startCofee from "../assets/img/projectImg/cafeNhahang/startCoffe"
-import * as IfGame from "../assets/img/projectImg/khuvuichoi/IF games"
-import * as KissPlay from "../assets/img/projectImg/khuvuichoi/Kiss Playground"
+
+
 import * as AnHouse from "../assets/img/projectImg/nhaO/AnHouse"
 import * as APapar from "../assets/img/projectImg/nhaO/AP apartment"
 import * as HHapar from "../assets/img/projectImg/nhaO/HH apartment"
@@ -27,10 +27,10 @@ const data = () => {
   const anTams = []
   const medicines = []
   const anCoffes = []
- const Restous = []
+ 
  const startCofees = []
- const IfGames = []
- const KissPlays = []
+
+
  const AnHouses = []
  const APapars = []
  const HHapars = []
@@ -58,9 +58,7 @@ for (const [key, value] of Object.entries(medicine)) {
  for (const [key, value] of Object.entries(anCoffe)) {
   anCoffes.push(value.default.src)
 }
- for (const [key, value] of Object.entries(Restou)) {
-  Restous.push(value.default.src)
-}
+ 
 for (const [key, value] of Object.entries(startCofee)) {
   startCofees.push(value.default.src)
 }
@@ -229,15 +227,9 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: "",
           des1: ""
         },
+          
         {
           id: 2,
-          name: "Restourant HH",
-          img: Restous,
-          des: "",
-          des1: ""
-        },  
-        {
-          id: 3,
           name: "An Coffee",
           img: anCoffes,
           des: "Không chỉ kiến tạo không gian, chúng tôi kiến tạo trải nghiệm cho khách hàng. Đến với An Coffee, có lẽ, điều khiến các khách hàng say mê ngay từ cái nhìn đầu tiên có lẽ là không gian và kiến trúc nội thất độc nhất ở nơi đây.",
@@ -245,7 +237,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           des1: "An Coffee hứa hẹn là một checkin ấn tượng, một không gian nghệ thuật sang trọng ngay giữa lòng Thanh Hóa đầy huyên náo và nhộn nhịp. "
         },    
         {
-          id: 4,
+          id: 3,
           name: "Quaybar",
           img: Quaybars,
           des: "",
@@ -253,29 +245,10 @@ for (const [key, value] of Object.entries(Minastore)) {
         },      
       ]
     },
-    {
-      id: 5,
-      name: "Khu vui chơi",
-      project: [
-        {
-          id: 1,
-          name: "IF games",
-          img: IfGames,
-          des: `1 Dự án khu vui chơi thú vị mà Phố Thiết Kế đã triển khai, một điểm đến lý tưởng cho các bạn trẻ tại thành phố Thanh hóa`,
-          des1: `Định hình bản sắc thương hiệu thông qua việc tạo dựng 1 không gian trải nghiệm có cảm xúc hơn cho khách hàng, và cũng là điều mà Phố Thiết Kế muốn gửi gắm vào sản phẩm thiết kế & thi công lần này!`
-        },
-        {
-          id: 2,
-          name: "KISS Playgroud",
-          img: KissPlays,
-          des: "",
-          des1: ""
-        },
-      ]
-    },
+    
    
     {
-      id: 6,
+      id: 5,
       name:"Show room dược phẩm",
       project: [
         {
