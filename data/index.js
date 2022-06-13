@@ -62,12 +62,7 @@ for (const [key, value] of Object.entries(medicine)) {
 for (const [key, value] of Object.entries(startCofee)) {
   startCofees.push(value.default.src)
 }
-for (const [key, value] of Object.entries(IfGame)) {
-  IfGames.push(value.default.src)
-}
-for (const [key, value] of Object.entries(KissPlay)) {
-  KissPlays.push(value.default.src)
-}
+
 for (const [key, value] of Object.entries(AnHouse)) {
   AnHouses.push(value.default.src)
 }
