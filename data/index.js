@@ -11,7 +11,7 @@ import * as Vapar from "../assets/img/projectImg/nhaO/V apartment"
 import * as Sweet from "../assets/img/projectImg/phukienmipham/SWEET"
 import * as Berg from "../assets/img/projectImg/shopThoiTrang/Berg _ Lee"
 import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
-import * as H2Home from "../assets/img/projectImg/nhaO/H2 HOMES"
+
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
@@ -39,7 +39,7 @@ const data = () => {
  const Sweets = []
  const Bergs = []
  const Moyans = []
- const H2Homes = []
+
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
@@ -92,9 +92,7 @@ for (const [key, value] of Object.entries(Berg)) {
 for (const [key, value] of Object.entries(Moyan)) {
   Moyans.push(value.default.src)
 }
-for (const [key, value] of Object.entries(H2Home)) {
-  H2Homes.push(value.default.src)
-}
+
 for (const [key, value] of Object.entries(LinhSpa)) {
   LinhSpas.push(value.default.src)
 }
@@ -145,15 +143,9 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: "",
           des1: ""
         },
+        
         {
           id: 6,
-          name: "H2 HOMES",
-          img: H2Homes,
-          des: "",
-          des1: ""
-        },
-        {
-          id: 7,
           name: "HH Kitchen",
           img: HHkitchens,
           des: "Để mỗi khi bước chân vào bếp là niềm cảm hứng nấu nướng lại tràn đầy. Phố thiết kế tin rằng gian bếp và khu vực bàn ăn là nơi gắn kết yêu thương giữa các thành viên trong gia đình. Đó là nơi trổ tài nấu nướng của mẹ, của bà. Là nơi thử nghiệm các món mới của con cháu. Cũng là nơi các ông bố nịnh vợ bằng bữa sáng ngon lành dù có phần hơi vụng về. ",
