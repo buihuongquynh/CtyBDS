@@ -2,6 +2,12 @@
     animation: top .8s ease infinite;
     animation-iteration-count: 1;
 }
+.aPrj{
+    color: black;
+}
+.aPrj:hover{
+    color: #1890ff;
+}
 @keyframes top {
     from{
       transform: translateY(1000px);

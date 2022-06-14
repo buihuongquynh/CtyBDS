@@ -1,8 +1,8 @@
 import img from "../assets/img/thiet-ke-noi-that-chung-cu-1065.jpg"
-
 import * as startCofee from "../assets/img/projectImg/cafeNhahang/startCoffe"
-
-
+import * as nguyenvi from "../assets/img/projectImg/cafeNhahang/Nguyên Vị cafe"
+import * as sunny from "../assets/img/projectImg/cafeNhahang/SunnyCafe"
+import * as mesoc from "../assets/img/projectImg/shopThoiTrang/ShopMeSoc"
 import * as AnHouse from "../assets/img/projectImg/nhaO/AnHouse"
 import * as APapar from "../assets/img/projectImg/nhaO/AP apartment"
 import * as HHapar from "../assets/img/projectImg/nhaO/HH apartment"
@@ -11,7 +11,6 @@ import * as Vapar from "../assets/img/projectImg/nhaO/V apartment"
 import * as Sweet from "../assets/img/projectImg/phukienmipham/SWEET"
 import * as Berg from "../assets/img/projectImg/shopThoiTrang/Berg _ Lee"
 import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
-
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
@@ -24,13 +23,13 @@ import * as DuplexApartment from "../assets/img/projectImg/nhaO/Duplex Apartment
 const data = () => {
   const DuplexApartments = []
   const HHkitchens = []
+  const sunnys = []
+  const mesocs = []
   const anTams = []
   const medicines = []
   const anCoffes = []
- 
+  const nguyenvis = []
  const startCofees = []
-
-
  const AnHouses = []
  const APapars = []
  const HHapars = []
@@ -39,12 +38,20 @@ const data = () => {
  const Sweets = []
  const Bergs = []
  const Moyans = []
-
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
+ for (const [key, value] of Object.entries(sunny)) {
+  sunnys.push(value.default.src)
+}
+for (const [key, value] of Object.entries(mesoc)) {
+  mesocs.push(value.default.src)
+}
  for (const [key, value] of Object.entries(DuplexApartment)) {
   DuplexApartments.push(value.default.src)
+}
+for (const [key, value] of Object.entries(nguyenvi)) {
+  nguyenvis.push(value.default.src)
 }
  for (const [key, value] of Object.entries(anTam)) {
   anTams.push(value.default.src)
@@ -174,6 +181,13 @@ for (const [key, value] of Object.entries(Minastore)) {
 - Điều quan trọng nhất là GIÁ CẢ luôn cạnh tranh, công trình hoàn thành sẽ mang lại hài lòng cho quý khách hàng.
 `
         },
+        {
+          id: 3,
+          name: "ShopMeSoc",
+          img: mesocs,
+          des: ``,
+          des1: ""  
+        },
       ]
     },
     {
@@ -201,6 +215,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: ``,
           des1: ""  
         },
+        
       ]
     },
     {
@@ -229,11 +244,23 @@ for (const [key, value] of Object.entries(Minastore)) {
           img: Quaybars,
           des: "",
           des1: ""
+        },  
+        {
+          id: 4,
+          name: "Nguyên Vị cafe",
+          img: nguyenvis,
+          des: "",
+          des1: ""
+        }, 
+        {
+          id: 5,
+          name: "SunnyCafe",
+          img: sunnys,
+          des: "",
+          des1: ""
         },      
       ]
     },
-    
-   
     {
       id: 5,
       name:"Show room dược phẩm",

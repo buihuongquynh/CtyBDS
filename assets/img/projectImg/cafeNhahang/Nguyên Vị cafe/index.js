@@ -1,0 +1,12 @@
+export const nguyenvi1 = require('./1.jpg');
+export const nguyenvi2 = require('./2.jpg');
+export const nguyenvi3 = require('./3.jpg');
+export const nguyenvi4 = require('./4.jpg');
+export const nguyenvi5 = require('./5.jpg');
+export const nguyenvi6 = require('./6.jpg');
+export const nguyenvi7 = require('./7.jpg');
+export const nguyenvi8 = require('./8.jpg');
+export const nguyenvi9 = require('./9.jpg');
+export const nguyenvi10 = require('./10.jpg');
+export const nguyenvi11 = require('./11.jpg');
+export const nguyenvi12 = require('./12.jpg');
