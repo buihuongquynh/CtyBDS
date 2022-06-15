@@ -185,8 +185,8 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "ShopMeSoc",
           img: mesocs,
-          des: ``,
-          des1: ""  
+          des: `Một trong những dự án khá dễ thương với tone màu hồng ngọt ngào dành cho mẹ và bé. Các KTS PTK sử dụng chủ yếu kệ tầng bao quanh không gian nhằm tiết kiệm tối đa diện tích để khoảng di chuyển rộng rãi cho mẹ và bé ghé thăm của hàng.`,
+          des1: "PTK không chỉ đơn giản là kiến tạo nên không gian mà còn tạo ra hành trình mua sắm thoải mái, thân thiện dành cho khách hàng."  
         },
       ]
     },
@@ -249,15 +249,15 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 4,
           name: "Nguyên Vị cafe",
           img: nguyenvis,
-          des: "",
-          des1: ""
+          des: "Thêm một công trình mới mang hơi vị, nét đẹp Việt Nam. Bạn có thể cảm nhận những nét đẹp đặc trưng về một Việt Nam Xưa Cũ ở bất kỳ một góc nào. Mỗi góc tại quán đều được KTS thiết kế rất “tình”,  mang nét xưa cũ, khiến người ta có cảm giác an yên vô cùng.",
+          des1: "Không gian thích hợp cho những trải nghiệm muốn tìm về hương vị nguyên bản, mộc mạc đầy dung dị nhưng cũng thật khó để mà quên đi."
         }, 
         {
           id: 5,
           name: "SunnyCafe",
           img: sunnys,
-          des: "",
-          des1: ""
+          des: "Sunny Coffee là một không gian cafe xanh mướt với tổng diện tích 300m2, rộng rãi, thoáng mát. Sunny Coffee khoác lên mình một thiết kế mở theo phong cách Tropical. Quán gồm 2 tầng trong nhà và một khoảng sân siêu rộng rãi um tùm cây xanh với sức chứa lớn, thiết kế với bố cục đường dọc cùng kính ốp bao quanh để đón trọn vẹn ánh sáng, lại tinh tế đưa thêm những giàn cây rủ vào giúp những đường khung bớt thô ráp mà mềm mại và có sức sống hơn.",
+          des1: "Những chiếc bàn nhỏ xinh bằng gỗ me tây campuchia tự nhiên với hình thù độc đáo kết hợp vật liệu tái chế như thùng phi , chân máy khâu ... tre trúc nhằm hướng tới thông điệp bảo vệ môi trường  tạo cảm giác thích thú và gần gũi cho bất kỳ ai ghé thăm, phần nào thổi thêm những nét duyên ngầm cho Sunny Coffee."
         },      
       ]
     },
