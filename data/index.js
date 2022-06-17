@@ -113,7 +113,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 1,
           name: "An House",
           img: AnHouses,
-          des: "",
+          des: "Đầu tư cho không gian sống là một trong những cách tốt nhất để đầu tư vào cuộc sống của bạn và gia đình. Thiết kế ban đầu của căn nhà là một căn nhà ống với hình dáng có thể bắt gặp ở bất kỳ đâu nhưng đội ngũ kiến trúc sư của Phố thiết kế đã vẽ nên một không gian sống cực kỳ sang trọng với cách bố trí và phân chia không gian hợp lý cùng phong cách chủ đạo Morden Luxury. Trong dự Án lần này, KTS đã xử lý không gian để tận dụng tối đa ánh sáng mặt trời và làm cho không gian trở nên thoáng và rộng hơn. ",
           des1: ""
           
         },
