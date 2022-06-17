@@ -142,8 +142,8 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 5,
           name: "V apartment",
           img: Vapars,
-          des: "",
-          des1: ""
+          des: "'Nơi nào có sự sống, nơi đó có nghệ thuật' bởi suy cho cùng, nghệ thuật được khai phá, kiến tạo từ con người, từ tâm thức thổi hồn cho những điều tưởng chừng vô tri. Phủ lên một gam màu be trung tính, mang lại cảm giác ấm cúng, nhẹ nhàng, tổng thể không gian là sự sắp xếp khéo léo của từng chi tiết. ",
+          des1: "Không gian là tiếng nói, thể hiện nội tâm và câu chuyện của mỗi khách hàng, hãy để PTK tạo nên những điều đó cùng bạn!"
         },
         
         {
