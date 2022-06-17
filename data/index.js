@@ -135,8 +135,8 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 4,
           name: "Q apartment",
           img: Qapars,
-          des: "",
-          des1: ""
+          des: "Indochine là phong cách dành cho ai yêu thích nét đẹp mộc mạc, hoài cổ nhưng vẫn đầy tính thanh lịch, sang trọng. Indochine như một bản giao hưởng đầy sắc màu từ những nét đẹp đầy tinh tế của 2 bản sắc văn hóa Phương Đông và Phương Tây, tạo nên một phong cách mang đậm chất truyền thống nhưng không kém phần sang trọng và thanh lịch. ",
+          des1: "Hãy xem những KTS PTK đã chắt lọc nét đẹp "kiến trúc đông dương" để đưa vào không gian căn hộ Studio một cách đầy tinh tế như thế nào nhé!"
         },
         {
           id: 5,
