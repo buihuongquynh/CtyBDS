@@ -19,8 +19,10 @@ import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
 import * as HHkitchen from "../assets/img/projectImg/nhaO/HH kitchen"
 import * as anTam from "../assets/img/projectImg/Show room dược phẩm/Nhà thuốc An Tâm"
 import * as DuplexApartment from "../assets/img/projectImg/nhaO/Duplex Apartment"
+import * as tadashi from "../assets/img/projectImg/Show room dược phẩm/Nha khoa tadashi"
 
 const data = () => {
+  const tadashis = []
   const DuplexApartments = []
   const HHkitchens = []
   const sunnys = []
@@ -41,6 +43,9 @@ const data = () => {
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
+ for (const [key, value] of Object.entries(tadashi)) {
+  tadashis.push(value.default.src)
+}
  for (const [key, value] of Object.entries(sunny)) {
   sunnys.push(value.default.src)
 }
@@ -280,6 +285,14 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: `"dược phẩm xanh, sống an lành"`,
           des1: `Thiết kế lần này được xây dựng cho một cửa hàng thuốc, chính vì thế yếu tố sáng sủa, thư thái được đặt lên hàng đầu. Trắng, xanh lá là 2 màu đặc trưng của ngành y - dược, có khả năng ""chữa lành cảm xúc"" gợi đến sự sạch sẽ, thanh khiết, sự tin cậy, tận tâm của đội ngũ các y bác sĩ. Chính vì thế mà KTS PTK đã lựa chọn 2 gam màu này là tone màu chủ đạo cho nhà thuốc An Tâm. `,
           des2: `Kệ, tủ được bố trí khéo léo, tạo sự thông thoáng trong không gian, tăng sự thuận tiện và trải nghiệm mua sắm của khách hàng.`
+        },
+        {
+          id: 3,
+          name: "Nha khoa tadashi",
+          img: tadashis,
+          des: ``,
+          des1: ``,
+          des2: ``
         },
       ]
     },

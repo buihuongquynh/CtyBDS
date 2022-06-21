@@ -67,9 +67,8 @@ export default function Home() {
       </div> */}
 
       <div className="project">
-        <Row>
-          <Col className="ant-1" span={1}></Col>
-          <Col className="ant-22" style={{ margin: "0 15px" }} span={22}>
+        <div className="">
+          <div className="" style={{ margin: "0 15px" }}>
             <h1 className="prj">Dự án</h1>
             {Project.map((item) => {
               const listSrc = [];
@@ -105,9 +104,8 @@ export default function Home() {
                 </>
               );
             })}
-          </Col>
-          <Col className="ant-1" span={1}></Col>
-        </Row>
+          </div>
+        </div>
       </div>
     </div>
   );
