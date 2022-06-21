@@ -128,7 +128,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "HH apartment",
           img: HHapars,
-          des: "Một nét phông  hoa sang trọng giữa lòng thành phố Thanh Hoá, nhà hàng được thiết kế theo phong cách Modern Luxury với một không gian mở cực kỳ rộng rãi, kết hợp với những chất liệu cao cấp như da￼, đá với những vòm cửa lớn - Một nhà hàng tại Thành phố phồn hoa tráng lệ.",
+          des: "Một nét phông  hoa sang trọng giữa lòng thành phố Thanh Hoá, nhà hàng được thiết kế theo phong cách Modern Luxury với một không gian mở cực kỳ rộng rãi, kết hợp với những chất liệu cao cấp như da, đá với những vòm cửa lớn - Một nhà hàng tại Thành phố phồn hoa tráng lệ.",
           des1: "Hiểu rõ tâm lý, sở thích và nhu cầu của khách hàng, Phố Thiết Kế cung cấp dịch vụ thiết kế kế thi công Nhà Hàng, Quán ăn trọn gói với nhiều phong cách nội thấy khách nhau, mang đến cho những nhà đầu tư và khách hàng thật nhiều sự lựa chọn hoàn hảo."
         },
         {
