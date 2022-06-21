@@ -128,8 +128,8 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "HH apartment",
           img: HHapars,
-          des: "",
-          des1: ""
+          des: "Một nét phông  hoa sang trọng giữa lòng thành phố Thanh Hoá, nhà hàng được thiết kế theo phong cách Modern Luxury với một không gian mở cực kỳ rộng rãi, kết hợp với những chất liệu cao cấp như da￼, đá với những vòm cửa lớn - Một nhà hàng tại Thành phố phồn hoa tráng lệ.",
+          des1: "Hiểu rõ tâm lý, sở thích và nhu cầu của khách hàng, Phố Thiết Kế cung cấp dịch vụ thiết kế kế thi công Nhà Hàng, Quán ăn trọn gói với nhiều phong cách nội thấy khách nhau, mang đến cho những nhà đầu tư và khách hàng thật nhiều sự lựa chọn hoàn hảo."
         },
         {
           id: 4,
@@ -212,7 +212,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "Mina Store",
           img: Minastores,
-          des: ``,
+          des: `Để gia tăng diện tích sử dụng cho cửa hàng, các KTS PTK đã thiết kế 2 kệ gỗ full tường được chia nhiều ô trưng bày sản phẩm. Không gian được sử dụng 2 tone màu chính, gỗ đậm và đen, được bố trí dài màu xen kẽ nhằm tạo điểm nhấn hút mắt khách hàng vào vị trí sản phẩm, gia tăng tỷ lệ mua hàng.`,
           des1: ""  
         },
         
@@ -226,8 +226,9 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 1,
           name: "Star coffe",
           img: startCofees,
-          des: "",
-          des1: ""
+          des: "Một quán coffee theo phong cách industrial với những vật liệu thô làm nổi bật cá tính và sự mạnh mẽ không kém phần tinh tế chắc chắn là địa điểm checkin lý tưởng cho giới trẻ Thanh Hóa trong thời gian tới!",
+          des1: "▪️ Tư vấn thiết kế phù hợp với phong thuỷ từng cuộc đất để mang tài lộc đến cho việc kinh doanh thuận lợi",
+          des2: "▪️ Định hướng thiết kế sáng tạo, độc đáo đa dạng phong cách - thi công trọn gói tiết kiệm thời gian - ngân sách với cửa hàng thu hút khách hàng ngay từ cái nhìn đầu tiên"
         },
           
         {
@@ -242,7 +243,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "Quaybar",
           img: Quaybars,
-          des: "",
+          des: "Sử dụng màu tím trong nội thất liệu có bị Sến? Hay sẽ là một điểm nhấn thú vị, tạo hiệu ứng thị giác độc đáo? tham khảo một thiết kế quầy bar của PTK nếu bạn lỡ yêu màu tím rồi nhé!",
           des1: ""
         },  
         {
