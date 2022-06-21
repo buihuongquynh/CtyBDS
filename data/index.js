@@ -118,7 +118,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 1,
           name: "An House",
           img: AnHouses,
-          des: "",
+          des: "Đầu tư cho không gian sống là một trong những cách tốt nhất để đầu tư vào cuộc sống của bạn và gia đình. Thiết kế ban đầu của căn nhà là một căn nhà ống với hình dáng có thể bắt gặp ở bất kỳ đâu nhưng đội ngũ kiến trúc sư của Phố thiết kế đã vẽ nên một không gian sống cực kỳ sang trọng với cách bố trí và phân chia không gian hợp lý cùng phong cách chủ đạo Morden Luxury. Trong dự Án lần này, KTS đã xử lý không gian để tận dụng tối đa ánh sáng mặt trời và làm cho không gian trở nên thoáng và rộng hơn. ",
           des1: ""
           
         },
@@ -133,22 +133,22 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "HH apartment",
           img: HHapars,
-          des: "",
-          des1: ""
+          des: "Một nét phông  hoa sang trọng giữa lòng thành phố Thanh Hoá, nhà hàng được thiết kế theo phong cách Modern Luxury với một không gian mở cực kỳ rộng rãi, kết hợp với những chất liệu cao cấp như da, đá với những vòm cửa lớn - Một nhà hàng tại Thành phố phồn hoa tráng lệ.",
+          des1: "Hiểu rõ tâm lý, sở thích và nhu cầu của khách hàng, Phố Thiết Kế cung cấp dịch vụ thiết kế kế thi công Nhà Hàng, Quán ăn trọn gói với nhiều phong cách nội thấy khách nhau, mang đến cho những nhà đầu tư và khách hàng thật nhiều sự lựa chọn hoàn hảo."
         },
         {
           id: 4,
           name: "Q apartment",
           img: Qapars,
-          des: "",
-          des1: ""
+          des: "Indochine là phong cách dành cho ai yêu thích nét đẹp mộc mạc, hoài cổ nhưng vẫn đầy tính thanh lịch, sang trọng. Indochine như một bản giao hưởng đầy sắc màu từ những nét đẹp đầy tinh tế của 2 bản sắc văn hóa Phương Đông và Phương Tây, tạo nên một phong cách mang đậm chất truyền thống nhưng không kém phần sang trọng và thanh lịch. ",
+          des1: "Hãy xem những KTS PTK đã chắt lọc nét đẹp kiến trúc đông dương để đưa vào không gian căn hộ Studio một cách đầy tinh tế như thế nào nhé!"
         },
         {
           id: 5,
           name: "V apartment",
           img: Vapars,
-          des: "",
-          des1: ""
+          des: "'Nơi nào có sự sống, nơi đó có nghệ thuật' bởi suy cho cùng, nghệ thuật được khai phá, kiến tạo từ con người, từ tâm thức thổi hồn cho những điều tưởng chừng vô tri. Phủ lên một gam màu be trung tính, mang lại cảm giác ấm cúng, nhẹ nhàng, tổng thể không gian là sự sắp xếp khéo léo của từng chi tiết. ",
+          des1: "Không gian là tiếng nói, thể hiện nội tâm và câu chuyện của mỗi khách hàng, hãy để PTK tạo nên những điều đó cùng bạn!"
         },
         
         {
@@ -190,8 +190,8 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "ShopMeSoc",
           img: mesocs,
-          des: ``,
-          des1: ""  
+          des: `Một trong những dự án khá dễ thương với tone màu hồng ngọt ngào dành cho mẹ và bé. Các KTS PTK sử dụng chủ yếu kệ tầng bao quanh không gian nhằm tiết kiệm tối đa diện tích để khoảng di chuyển rộng rãi cho mẹ và bé ghé thăm của hàng.`,
+          des1: "PTK không chỉ đơn giản là kiến tạo nên không gian mà còn tạo ra hành trình mua sắm thoải mái, thân thiện dành cho khách hàng."  
         },
       ]
     },
@@ -217,7 +217,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "Mina Store",
           img: Minastores,
-          des: ``,
+          des: `Để gia tăng diện tích sử dụng cho cửa hàng, các KTS PTK đã thiết kế 2 kệ gỗ full tường được chia nhiều ô trưng bày sản phẩm. Không gian được sử dụng 2 tone màu chính, gỗ đậm và đen, được bố trí dài màu xen kẽ nhằm tạo điểm nhấn hút mắt khách hàng vào vị trí sản phẩm, gia tăng tỷ lệ mua hàng.`,
           des1: ""  
         },
         
@@ -231,8 +231,9 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 1,
           name: "Star coffe",
           img: startCofees,
-          des: "",
-          des1: ""
+          des: "Một quán coffee theo phong cách industrial với những vật liệu thô làm nổi bật cá tính và sự mạnh mẽ không kém phần tinh tế chắc chắn là địa điểm checkin lý tưởng cho giới trẻ Thanh Hóa trong thời gian tới!",
+          des1: "▪️ Tư vấn thiết kế phù hợp với phong thuỷ từng cuộc đất để mang tài lộc đến cho việc kinh doanh thuận lợi",
+          des2: "▪️ Định hướng thiết kế sáng tạo, độc đáo đa dạng phong cách - thi công trọn gói tiết kiệm thời gian - ngân sách với cửa hàng thu hút khách hàng ngay từ cái nhìn đầu tiên"
         },
           
         {
@@ -247,22 +248,22 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "Quaybar",
           img: Quaybars,
-          des: "",
+          des: "Sử dụng màu tím trong nội thất liệu có bị Sến? Hay sẽ là một điểm nhấn thú vị, tạo hiệu ứng thị giác độc đáo? tham khảo một thiết kế quầy bar của PTK nếu bạn lỡ yêu màu tím rồi nhé!",
           des1: ""
         },  
         {
           id: 4,
           name: "Nguyên Vị cafe",
           img: nguyenvis,
-          des: "",
-          des1: ""
+          des: "Thêm một công trình mới mang hơi vị, nét đẹp Việt Nam. Bạn có thể cảm nhận những nét đẹp đặc trưng về một Việt Nam Xưa Cũ ở bất kỳ một góc nào. Mỗi góc tại quán đều được KTS thiết kế rất “tình”,  mang nét xưa cũ, khiến người ta có cảm giác an yên vô cùng.",
+          des1: "Không gian thích hợp cho những trải nghiệm muốn tìm về hương vị nguyên bản, mộc mạc đầy dung dị nhưng cũng thật khó để mà quên đi."
         }, 
         {
           id: 5,
           name: "SunnyCafe",
           img: sunnys,
-          des: "",
-          des1: ""
+          des: "Sunny Coffee là một không gian cafe xanh mướt với tổng diện tích 300m2, rộng rãi, thoáng mát. Sunny Coffee khoác lên mình một thiết kế mở theo phong cách Tropical. Quán gồm 2 tầng trong nhà và một khoảng sân siêu rộng rãi um tùm cây xanh với sức chứa lớn, thiết kế với bố cục đường dọc cùng kính ốp bao quanh để đón trọn vẹn ánh sáng, lại tinh tế đưa thêm những giàn cây rủ vào giúp những đường khung bớt thô ráp mà mềm mại và có sức sống hơn.",
+          des1: "Những chiếc bàn nhỏ xinh bằng gỗ me tây campuchia tự nhiên với hình thù độc đáo kết hợp vật liệu tái chế như thùng phi , chân máy khâu ... tre trúc nhằm hướng tới thông điệp bảo vệ môi trường  tạo cảm giác thích thú và gần gũi cho bất kỳ ai ghé thăm, phần nào thổi thêm những nét duyên ngầm cho Sunny Coffee."
         },      
       ]
     },
