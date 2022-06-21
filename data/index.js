@@ -292,7 +292,7 @@ for (const [key, value] of Object.entries(Minastore)) {
           name: "Nha khoa tadashi",
           img: tadashis,
           des: ``,
-          des1: ``,
+          des1: `Những dự án thiết kế phòng khám, spa dường như rất có duyên với Phố Thiết Kế, Một phòng khám đẹp không chỉ nằm ở nội thất tinh tế mà điều quan trọng nhất là thiết kế khoa học và chuẩn công năng. Cách sắp xếp, bài trí nội thất hợp lý chính là cơ sở cốt lõi để quy trình khám chữa bệnh diễn ra thuận lợi. Cùng PTK chiêm ngưỡng những hình ảnh  3D dự án Nha Khoa Tadashi tại Thanh Hóa và cùng cảm nhận nhé.`,
           des2: ``
         },
       ]
