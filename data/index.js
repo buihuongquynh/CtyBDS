@@ -20,6 +20,9 @@ import * as HHkitchen from "../assets/img/projectImg/nhaO/HH kitchen"
 import * as anTam from "../assets/img/projectImg/Show room dược phẩm/Nhà thuốc An Tâm"
 import * as DuplexApartment from "../assets/img/projectImg/nhaO/Duplex Apartment"
 import * as tadashi from "../assets/img/projectImg/Show room dược phẩm/Nha khoa tadashi"
+import banle1 from "../assets/img/retails/banle/Ảnh1.jpg"
+import banle2 from "../assets/img/retails/banle/Ảnh2.jpg"
+import banle3 from "../assets/img/retails/banle/Ảnh3.jpg"
 
 const data = () => {
   const tadashis = []
@@ -298,8 +301,47 @@ for (const [key, value] of Object.entries(Minastore)) {
       ]
     },
   ]
+
+  const Retais = [
+    {
+      id: 1,
+      name: 'Sản phẩm bán lẻ',
+      product: [
+        {
+          id: 1,
+          name: 'Bàn gỗ trâm da báo',
+          title: 'BÀN GỖ TRÂM DA BÁO TỰ NHIÊN NGUYÊN TẤM',
+          des1: 'Mặt bàn được làm bằng gỗ tự nhiên Trâm Da Báo nguyên miếng, có khả năng chịu nước tốt, chống mối mọt và độ bền cao.',
+          des2: 'Các vân gỗ tự nhiên được những người thợ chế tác thủ công, vừa tạo nên điểm nhấn, vừa tôn lên sự sang trọng vốn có vì vậy luôn là lựa chọn hàng đầu của những người yêu thích những món đồ bằng gỗ tự nhiên độc đáo.',
+          des3: 'Mặt bàn gỗ tự nhiên Trâm Da Báo phù hợp trong khá nhiều không gian với nhiều mục đích sử dụng khác nhau như các cửa hàng kinh doanh, quán cafe hay nội thất văn phòng công sở, bàn ghế phòng khách, phòng ngủ…',
+          img: banle1.src,
+          kt1: 'kt1 : 800x900x100  Giá : 3.500.000',
+          kt2: 'Kt2 : 900x1000x120 Giá : 4.200.000',
+          kt3: 'Kt3 : 1000x1100x120 Giá : 4.700.000'
+        },{
+          id: 2,
+          name: 'Bàn gỗ Me Tây Campuchia',
+          title: 'BÀN GỖ TRÒN ME TÂY CAMPUCHIA',
+          des1: 'Giữ trong mình nét đẹp của tự nhiên, Bàn gỗ tròn me tây nguyên khối mang đến cho người dùng cảm giác ấm cúng, với đường vân độc đáo, duy nhất cho từng mẫu sản phẩm',
+          des2: 'Thiết kế dáng tròn vừa phải, bạn có thể sử dụng làm bàn trà hay đặt vào trong không gian quán coffee theo phong cách tropical hay Rustic đều thực sự phù hợp.',
+          kt1: 'KT: R450mm*C400mm Giá: 80.000',
+
+          img: banle2.src
+        },{
+          id: 3,
+          name: 'Bàn gỗ me tây Campuchia',
+          title: 'Bàn ghế ăn gỗ me tây Campuchia - Sự lựa chọn hoàn hảo cho căn bếp của bạn.',
+          des1: 'Mỗi chiếc bàn sở hữu hình dáng và hoa văn khác nhau tạo nên nết độc đáo cho từng sản phẩm. Bàn gỗ me tây Campuchia có thể tùy chỉnh kích thước một cách dễ dàng, chính vì thế nếu bạn đang cần một chiếc bàn ăn lớn nhưng không quá thôi kệch, vuông vức thì đừng bỏ lỡ siêu phẩm bàn dài bằng gỗ Me Tây Campuchia nguyên tấm này nhé!',
+          des2: 'GIAO HÀNG VÀ VẬN CHUYỂN THANH HÓA - HÀ NỘI',
+          img: banle3.src,
+          kt1: 'Giá theo kích thước yêu cầu'
+        }
+      ]
+    }
+  ]
   return {
-    Project
+    Project,
+    Retais,
   };
 };
 export default data;

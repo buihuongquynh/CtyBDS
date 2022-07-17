@@ -1,13 +1,16 @@
 import { Tabs, Radio, Space } from "antd";
 import React, { useState, useEffect } from "react";
-import List from "./list";
 import { useRouter } from "next/router";
 import facebook from "../../assets/img/2021_Facebook_icon.svg.png";
 import zalo from "../../assets/img/Logo-Zalo-App-Rec.png";
 import data from "../../data";
+import List from "../retail-products/list";
 const index = () => {
   const { Retais } = data();
   const router = useRouter();
+  const id = router.query?.id;
+  const dataDetail = Retais[0]?.product.filter((item) => item.id == id);
+  console.log(dataDetail,"data")
   return (
     <div className="retail">
       <div className="row">
@@ -42,7 +45,32 @@ const index = () => {
             </ul>
           </div>
         </div>
-        <div className="col-md-9">{<List product={Retais[0].product} />}</div>
+        <div className="col-md-9">
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="item-retai">
+                <img className="img-details" src={dataDetail[0]?.img} alt="" />
+              </div>
+            </div>
+            <div className="col-lg-7">
+              <div className="item-retai">
+                <h1 className="name">{dataDetail[0]?.name}</h1>
+                <div className="share"></div>
+                <h3 style={{ textAlign: "start" }}>{dataDetail[0]?.title}</h3>
+                <p>{dataDetail[0]?.des1}</p>
+                <p>{dataDetail[0]?.des2}</p>
+                <p>{dataDetail[0]?.des3}</p>
+                <b>{dataDetail[0]?.kt1}</b> <br />
+                <b>{dataDetail[0]?.kt2}</b> <br />
+                <b>{dataDetail[0]?.kt3}</b><br />
+              </div>
+            </div>
+          </div>
+          <h1 className="mt-3">SẢN PHẨM LIÊN QUAN</h1>
+          <div className="list">
+            <List product={Retais[0]?.product} />
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -65,6 +65,9 @@ const Header = () => {
           <li onClick={() => setIsModalVisible(false)}>
             <Link href="/communication">LIÊN HỆ</Link>
           </li>
+          <li onClick={() => setIsModalVisible(false)}>
+            <Link href="/retail-products">SẢN PHẨM BÁN LẺ</Link>
+          </li>
         </ul>
       </nav>
       <nav className="mobile">
