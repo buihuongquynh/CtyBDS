@@ -22,6 +22,9 @@ const HeaderMobile = ({setShowForm}) => {
           <a href="/contact">Tin Tức</a>
   
         </li>
+        <li onClick={() => setIsModalVisible(false)}>
+            <Link href="/retail-products">SẢN PHẨM BÁN LẺ</Link>
+          </li>
       </ul>
     </div>
   );

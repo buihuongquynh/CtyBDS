@@ -76,6 +76,7 @@ function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
           rel="stylesheet"
         />
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0&appId=993067854767767&autoLogAppEvents=1" nonce="ugr9C1mB"></script>
       </Head>
     <div id="fb-root"></div>
 
