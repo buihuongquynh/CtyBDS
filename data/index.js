@@ -378,7 +378,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           title: 'BÀN GỖ TRÒN ME TÂY CAMPUCHIA',
           des1: 'Giữ trong mình nét đẹp của tự nhiên, Bàn gỗ tròn me tây nguyên khối mang đến cho người dùng cảm giác ấm cúng, với đường vân độc đáo, duy nhất cho từng mẫu sản phẩm',
           des2: 'Thiết kế dáng tròn vừa phải, bạn có thể sử dụng làm bàn trà hay đặt vào trong không gian quán coffee theo phong cách tropical hay Rustic đều thực sự phù hợp.',
-          kt1: 'KT: R450mm*C400mm Giá: 80.000',
+          kt1: 'KT: R450mm*C400mm Price: 80.000',
 
           img: banle2.src
         },{
