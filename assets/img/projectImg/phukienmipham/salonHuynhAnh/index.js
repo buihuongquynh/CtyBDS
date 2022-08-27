@@ -1,0 +1,9 @@
+export const Minastore1 = require('./1.JPG');
+export const Minastore2 = require('./2.JPG');
+export const Minastore3 = require('./3.JPG');
+export const Minastore4 = require('./4.JPG');
+export const Minastore5 = require('./5.JPG');
+export const Minastore6 = require('./6.JPG');
+export const Minastore7 = require('./7.JPG');
+export const Minastore8 = require('./8.JPG');
+export const Minastore9 = require('./9.JPG');

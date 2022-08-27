@@ -2,6 +2,9 @@ import img from "../assets/img/thiet-ke-noi-that-chung-cu-1065.jpg"
 import * as startCofee from "../assets/img/projectImg/cafeNhahang/startCoffe"
 import * as nguyenvi from "../assets/img/projectImg/cafeNhahang/Nguyên Vị cafe"
 import * as sunny from "../assets/img/projectImg/cafeNhahang/SunnyCafe"
+import * as Cfnga5 from "../assets/img/projectImg/cafeNhahang/Cfnga5"
+import * as ChillCoffee from "../assets/img/projectImg/cafeNhahang/ChillCoffee"
+import * as KOICOFFEE from "../assets/img/projectImg/cafeNhahang/KOICOFFEE"
 import * as mesoc from "../assets/img/projectImg/shopThoiTrang/ShopMeSoc"
 import * as AnHouse from "../assets/img/projectImg/nhaO/AnHouse"
 import * as APapar from "../assets/img/projectImg/nhaO/AP apartment"
@@ -9,6 +12,7 @@ import * as HHapar from "../assets/img/projectImg/nhaO/HH apartment"
 import * as Qapar from "../assets/img/projectImg/nhaO/Q apartment"
 import * as Vapar from "../assets/img/projectImg/nhaO/V apartment"
 import * as Sweet from "../assets/img/projectImg/phukienmipham/SWEET"
+import * as salonHuynhAnh from "../assets/img/projectImg/phukienmipham/salonHuynhAnh"
 import * as Berg from "../assets/img/projectImg/shopThoiTrang/Berg _ Lee"
 import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
@@ -26,8 +30,12 @@ import banle3 from "../assets/img/retails/banle/Ảnh3.jpg"
 
 const data = () => {
   const tadashis = []
+  const salonHuynhAnhs = []
   const DuplexApartments = []
   const HHkitchens = []
+  const Cfnga5s = []
+  const ChillCoffees = []
+  const KOICOFFEEs = []
   const sunnys = []
   const mesocs = []
   const anTams = []
@@ -46,6 +54,18 @@ const data = () => {
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
+ for (const [key, value] of Object.entries(Cfnga5)) {
+  Cfnga5s.push(value.default.src)
+}
+for (const [key, value] of Object.entries(salonHuynhAnh)) {
+  salonHuynhAnhs.push(value.default.src)
+}
+for (const [key, value] of Object.entries(ChillCoffee)) {
+  ChillCoffees.push(value.default.src)
+} 
+for (const [key, value] of Object.entries(KOICOFFEE)) {
+  KOICOFFEEs.push(value.default.src)
+}
  for (const [key, value] of Object.entries(tadashi)) {
   tadashis.push(value.default.src)
 }
@@ -223,7 +243,18 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: `Để gia tăng diện tích sử dụng cho cửa hàng, các KTS PTK đã thiết kế 2 kệ gỗ full tường được chia nhiều ô trưng bày sản phẩm. Không gian được sử dụng 2 tone màu chính, gỗ đậm và đen, được bố trí dài màu xen kẽ nhằm tạo điểm nhấn hút mắt khách hàng vào vị trí sản phẩm, gia tăng tỷ lệ mua hàng.`,
           des1: ""  
         },
-        
+        {
+          id: 4,
+          name: "Salon tóc Huỳnh anh",
+          img: salonHuynhAnhs,
+          des: `Đi làm tóc lúc nào cũng phải ngồi đợi vài tiếng, mà đợi trong không gian đẹp như thế này thì cũng tranh thủ làm 7749 kiểu checkin kể cũng thú vị đấy nhỉ.`,
+          des1: `Salon tóc Huỳnh Anh được lựa chọn tone màu cam đất trendy, kết hợp với be xám mang vibe trẻ trung đúng như phong cách mà Salon hướng tới khách hàng "Luôn thay đổi, cập nhập xu hướng mới nhất"
+
+Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho những tín đồ làm đẹp tại Thanh Hóa trong thời gian tới nhé!` ,
+          des2: `▪️ Tư vấn thiết kế phù hợp với phong thuỷ từng cuộc đất để mang tài lộc đến cho việc kinh doanh thuận lợi
+▪️ Định hướng thiết kế sáng tạo, độc đáo đa dạng phong cách - thi công trọn gói tiết kiệm thời gian - ngân sách với cửa hàng thu hút khách hàng ngay từ cái nhìn đầu tiên
+          `
+        },
       ]
     },
     {
@@ -267,7 +298,30 @@ for (const [key, value] of Object.entries(Minastore)) {
           img: sunnys,
           des: "Sunny Coffee là một không gian cafe xanh mướt với tổng diện tích 300m2, rộng rãi, thoáng mát. Sunny Coffee khoác lên mình một thiết kế mở theo phong cách Tropical. Quán gồm 2 tầng trong nhà và một khoảng sân siêu rộng rãi um tùm cây xanh với sức chứa lớn, thiết kế với bố cục đường dọc cùng kính ốp bao quanh để đón trọn vẹn ánh sáng, lại tinh tế đưa thêm những giàn cây rủ vào giúp những đường khung bớt thô ráp mà mềm mại và có sức sống hơn.",
           des1: "Những chiếc bàn nhỏ xinh bằng gỗ me tây campuchia tự nhiên với hình thù độc đáo kết hợp vật liệu tái chế như thùng phi , chân máy khâu ... tre trúc nhằm hướng tới thông điệp bảo vệ môi trường  tạo cảm giác thích thú và gần gũi cho bất kỳ ai ghé thăm, phần nào thổi thêm những nét duyên ngầm cho Sunny Coffee."
-        },      
+        },
+        {
+          id: 6,
+          name: "Chill coffee",
+          img: ChillCoffees,
+          des: 'Thêm một "đứa con" nghệ thuật mới đầy tâm huyết của đội ngũ PTK. Lần này, làn gió Rustic với các vật liệu mộc mạc mang nét đẹp truyền thống của Việt Nam tạo nên "hồn" đậm chất Việt sẽ được đội ngũ KTS PTK tái hiện rõ nét trong từng khung hình. Một không gian ấm cúng đúng nghĩa với tinh thần "chill" từng khoảnh khắc sắp hoàn thiện tại Thanh Hóa, đón chờ những hình ảnh hoàn thiện đầu tiên, bạn nhé!',
+          des1: "✅ Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với tổ ấm của bạn!"
+        },     
+        {
+          id: 7,
+          name: "KOI COFFEE",
+          img: KOICOFFEEs,
+          des: 'Với tổng diện tích lên tới 500m2, Koi Coffee hứa hẹn là một điểm đến thú vị với các "dân chơi" Thanh Hóa. Koi nổi bật được cấu tạo từ 4  khối container cỡ lớn xếp chồng lên nhau mang không gian siêu chill, mát mẻ, đảm bảo bạn sẽ có những bộ hình #OOTD cực kỳ chất lượng luôn nhé!',
+          des1: "Một trong những điểm đặc biệt tại KOI COFFEE là những mô hình cá KOI độc đáo được thiết kế trong khoảng sân vườn cực kỳ rộng với 2 hồ cá Koi lớn. Lối kiến trúc theo không gian mở mang tới một cảm giác thực sự thư thái cho những vị khách ghé qua nơi đây.",
+          des2: "#PTK hi vọng rằng sẽ tạo ra được thật nhiều những địa điểm vui chơi chất lượng cho thành phố Thanh Hóa ngày một phát triển thêm!"
+        },     
+        {
+          id: 8,
+          name: "Cf ngã 5",
+          img: Cfnga5s,
+          des: "Một quán coffee nhỏ, nhưng cũng đủ gây thương nhớ cho những vị khách ghé thăm. Mang cảm giác rất xưa, rất mộc, mọi ngóc ngách đã được hoàn thiện và trau truốt tỉ mỉ với những khung cửa đầy màu sắc, mang đết chất dung di đời thường.",
+          des1: "Một buổi chiều ghé qua Ngã 5, nhâm nhi một ly cà phê nóng, nghe một chút nhạc nhẹ nhàng, ngắm nhìn dòng người qua lại để cảm thấy sự Tĩnh trong thành phố đầy ồn ã ngoài kia.",
+          des2: "Mỗi thường hiệu là một câu chuyện để kể, một hình ảnh để nhớ, hãy để PTK làm điều đó cùng với bạn nhé!"
+        },           
       ]
     },
     {
@@ -294,9 +348,9 @@ for (const [key, value] of Object.entries(Minastore)) {
           id: 3,
           name: "Nha khoa TaDaShi",
           img: tadashis,
-          des: ``,
-          des1: `Những dự án thiết kế phòng khám, spa dường như rất có duyên với Phố Thiết Kế, Một phòng khám đẹp không chỉ nằm ở nội thất tinh tế mà điều quan trọng nhất là thiết kế khoa học và chuẩn công năng. Cách sắp xếp, bài trí nội thất hợp lý chính là cơ sở cốt lõi để quy trình khám chữa bệnh diễn ra thuận lợi. Cùng PTK chiêm ngưỡng những hình ảnh  3D dự án Nha Khoa Tadashi tại Thanh Hóa và cùng cảm nhận nhé.`,
-          des2: ``
+          des: `Lại một lần nữa PTK đảm nhận vai trò xây dựng kiến tạo không gian chăm sóc bệnh nhân cho "Nha khoa Tadashi". Với ý nghĩa, thương hiệu đem đến những nụ cười rực rỡ, PTK đã lựa chọn tone màu vàng, tựa như ánh sáng, làm điểm nhấn chủ đạo.`,
+          des1: `Bên cạnh đó, thay vì những mảng tường kín, KTS tạo ra một không gian mở với các lớp kính bao phủ 2 mặt tiền mang lại cảm giác TIN CẬY, THOẢI MÁI, THƯ GIÃN cho bất kỳ khách hàng nào ghé qua TADASHI.`,
+          des2: `Với lối thiết kế hiện đại và hình khối khỏe khoắn, tất cả tạo nên không gian mới mẻ hài hòa và cá tính gắn liền với hình ảnh, màu sắc thương hiệu.`
         },
       ]
     },
