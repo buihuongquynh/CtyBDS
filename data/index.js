@@ -245,7 +245,7 @@ for (const [key, value] of Object.entries(Minastore)) {
         },
         {
           id: 4,
-          name: "Salon tóc Huỳnh anh",
+          name: "Salon tóc Huỳnh Anh",
           img: salonHuynhAnhs,
           des: `Đi làm tóc lúc nào cũng phải ngồi đợi vài tiếng, mà đợi trong không gian đẹp như thế này thì cũng tranh thủ làm 7749 kiểu checkin kể cũng thú vị đấy nhỉ.`,
           des1: `Salon tóc Huỳnh Anh được lựa chọn tone màu cam đất trendy, kết hợp với be xám mang vibe trẻ trung đúng như phong cách mà Salon hướng tới khách hàng "Luôn thay đổi, cập nhập xu hướng mới nhất"
@@ -316,7 +316,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
         },     
         {
           id: 8,
-          name: "Cf ngã 5",
+          name: "Caffe ngã 5",
           img: Cfnga5s,
           des: "Một quán coffee nhỏ, nhưng cũng đủ gây thương nhớ cho những vị khách ghé thăm. Mang cảm giác rất xưa, rất mộc, mọi ngóc ngách đã được hoàn thiện và trau truốt tỉ mỉ với những khung cửa đầy màu sắc, mang đết chất dung di đời thường.",
           des1: "Một buổi chiều ghé qua Ngã 5, nhâm nhi một ly cà phê nóng, nghe một chút nhạc nhẹ nhàng, ngắm nhìn dòng người qua lại để cảm thấy sự Tĩnh trong thành phố đầy ồn ã ngoài kia.",
@@ -378,7 +378,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           title: 'BÀN GỖ TRÒN ME TÂY CAMPUCHIA',
           des1: 'Giữ trong mình nét đẹp của tự nhiên, Bàn gỗ tròn me tây nguyên khối mang đến cho người dùng cảm giác ấm cúng, với đường vân độc đáo, duy nhất cho từng mẫu sản phẩm',
           des2: 'Thiết kế dáng tròn vừa phải, bạn có thể sử dụng làm bàn trà hay đặt vào trong không gian quán coffee theo phong cách tropical hay Rustic đều thực sự phù hợp.',
-          kt1: 'KT: R450mm*C400mm Price: 80.000',
+          kt1: 'KT: R450mm*C400mm Price: 800.000',
 
           img: banle2.src
         },{
