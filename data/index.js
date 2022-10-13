@@ -3,6 +3,9 @@ import * as startCofee from "../assets/img/projectImg/cafeNhahang/startCoffe"
 import * as nguyenvi from "../assets/img/projectImg/cafeNhahang/Nguyên Vị cafe"
 import * as sunny from "../assets/img/projectImg/cafeNhahang/SunnyCafe"
 import * as Cfnga5 from "../assets/img/projectImg/cafeNhahang/Cfnga5"
+import * as cafe1996 from "../assets/img/projectImg/cafeNhahang/cafe1996"
+import * as cafequantruong from "../assets/img/projectImg/cafeNhahang/cafequantruong"
+import * as cafe90 from "../assets/img/projectImg/cafeNhahang/cafe90"
 import * as ChillCoffee from "../assets/img/projectImg/cafeNhahang/ChillCoffee"
 import * as KOICOFFEE from "../assets/img/projectImg/cafeNhahang/KOICOFFEE"
 import * as mesoc from "../assets/img/projectImg/shopThoiTrang/ShopMeSoc"
@@ -34,6 +37,9 @@ const data = () => {
   const DuplexApartments = []
   const HHkitchens = []
   const Cfnga5s = []
+  const cafe90s = []
+  const cafe1996s = []
+  const cafequantruongs = []
   const ChillCoffees = []
   const KOICOFFEEs = []
   const sunnys = []
@@ -56,6 +62,15 @@ const data = () => {
  const Minastores = []
  for (const [key, value] of Object.entries(Cfnga5)) {
   Cfnga5s.push(value.default.src)
+}
+for (const [key, value] of Object.entries(cafe90)) {
+  cafe90s.push(value.default.src)
+}
+for (const [key, value] of Object.entries(cafe1996)) {
+  cafe1996s.push(value.default.src)
+}
+for (const [key, value] of Object.entries(cafequantruong)) {
+  cafequantruongs.push(value.default.src)
 }
 for (const [key, value] of Object.entries(salonHuynhAnh)) {
   salonHuynhAnhs.push(value.default.src)
@@ -316,6 +331,29 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
         },     
         {
           id: 8,
+          name: "TIỆM CÀ PHÊ 1996",
+          img: cafe90s,
+          des: "Từ những đường nét cơ bản, những hàm màu rực rỡ, những món đồ thân thuộc tưởng chừng những điều đơn giản ấy  kết hợp với nhau khiến không gian trở nên nhạt nhòa, nhưng dưới bàn tay của đội ngũ KTS PTK, một không gian dễ thương, dễ chill, dễ mến và dễ dàng chạm đến cảm xúc của bất kỳ vị khách nào ghé qua Tiệm cà phê 1996. Đơn giản nhưng không tầm thường, Qua những đường nét, chúng tôi đặt trong đó là cá tính, chất riêng của chủ đầu tư ở mỗi công trình riêng biệt."
+          
+        },
+        {
+          id: 9,
+          name: "GHÉ 90s",
+          img: cafe90s,
+          des: "Đúng như tinh thần từ cái tên 90s, PTK đem đến một không gian đậm chất hồi tưởng, ghé một chốn lạ mà hóa thành quen với những chiếc ghế, cái bàn, tách trà, bình hoa,...đầy cảm giác thân thuộc với thế hệ của thập niên 90 hay mới lạ và muốn trải nghiệm không gian xưa cũ chill chill từ những bạn trẻ",
+          des1: "Mỗi thế hệ khi ghé thăm 90s sẽ mang theo những cảm xúc khác nhau, có quen, có lạ nhưng chắc chắn là có sự yên bình, thân thương.",
+         
+        },
+        {
+          id: 10,
+          name: "COFFEE QUẢNG TRƯỜNG",
+          img: cafequantruongs,
+          des: "Quảng Trường được thiết kế trên một mặt bằng khá vuông vức, thoáng 4 phía với tổng diện tích sàn lên tới 500m2. Với mong muốn tận dụng được toàn bộ thế mạnh của mặt bằng: Thoáng, cũng như thể hiện tinh thần tươi mới, trẻ trung, thư thái, phù hợp với định hướng của quán, PTK đem đến một không gian trong lối thiết kế mở, tạo ra những ô thoáng lớn và những vách nan bao quanh cả công trình. Phong cách hiện đại kết hợp Wabisabi tạo ra một nơi chữa lành cảm xúc với những loại cây xanh phủ khắp không gian - cảm nhận vẻ đẹp từ sự không hoàn mỹ nhưng lại bình yên.",
+          des1: "Những đường cong uốn lượn giúp cho không gian trở nên nhịp nhàng, uyển chuyển hơn. Bên cạnh đó việc sử dụng chất liệu gỗ tự nhiên và những vật liệu tre, nứa quen thuộc cũng là một điểm nhấn chính của không gian, tôn vinh vẻ đẹp từ những vật liệu truyền thống.",
+          
+        },
+        {
+          id: 11,
           name: "Caffe ngã 5",
           img: Cfnga5s,
           des: "Một quán coffee nhỏ, nhưng cũng đủ gây thương nhớ cho những vị khách ghé thăm. Mang cảm giác rất xưa, rất mộc, mọi ngóc ngách đã được hoàn thiện và trau truốt tỉ mỉ với những khung cửa đầy màu sắc, mang đết chất dung di đời thường.",
