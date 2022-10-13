@@ -332,7 +332,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
         {
           id: 8,
           name: "TIỆM CÀ PHÊ 1996",
-          img: cafe90s,
+          img: cafe1996s,
           des: "Từ những đường nét cơ bản, những hàm màu rực rỡ, những món đồ thân thuộc tưởng chừng những điều đơn giản ấy  kết hợp với nhau khiến không gian trở nên nhạt nhòa, nhưng dưới bàn tay của đội ngũ KTS PTK, một không gian dễ thương, dễ chill, dễ mến và dễ dàng chạm đến cảm xúc của bất kỳ vị khách nào ghé qua Tiệm cà phê 1996. Đơn giản nhưng không tầm thường, Qua những đường nét, chúng tôi đặt trong đó là cá tính, chất riêng của chủ đầu tư ở mỗi công trình riêng biệt."
           
         },
