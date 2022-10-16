@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import ImgFixed from "../img-fixed";
 const MobileHome = ({ src, items }) => {
   const router = useRouter();
-  console.log(items,"items")
   var settings = {
     autoplay: true,
     autoplaySpeed: 3000,
