@@ -3,9 +3,7 @@ import * as startCofee from "../assets/img/projectImg/cafeNhahang/startCoffe"
 import * as nguyenvi from "../assets/img/projectImg/cafeNhahang/Nguyên Vị cafe"
 import * as sunny from "../assets/img/projectImg/cafeNhahang/SunnyCafe"
 import * as Cfnga5 from "../assets/img/projectImg/cafeNhahang/Cfnga5"
-
 import * as cafe1996 from "../assets/img/projectImg/cafeNhahang/cafe1996"
-
 import * as cafetrungkien from "../assets/img/projectImg/cafeNhahang/Cafe Trung Kiên"
 import * as milkteacoffe from "../assets/img/projectImg/cafeNhahang/Milktea & Coffee"
 import * as vucoffee from "../assets/img/projectImg/cafeNhahang/Vũ Coffee"
@@ -16,7 +14,6 @@ import * as cafemaihau from "../assets/img/projectImg/cafeNhahang/Cafe Mai Hậu
 import * as amycafe from "../assets/img/projectImg/cafeNhahang/Amy Cafe"
 import * as cafegocxua from "../assets/img/projectImg/cafeNhahang/Cafe Góc Xưa"
 import * as Homestaydalat from "../assets/img/projectImg/cafeNhahang/Homestay đà lạt"
-
 import * as cafequantruong from "../assets/img/projectImg/cafeNhahang/cafequantruong"
 import * as cafe90 from "../assets/img/projectImg/cafeNhahang/cafe90"
 import * as ChillCoffee from "../assets/img/projectImg/cafeNhahang/ChillCoffee"
