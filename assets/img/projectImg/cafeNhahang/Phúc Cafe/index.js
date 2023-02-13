@@ -1,0 +1,16 @@
+export const Phuccafe1 = require('./1.jpg');
+export const Phuccafe2 = require('./2.jpg');
+export const Phuccafe3 = require('./3.jpg');
+export const Phuccafe4 = require('./4.jpg');
+export const Phuccafe5 = require('./5.jpg');
+export const Phuccafe6 = require('./6.jpg');
+export const Phuccafe7 = require('./7.jpg');
+export const Phuccafe8 = require('./8.jpg');
+export const Phuccafe9 = require('./9.jpg');
+export const Phuccafe10 = require('./10.jpg');
+export const Phuccafe11 = require('./11.jpg');
+export const Phuccafe12 = require('./12.jpg');
+export const Phuccafe13 = require('./13.jpg');
+export const Phuccafe14 = require('./14.jpg');
+export const Phuccafe15 = require('./15.jpg');
+export const Phuccafe16 = require('./16.jpg');

@@ -1,0 +1,13 @@
+export const Vucoffee1 = require('./1.jpg');
+export const Vucoffee2 = require('./2.jpg');
+export const Vucoffee3 = require('./3.jpg');
+export const Vucoffee4 = require('./4.jpg');
+export const Vucoffee5 = require('./5.jpg');
+export const Vucoffee6 = require('./6.jpg');
+export const Vucoffee7 = require('./7.jpg');
+export const Vucoffee8 = require('./8.jpg');
+export const Vucoffee9 = require('./9.jpg');
+export const Vucoffee10 = require('./10.jpg');
+export const Vucoffee11 = require('./11.jpg');
+export const Vucoffee12 = require('./12.jpg');
+export const Vucoffee13 = require('./13.jpg');

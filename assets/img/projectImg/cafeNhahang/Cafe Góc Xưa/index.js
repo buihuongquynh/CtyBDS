@@ -1,0 +1,9 @@
+export const Cafegocxua1 = require('./1.jpg');
+export const Cafegocxua2 = require('./2.jpg');
+export const Cafegocxua3 = require('./3.jpg');
+export const Cafegocxua4 = require('./4.jpg');
+export const Cafegocxua5 = require('./5.jpg');
+export const Cafegocxua6 = require('./6.jpg');
+export const Cafegocxua7 = require('./7.jpg');
+export const Cafegocxua8 = require('./8.jpg');
+export const Cafegocxua9 = require('./9.jpg');

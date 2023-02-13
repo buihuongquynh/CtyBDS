@@ -1,0 +1,10 @@
+export const Caffee1651 = require('./1.jpg');
+export const Caffee1652 = require('./2.jpg');
+export const Caffee1653 = require('./3.jpg');
+export const Caffee1654 = require('./4.jpg');
+export const Caffee1655 = require('./5.jpg');
+export const Caffee1656 = require('./6.jpg');
+export const Caffee1657 = require('./7.jpg');
+export const Caffee1658 = require('./8.jpg');
+export const Caffee1659 = require('./9.jpg');
+export const Caffee16510 = require('./10.jpg');

@@ -3,7 +3,20 @@ import * as startCofee from "../assets/img/projectImg/cafeNhahang/startCoffe"
 import * as nguyenvi from "../assets/img/projectImg/cafeNhahang/Nguyên Vị cafe"
 import * as sunny from "../assets/img/projectImg/cafeNhahang/SunnyCafe"
 import * as Cfnga5 from "../assets/img/projectImg/cafeNhahang/Cfnga5"
+
 import * as cafe1996 from "../assets/img/projectImg/cafeNhahang/cafe1996"
+
+import * as cafetrungkien from "../assets/img/projectImg/cafeNhahang/Cafe Trung Kiên"
+import * as milkteacoffe from "../assets/img/projectImg/cafeNhahang/Milktea & Coffee"
+import * as vucoffee from "../assets/img/projectImg/cafeNhahang/Vũ Coffee"
+import * as zinzincofe from "../assets/img/projectImg/cafeNhahang/Zin Zin Coffee"
+import * as phuccoffee from "../assets/img/projectImg/cafeNhahang/Phúc Cafe"
+import * as cafe165 from "../assets/img/projectImg/cafeNhahang/Caffee 165"
+import * as cafemaihau from "../assets/img/projectImg/cafeNhahang/Cafe Mai Hậu"
+import * as amycafe from "../assets/img/projectImg/cafeNhahang/Amy Cafe"
+import * as cafegocxua from "../assets/img/projectImg/cafeNhahang/Cafe Góc Xưa"
+import * as Homestaydalat from "../assets/img/projectImg/cafeNhahang/Homestay đà lạt"
+
 import * as cafequantruong from "../assets/img/projectImg/cafeNhahang/cafequantruong"
 import * as cafe90 from "../assets/img/projectImg/cafeNhahang/cafe90"
 import * as ChillCoffee from "../assets/img/projectImg/cafeNhahang/ChillCoffee"
@@ -60,6 +73,49 @@ const data = () => {
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
+ 
+ const cafetrungkiens = []
+ const milkteacoffes = []
+ const vucoffees = []
+ const zinzincofes = []
+ const phuccoffees = []
+ const cafe165s = []
+ const cafemaihaus = []
+ const amycafes = []
+ const cafegocxuas = []
+ const Homestaydalats= []
+
+ for (const [key, value] of Object.entries(Homestaydalat)) {
+  Homestaydalats.push(value.default.src)
+}
+ for (const [key, value] of Object.entries(cafetrungkien)) {
+  cafetrungkiens.push(value.default.src)
+}
+for (const [key, value] of Object.entries(zinzincofe)) {
+  zinzincofes.push(value.default.src)
+}
+for (const [key, value] of Object.entries(milkteacoffe)) {
+  milkteacoffes.push(value.default.src)
+}
+for (const [key, value] of Object.entries(vucoffee)) {
+  vucoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(phuccoffee)) {
+  phuccoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(cafemaihau)) {
+  cafemaihaus.push(value.default.src)
+}
+for (const [key, value] of Object.entries(amycafe)) {
+  amycafes.push(value.default.src)
+}
+for (const [key, value] of Object.entries(cafegocxua)) {
+  cafegocxuas.push(value.default.src)
+}
+for (const [key, value] of Object.entries(cafe165)) {
+  cafe165s.push(value.default.src)
+}
+
  for (const [key, value] of Object.entries(Cfnga5)) {
   Cfnga5s.push(value.default.src)
 }
@@ -359,7 +415,89 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des: "Một quán coffee nhỏ, nhưng cũng đủ gây thương nhớ cho những vị khách ghé thăm. Mang cảm giác rất xưa, rất mộc, mọi ngóc ngách đã được hoàn thiện và trau truốt tỉ mỉ với những khung cửa đầy màu sắc, mang đết chất dung di đời thường.",
           des1: "Một buổi chiều ghé qua Ngã 5, nhâm nhi một ly cà phê nóng, nghe một chút nhạc nhẹ nhàng, ngắm nhìn dòng người qua lại để cảm thấy sự Tĩnh trong thành phố đầy ồn ã ngoài kia.",
           des2: "Mỗi thường hiệu là một câu chuyện để kể, một hình ảnh để nhớ, hãy để PTK làm điều đó cùng với bạn nhé!"
-        },           
+        }, 
+        {
+          id: 12,
+          name: "Amy Cooffee",
+          img: amycafes,
+          des: "Một không gian Cafe sân vườn chill chill cho những buổi hẹn hò vui vẻ trong những ngày đầu năm mới. ",
+          des1: "Phố Thiết Kế không đơn thuần chỉ tạo nên những không gian trải nghiệm cafe đa dạng mà còn góp một phần nhỏ thay đổi diện mạo của thành phố Thanh Hóa, đẹp hơn, chill hơn. ",
+          des2: "Còn bao nhiêu dự án đang ấp ủ chưa được triển khai, 2023 rồi, hãy biến những ấp ủ đó thành hiện thực thôi nào bạn ơi!"
+        }, 
+        {
+          id: 13,
+          name: "Cafe Góc Xưa",
+          img: cafegocxuas,
+          des: "Cà Phê Góc Xưa - Sự kết hợp hài hòa giữa nét đẹp xưa cũ được tái hiện lại trên nền chất liệu hiện đại, luôn đem đến cho ta những cảm xúc khác biệt nhẩt. ",
+          des1: "Cũng là những chất liệu mang nét đẹp mộc mạc, nhưng chúng mình tin rằng mỗi dự án sẽ mang đến một hành trình trải nghiệm khác nhau. Nếu bạn yêu cái vẻ đẹp Mộc, Yêu luôn cả hơi thở của thời đại mới, thì hãy inbox cho Phố ngay nhé!"
+          
+        },   
+        {
+          id: 14,
+          name: "Cafe Mai Hậu",
+          img: cafemaihaus,
+          des: "☕️Nhỏ, giản dị nhưng cũng rất tình 🍂",
+          des1: "Vốn dĩ những quán kiểu xưa cũ đã mang trong mình một cảm giác gì đó rất thơ, rất trữ tình. Mặc dùng sở hữu diện tích khá nhỏ xinh thế nhưng với lợi thế 2 mặt tiền khiến cho những vị khách ghé thăm sẽ luôn cảm thấy thoáng, nhẹ nhàng, dễ thở. Vũ Coffee là một tổng thể khá dễ thương, đủ bình yên cho một ngày 'cần sống chậm lại một chút'"
+        },   
+        {
+          id: 15,
+          name: "Cà phê 165",
+          img: cafe165s,
+          des: "Quán cafe mang vẻ đẹp NGỌT NGÀO tại Nông Cống, Thanh Hóa ",
+          des1: "Không gian mang một tone màu pastel vừa nhẹ nhàng, vừa ngọt ngào tự như mối tình đầu  💃🏻 ",
+          des2: "Một quán cà phê với thiết kế đơn giản, hiện đại cùng mức chi phí hợp lý là lựa chọn tối ưu cho những bạn muốn khởi nghiệp ngành F&B!"
+        },   
+        {
+          id: 16,
+          name: "Phúc Cafe",
+          img: phuccoffees,
+          des: "Lần này, chúng mình mang đến một không gian 'đậm chất Phố' với một quán cafe vibe 199x thời ấy, dân dã, đậm chất 'mộc'. Một địa điểm mà bạn có thể làm ngay một bộ ảnh vintage ở bất kỳ góc ngồi nào ❤",
+          des1: "",
+          des2: ""
+        },   
+        {
+          id: 17,
+          name: "Zin Zin Coffee",
+          img: zinzincofes,
+          des: "QUÁN CÀ PHÊ MANG PHONG CÁCH HIỆN ĐẠI - THÔNG THOÁNG",
+          des1: "Nhâm nhi một món đồ uống, làm việc, gặp gỡ đối tác trong không gian lịch sự, thông thoáng để bạn có thể dành trọn tâm trí với những kế hoạch của riêng mình.",
+          des2: "Zin Zin Cà phê đươc thiết kế với những 'khoảng thở' lớn, thay vì các bàn được kê sát gần nhau thì chúng được đặt cách nhau một khoảng tương đối tạo ra  bầu không khí thoải mái nhất.",
+          des3:"Bạn có thể lựa chọn ngồi trước ô cửa sổ lớn với góc view thông thoáng hoặc 'đặt gạch' một góc nhỏ yên tĩnh trên không gian tầng  hai."
+        },   
+        {
+          id: 18,
+          name: "Vũ Cooffee",
+          img: vucoffees,
+          des: "☕️Nhỏ, giản dị nhưng cũng rất tình 🍂",
+          des1: "Vốn dĩ những quán kiểu xưa cũ đã mang trong mình một cảm giác gì đó rất thơ, rất trữ tình. Mặc dùng sở hữu diện tích khá nhỏ xinh thế nhưng với lợi thế 2 mặt tiền khiến cho những vị khách ghé thăm sẽ luôn cảm thấy thoáng, nhẹ nhàng, dễ thở. Vũ Coffee là một tổng thể khá dễ thương, đủ bình yên cho một ngày 'cần sống chậm lại một chút'",
+          des2: ""
+        },   
+        {
+          id: 19,
+          name: "MILK TEA & COFFEE",
+          img: milkteacoffes,
+          des: "'Phố ơi mình có nhận dự án nho nhỏ 30m2 không?' Với chúng mình, dù diện tích nhỏ hay to đều có những phương án thiết kế thi công phù hợp, vậy nên đừng ngần ngại đưa cho chúng mình một đề bài cụ thể, đội ngũ KTS của PTK sẽ có những tư vấn giúp bạn dễ dàng hình dung ra không gian kinh doanh của mình.",
+          des1: "Cảm ơn niềm tin của khách hàng đã gửi cho #Phothietke để chúng mình có cơ hội góp một phần nhỏ thay đổi diện mạo thành phố với những tụ điểm ăn chơi cực kỳ chất lượng dành cho giới trẻ.",
+          des2: ""
+        },   
+        {
+          id: 20,
+          name: "HOMESTAY ĐÀ LẠT",
+          img: Homestaydalats,
+          des: "Gác lại những ồn ã, vội vã sau cánh cửa, homestay Đà Lạt mang đến một không gian nghỉ ngơi thư thái và gần gũi. Căn hộ hiện lên với phong cách Scandinavi đơn giản cùng tông màu gỗ và trắng, kết hợp vật liệu mây quen thuộc tạo nên một tổng thể hài hòa, ấm áp, ấn tượng.",
+          des1: "",
+          des2: ""
+        },  
+        {
+          id: 21,
+          name: "COFFEE TRUNG KIÊN",
+          img: cafetrungkiens,
+          des: "Bạn nghĩ sao khi ngồi uống Cafe trên một quả đồi, ngồi phóng tầm mắt ra thiên nhiên hùng vĩ, hưởng không khí trong lành và yên bình? Hãy thử cảm giác đó khi ghé qua Coffee Trung kiên bạn nhé! ",
+          des1: "Sự đa dạng trong thiết kế và nắm bắt nhu cầu của khách hàng luôn là kim chỉ nam mà Phố Thiết kế hướng đến. Mỗi một dự án đều đem lại một cảm xúc đặc biệt, mang tính duy mỹ riêng và một cảm giác rất riêng cho mọi khách hàng. Mặc dù vậy, tính chuyên môn và các tiêu chuẩn kỹ thuật cao đều được đội ngũ KTS tính toán tỉ mỉ phù hợp với không gian, ngân sách và yêu cầu của chủ đầu tư!",
+          des2: ""
+        },      
+           
+
       ]
     },
     {

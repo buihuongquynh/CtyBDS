@@ -1,0 +1,17 @@
+export const Zinzincoffee1 = require('./1.jpg');
+export const Zinzincoffee2 = require('./2.jpg');
+export const Zinzincoffee3 = require('./3.jpg');
+export const Zinzincoffee4 = require('./4.jpg');
+export const Zinzincoffee5 = require('./5.jpg');
+export const Zinzincoffee6 = require('./6.jpg');
+export const Zinzincoffee7 = require('./7.jpg');
+export const Zinzincoffee8 = require('./8.jpg');
+export const Zinzincoffee9 = require('./9.jpg');
+export const Zinzincoffee10 = require('./10.jpg');
+export const Zinzincoffee11 = require('./11.jpg');
+export const Zinzincoffee12 = require('./12.jpg');
+export const Zinzincoffee13 = require('./13.jpg');
+export const Zinzincoffee14 = require('./14.jpg');
+export const Zinzincoffee15 = require('./15.jpg');
+export const Zinzincoffee16 = require('./16.jpg');
+export const Zinzincoffee17 = require('./17.jpg');
