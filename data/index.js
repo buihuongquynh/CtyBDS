@@ -42,6 +42,16 @@ import banle2 from "../assets/img/retails/banle/Ảnh2.jpg"
 import banle3 from "../assets/img/retails/banle/Ảnh3.jpg"
 
 const data = () => {
+  const cafetrungkiens = []
+  const milkteacoffes = []
+  const vucoffees = []
+  const zinzincofes = []
+  const phuccoffees = []
+  const cafe165s = []
+  const cafemaihaus = []
+  const amycafes = []
+  const cafegocxuas = []
+  const Homestaydalats= []
   const tadashis = []
   const salonHuynhAnhs = []
   const DuplexApartments = []
@@ -70,19 +80,9 @@ const data = () => {
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
- 
- const cafetrungkiens = []
- const milkteacoffes = []
- const vucoffees = []
- const zinzincofes = []
- const phuccoffees = []
- const cafe165s = []
- const cafemaihaus = []
- const amycafes = []
- const cafegocxuas = []
- const Homestaydalats= []
 
- for (const [key, value] of Object.entries(Homestaydalat)) {
+
+for (const [key, value] of Object.entries(Homestaydalat)) {
   Homestaydalats.push(value.default.src)
 }
  for (const [key, value] of Object.entries(cafetrungkien)) {
@@ -112,8 +112,7 @@ for (const [key, value] of Object.entries(cafegocxua)) {
 for (const [key, value] of Object.entries(cafe165)) {
   cafe165s.push(value.default.src)
 }
-
- for (const [key, value] of Object.entries(Cfnga5)) {
+for (const [key, value] of Object.entries(Cfnga5)) {
   Cfnga5s.push(value.default.src)
 }
 for (const [key, value] of Object.entries(cafe90)) {
