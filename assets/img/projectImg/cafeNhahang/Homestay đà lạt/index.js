@@ -16,4 +16,3 @@ export const Homestaydalat15 = require('./15.jpg');
 export const Homestaydalat16 = require('./16.jpg');
 export const Homestaydalat17 = require('./17.jpg');
 export const Homestaydalat18 = require('./18.jpg');
-export const Homestaydalat19 = require('./19.jpg');
