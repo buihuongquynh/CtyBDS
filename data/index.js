@@ -37,11 +37,25 @@ import * as HHkitchen from "../assets/img/projectImg/nhaO/HH kitchen"
 import * as anTam from "../assets/img/projectImg/Show room dược phẩm/Nhà thuốc An Tâm"
 import * as DuplexApartment from "../assets/img/projectImg/nhaO/Duplex Apartment"
 import * as tadashi from "../assets/img/projectImg/Show room dược phẩm/Nha khoa tadashi"
+import * as coffee23 from "../assets/img/projectImg/cafeNhahang/Coffee 23"
+import * as kiencoffee from "../assets/img/projectImg/cafeNhahang/Kiên Coffee"
+import * as luoicoffee from "../assets/img/projectImg/cafeNhahang/Lười coffee"
+import * as mincoffee from "../assets/img/projectImg/cafeNhahang/Min Coffee _ Tea"
+import * as royalcoffee from "../assets/img/projectImg/cafeNhahang/Royal Coffee"
+import * as tengocoffee from "../assets/img/projectImg/cafeNhahang/Tengo Coffee"
+import * as vuasmartcity from "../assets/img/projectImg/shopThoiTrang/Vua Smart city"
 import banle1 from "../assets/img/retails/banle/Ảnh1.jpg"
 import banle2 from "../assets/img/retails/banle/Ảnh2.jpg"
 import banle3 from "../assets/img/retails/banle/Ảnh3.jpg"
 
 const data = () => {
+  const coffee23s = []
+  const kiencoffees = []
+  const luoicoffees = []
+  const mincoffees = []
+  const royalcoffees = []
+  const tengocoffees = []
+  const vuasmartcitys = []
   const cafetrungkiens = []
   const milkteacoffes = []
   const vucoffees = []
@@ -81,7 +95,27 @@ const data = () => {
  const Quaybars = []
  const Minastores = []
 
-
+ for (const [key, value] of Object.entries(coffee23)) {
+  coffee23s.push(value.default.src)
+}
+for (const [key, value] of Object.entries(kiencoffee)) {
+  kiencoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(luoicoffee)) {
+  luoicoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(mincoffee)) {
+  mincoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(royalcoffee)) {
+  royalcoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(tengocoffee)) {
+  tengocoffees.push(value.default.src)
+}
+for (const [key, value] of Object.entries(vuasmartcity)) {
+  vuasmartcitys.push(value.default.src)
+}
 for (const [key, value] of Object.entries(Homestaydalat)) {
   Homestaydalats.push(value.default.src)
 }
@@ -282,6 +316,13 @@ for (const [key, value] of Object.entries(Minastore)) {
           img: mesocs,
           des: `Một trong những dự án khá dễ thương với tone màu hồng ngọt ngào dành cho mẹ và bé. Các KTS PTK sử dụng chủ yếu kệ tầng bao quanh không gian nhằm tiết kiệm tối đa diện tích để khoảng di chuyển rộng rãi cho mẹ và bé ghé thăm của hàng.`,
           des1: "PTK không chỉ đơn giản là kiến tạo nên không gian mà còn tạo ra hành trình mua sắm thoải mái, thân thiện dành cho khách hàng."  
+        },
+        {
+          id: 4,
+          name: "Vua smart city",
+          img: vuasmartcitys,
+          des: "Không chỉ tập trung vào phân khúc nhà hàng cafe mà Phố còn đảm nhận thiết kế và thi công mặt bằng kinh doanh đa dạng lĩnh vực, phù hợp với tính cách thương hiệu!",
+          des1: ""  
         },
       ]
     },
@@ -491,7 +532,55 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des: "Bạn nghĩ sao khi ngồi uống Cafe trên một quả đồi, ngồi phóng tầm mắt ra thiên nhiên hùng vĩ, hưởng không khí trong lành và yên bình? Hãy thử cảm giác đó khi ghé qua Coffee Trung kiên bạn nhé! ",
           des1: "Sự đa dạng trong thiết kế và nắm bắt nhu cầu của khách hàng luôn là kim chỉ nam mà Phố Thiết kế hướng đến. Mỗi một dự án đều đem lại một cảm xúc đặc biệt, mang tính duy mỹ riêng và một cảm giác rất riêng cho mọi khách hàng. Mặc dù vậy, tính chuyên môn và các tiêu chuẩn kỹ thuật cao đều được đội ngũ KTS tính toán tỉ mỉ phù hợp với không gian, ngân sách và yêu cầu của chủ đầu tư!",
           des2: ""
-        },      
+        },  
+        {
+          id: 22,
+          name: "COFFEE 23",
+          img: coffee23s,
+          des: "Nằm trên con đường Phan Bội Châu, Coffee 23 mang cho mình một vibe rất nhẹ nhàng, thanh lịch. Ánh sáng và không khí tự nhiên tràn ngập trong toàn không gian bởi lối thiết kế mở, sẵn sàng đem đến cho bạn trải nghiệm một buổi Cafe thoải mái nhất!",
+          des1: "Những chi tiết đường nét được tối giản vừa đủ, tính toán tối ưu về mặt công năng sử dụng và chi phí hoàn thiện, là giải pháp mà Phố đem tới cho những dự án có diện tích vừa phải.",
+          des2: "✅ Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với dự án của bạn nhé!"
+        }, 
+        {
+          id: 23,
+          name: "ROYAL TEA ",
+          img: royalcoffees,
+          des: "Điểm dừng chân mang đậm vibe Hàn Quốc",
+          des1: "Đi uống trà sữa thôi nhưng góc nào cũng khiến cho bạn có 7749 kiểu sống ảo giữa không gian trắng nền nã, điểm tô thêm những chi tiết gỗ ấm áp. Bàn ghế được xếp với khoảng cách vừa đủ để luôn mang đến cảm giác thoáng đãng khi bạn tụ tập với bạn bè ",
+          des2: ""
+        }, 
+        {
+          id: 24,
+          name: "KIÊN COFFEE",
+          img: kiencoffees,
+          des: "Kiên Coffee - Một không gian cafe xinh xắn được thiết kế tại Quảng Xương - Thanh Hoá. Phố Thiết Kế gửi một tone màu nâu gỗ ấm áp, nhẹ nhàng làm chủ đạo. Không gian mang một chút phong cách Nhật Bản kết hợp với vật liệu mây tre đan quen thuộc của Việt Nam tạo nên một sự giao thoa khá thú vị. Sẵn sàng khám phá không gian cafe mới chưa bạn ơi!!!"
+          
+        }, 
+        {
+          id: 25,
+          name: "MIN COFFEE & TEA",
+          img: mincoffees,
+          des: "Một quán coffee 'tone kẹo' sẽ khiến bạn đắm chìm trong sự ngọt ngào và dễ chịu ngay từ lần ghé đầu tiên. Với tone màu pastel ngọt ngào, chiếc tiệm xinh xắn này sẽ đưa bạn vào một thế giới của sự tối giản và nhẹ nhàng.",
+          des1: "Quán cafe được thiết kế với vibes tone Hàn đầy phong cách, tạo ra một không gian ấm cúng và thoải mái để bạn có thể thư giãn. Min Coffee & Tea có 2 không gian trong nhà và bên ngoài, cho phép bạn lựa chọn nơi ngồi yêu thích của mình.",
+          des2: ""
+        }, 
+        {
+          id: 26,
+          name: "LƯỜI COFFEE",
+          img: cafetrungkiens,
+          des: "Có những ngày chỉ muốn trốn khỏi chiếc laptop một chút, dành thời gian cho bản thân, nhâm nhi chút trà hay cafe, cười thoải mái với hội bạn thân, thì bạn ghé qua nhà Lười nhé! ",
+          des1: "Lười Coffee là một quán Café sân vườn với không gian mở tràn ngập sắc xanh cực kỳ chill sẵn sàng chìu lòng tất cả mọi người dù là ngày ngập nắng hay khi tối đã lên đèn. Không gian sân vườn đem đến cho bạn cảm giác camping ngay trong lòng thành phố!",
+          des2: "Không gian trong nhà được thiết kế dành cho những tín đồ board game: mèo nổ, ma sói hay poker…"
+        }, 
+        {
+          id: 27,
+          name: "TENGO COFFEE",
+          img: cafetrungkiens,
+          des: "The details are not the details. They make the design",
+          des1: "Tengo Coffee nổi bật trên con phố Hoàng Sơn với một màu cam đất rực rỡ, đầy thu hút. Không chỉ là một quán cafe, Tengo còn là không gian xoa dịu cảm xúc mỗi khi ta mệt mỏi với guồng quay cuộc sống. Một không gian mở thư thái sẵn sàng trở thành nơi trú ẩn cho bất kỳ ai đang tìm cho mình một 'hơi thở' mới với sự thảnh thơi và xúc cảm đầy thoải mái.",
+          des2: ""
+        }, 
+          
            
 
       ]

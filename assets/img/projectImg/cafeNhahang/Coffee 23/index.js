@@ -1,0 +1,17 @@
+export const coffee231 = require('./1.jpg');
+export const coffee232 = require('./2.jpg');
+export const coffee233 = require('./3.jpg');
+export const coffee234 = require('./4.jpg');
+export const coffee235 = require('./5.jpg');
+export const coffee236 = require('./6.jpg');
+export const coffee237 = require('./7.jpg');
+export const coffee238 = require('./8.jpg');
+export const coffee239 = require('./9.jpg');
+export const coffee2310 = require('./10.jpg');
+export const coffee2311 = require('./11.jpg');
+export const coffee2312 = require('./12.jpg');
+export const coffee2313 = require('./13.jpg');
+export const coffee2314 = require('./14.jpg');
+export const coffee2315 = require('./15.jpg');
+export const coffee2316 = require('./16.jpg');
+export const coffee2317 = require('./17.jpg');
