@@ -567,7 +567,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
         {
           id: 26,
           name: "LƯỜI COFFEE",
-          img: cafetrungkiens,
+          img: luoicoffees,
           des: "Có những ngày chỉ muốn trốn khỏi chiếc laptop một chút, dành thời gian cho bản thân, nhâm nhi chút trà hay cafe, cười thoải mái với hội bạn thân, thì bạn ghé qua nhà Lười nhé! ",
           des1: "Lười Coffee là một quán Café sân vườn với không gian mở tràn ngập sắc xanh cực kỳ chill sẵn sàng chìu lòng tất cả mọi người dù là ngày ngập nắng hay khi tối đã lên đèn. Không gian sân vườn đem đến cho bạn cảm giác camping ngay trong lòng thành phố!",
           des2: "Không gian trong nhà được thiết kế dành cho những tín đồ board game: mèo nổ, ma sói hay poker…"
@@ -575,7 +575,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
         {
           id: 27,
           name: "TENGO COFFEE",
-          img: cafetrungkiens,
+          img: tengocoffees,
           des: "The details are not the details. They make the design",
           des1: "Tengo Coffee nổi bật trên con phố Hoàng Sơn với một màu cam đất rực rỡ, đầy thu hút. Không chỉ là một quán cafe, Tengo còn là không gian xoa dịu cảm xúc mỗi khi ta mệt mỏi với guồng quay cuộc sống. Một không gian mở thư thái sẵn sàng trở thành nơi trú ẩn cho bất kỳ ai đang tìm cho mình một 'hơi thở' mới với sự thảnh thơi và xúc cảm đầy thoải mái.",
           des2: ""
