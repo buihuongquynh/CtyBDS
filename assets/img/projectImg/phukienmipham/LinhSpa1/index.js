@@ -1,0 +1,13 @@
+export const LinhSpa11 = require('./1.jpg');
+export const LinhSpa12 = require('./2.jpg');
+export const LinhSpa13 = require('./3.jpg');
+export const LinhSpa14 = require('./4.jpg');
+export const LinhSpa15 = require('./5.jpg');
+export const LinhSpa16 = require('./6.jpg');
+export const LinhSpa17 = require('./7.jpg');
+export const LinhSpa18 = require('./8.jpg');
+export const LinhSpa19 = require('./9.jpg');
+export const LinhSpa110 = require('./10.jpg');
+export const LinhSpa111 = require('./11.jpg');
+export const LinhSpa112 = require('./12.jpg');
+export const LinhSpa113 = require('./13.jpg');

@@ -1,0 +1,19 @@
+export const Sixcoffe1 = require('./1.jpg');
+export const Sixcoffe2 = require('./2.jpg');
+export const Sixcoffe3 = require('./3.jpg');
+export const Sixcoffe4 = require('./4.jpg');
+export const Sixcoffe5 = require('./5.jpg');
+export const Sixcoffe6 = require('./6.jpg');
+export const Sixcoffe7 = require('./7.jpg');
+export const Sixcoffe8 = require('./8.jpg');
+export const Sixcoffe9 = require('./9.jpg');
+export const Sixcoffe10 = require('./10.jpg');
+export const Sixcoffe11= require('./11.jpg');
+export const Sixcoffe12 = require('./12.jpg');
+export const Sixcoffe13 = require('./13.jpg');
+export const Sixcoffe14 = require('./14.jpg');
+export const Sixcoffe15 = require('./15.jpg');
+export const Sixcoffe16 = require('./16.jpg');
+export const Sixcoffe17 = require('./17.jpg');
+export const Sixcoffe18 = require('./18.jpg');
+

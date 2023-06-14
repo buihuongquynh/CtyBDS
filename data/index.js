@@ -31,6 +31,13 @@ import * as Moyan from "../assets/img/projectImg/shopThoiTrang/Moyan Shop"
 import * as anCoffe from "../assets/img/projectImg/cafeNhahang/AnCoffe"
 import * as medicine from "../assets/img/projectImg/Show room dược phẩm/Show room dược phẩm"
 import * as LinhSpa from "../assets/img/projectImg/phukienmipham/LinhSpa"
+import * as LinhSpa1 from "../assets/img/projectImg/phukienmipham/LinhSpa1"
+import * as Caphenhatoi from "../assets/img/projectImg/cafeNhahang/Caphenhatoi"
+import * as Bauben from "../assets/img/projectImg/cafeNhahang/Baubencafe"
+import * as Mitacafe from "../assets/img/projectImg/cafeNhahang/Mitacafe"
+import * as Sixcoffe from "../assets/img/projectImg/cafeNhahang/SixCoffee"
+import * as Tiembotbanhmy from "../assets/img/projectImg/cafeNhahang/Tienbanhbotmy"
+import * as Zonecake from "../assets/img/projectImg/cafeNhahang/Zoekcake"
 import * as Minastore from "../assets/img/projectImg/phukienmipham/Minastore"
 import * as Quaybar from "../assets/img/projectImg/cafeNhahang/Quaybar"
 import * as HHkitchen from "../assets/img/projectImg/nhaO/HH kitchen"
@@ -94,7 +101,35 @@ const data = () => {
  const LinhSpas = []
  const Quaybars = []
  const Minastores = []
+ const LinhSpa1s = []
+ const Baubens = []
+ const Caphenhatois = []
+ const Mitacafes = []
+ const Sixcoffes = []
+ const Tiembotbanhmys = []
+ const Zoekcakes = []
 
+ for (const [key, value] of Object.entries(LinhSpa1)) {
+  LinhSpa1s.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Bauben)) {
+  Baubens.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Caphenhatoi)) {
+  Caphenhatois.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Mitacafe)) {
+  Mitacafes.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Sixcoffe)) {
+  Sixcoffes.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Tiembotbanhmy)) {
+  Tiembotbanhmys.push(value.default.src)
+}
+for (const [key, value] of Object.entries(Zonecake)) {
+  Zoekcakes.push(value.default.src)
+}
  for (const [key, value] of Object.entries(coffee23)) {
   coffee23s.push(value.default.src)
 }
@@ -363,6 +398,16 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
 ▪️ Định hướng thiết kế sáng tạo, độc đáo đa dạng phong cách - thi công trọn gói tiết kiệm thời gian - ngân sách với cửa hàng thu hút khách hàng ngay từ cái nhìn đầu tiên
           `
         },
+        {
+          id: 5,
+          name: "LINH SPA",
+          img: LinhSpa1s,
+          des: `Linh Spa được thiết kế với tone màu trắng nhã nhặn, tạo nên một không gian tinh tế và thanh lịch. Màu trắng là màu sắc truyền tải sự trong sáng và thanh thoát, mang lại cảm giác nhẹ nhàng và nâng niu cho khách hàng khi họ đến thư giãn và làm dịch vụ tại đây.`,
+          des1: `Mỗi chi tiết trong Linh Spa được chăm chút tỉ mỉ, đặc biệt là sự lựa chọn các sản phẩm  có những góc bo tròn mềm mại, tạo điểm nhấn đẹp mắt cùng với không gian tinh khiết, mang lại cảm giác thanh lịch và dịu dàng.`  ,
+          des2: `Với bố trí tỉ mỉ, không gian Linh Spa tạo ra một môi trường thư thái, hòa quyện với âm nhạc nhẹ nhàng và hương thơm dịu mát, đem lại sự thư giãn tuyệt đối cho khách hàng.`,
+          des3: `Phố luôn tìm hiểu đối tượng khách hàng và lựa chọn vibe thiết kế phù hợp nhất với từng mô hình kinh doanh. Điều này giúp Linh Spa mang đến trải nghiệm dịch vụ tốt nhất cho khách hàng. Cho dù là một không gian hiện đại và sang trọng hoặc một không gian gần gũi và ấm cúng, mọi chi tiết đều được tinh chỉnh để đảm bảo khách hàng cảm thấy thoải mái và hài lòng.`,
+            
+        },
       ]
     },
     {
@@ -580,6 +625,54 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des1: "Tengo Coffee nổi bật trên con phố Hoàng Sơn với một màu cam đất rực rỡ, đầy thu hút. Không chỉ là một quán cafe, Tengo còn là không gian xoa dịu cảm xúc mỗi khi ta mệt mỏi với guồng quay cuộc sống. Một không gian mở thư thái sẵn sàng trở thành nơi trú ẩn cho bất kỳ ai đang tìm cho mình một 'hơi thở' mới với sự thảnh thơi và xúc cảm đầy thoải mái.",
           des2: ""
         }, 
+        {
+          id: 28,
+          name: "NHÀ TÔI COFFEE",
+          img: Caphenhatois,
+          des: "Thêm một không gian coffee sân vườn với hồ cá lớn dành cho ai yêu thích nhâm nhi một ly cafe trong không khí thoáng đãng, mát mẻ với thiên nhiên xanh ngát.",
+          des1: "Câu chuyện về Nhà Tôi Coffee là một hành trình khởi nghiệp bỏ lại những ồn ào phía sau để tìm về một chốn bình yên,kết nối những cảm xúc chân thành. ",
+          des2: ""
+        },
+        {
+          id: 29,
+          name: "MITA CAFE",
+          img: Mitacafes,
+          des: "Lên cho các bạn ở Nghi Sơn, Thanh Hoá một chốn tụ tập nhỏ nhỏ xinh xinh nhưng vô cùng ấm cúng đây. ",
+          des1: "Một thiết kế mang vibe rất mộc, hướng về một nét đẹp thân thương, gần gũi và bình dị. Nhỏ xinh vậy thôi nhưng không gian cũng vô cùng thoáng đãng sẵn sàng tiếp đón những cuộc vui tới bến của các bạn đấy nhé!",
+          des2: ""
+        },
+        {
+          id: 30,
+          name: "BẦU BEN CAFE",
+          img: Baubens,
+          des: "Bầu Ben Coffee mang trong mình một sự nhẹ nhàng với không gian trong nhà mang tone hồng khá ngọt ngào.Đôi khi cuộc sống bận rộn và chật chội quá mức thì Bầu Ben Coffee cung cấp một khu vườn nhỏ đủ để bạn có thể thả lỏng với thiên nhiên, cây cỏ và làm sạch những mệt mỏi và muộn phiền",
+          des1: "Đối với Phố, một không gian cà phê đẹp là một không gian đơn giản với đường nét sáng tỏ và sự tối giản về vật liệu. Quan trọng nhất là nơi đó có thể chữa lành tâm hồn của mọi người, miễn là bạn có thể thả lỏng trong không gian mà Bầu Ben Coffee tạo ra.",
+          des2: ""
+        },
+        {
+          id: 31,
+          name: "ZOEK CAKE",
+          img: Zoekcakes,
+          des: "Zoen Cake là một tiệm bánh ngọt tuyệt vời, nơi bạn có thể khám phá vô vàn những món bánh tuyệt hảo. Theo phong cách khá dễ thương, Zoen mang đến cho khách hàng một trải nghiệm thú vị và ngọt ngào như những lớp kem trên bề mặt bánh.",
+          des1: "Tone màu chủ đạo của Zoen Cake là xanh mint và hồng , tạo nên một sự kết hợp tươi mới và dễ thương. Khi bạn bước vào tiệm, bạn sẽ bị cuốn hút ngay lập tức bởi không gian được trang trí một cách tinh tế và đáng yêu. Màu xanh mint được sử dụng rộng rãi trên tường, tạo nên một cảm giác dễ chịu và tươi mát. Trong khi đó, màu hồng được sử dụng để tạo điểm nhấn và mang lại sự ngọt ngào, tạo nên không gian tràn đầy sự nữ tính và dịu dàng.",
+          des2: ""
+        },
+        {
+          id: 32,
+          name: "SIX COFFEE",
+          img: Sixcoffes,
+          des: "Nếu bạn là người yêu thích sự thoáng đãng, mộc mạc và muốn tận hưởng không khí trong lành giữa thành phố đầy bụi mịn này thì Six Coffee là một điểm đến mà bạn nên ghé qua.",
+          des1: "Six Coffee với thiết kế kính bao quanh, nhìn ra đường phố với những tán cây xanh, ngồi đây nhâm nhi cafe hít thở không khí trong lành. All in one cho gia đình hoặc nhóm bạn!",
+          des2: ""
+        },
+        {
+          id: 33,
+          name: "TIỆM BÁNH BỘT MỲ",
+          img: Tiembotbanhmys,
+          des: "Quán bánh mang vibe Hàn Xẻng quá ư là xinh! ",
+          des1: "Gọi em là bánh kem, vì em rất ngọt ngào",
+          des2: "Một tiệm bánh mang tone trắng - xanh đem đến cảm giác êm dịu cho bất kỳ ai ghé qua đây.   Sự kết hợp của 2 tone màu này với lối thiết kế tối giản làm không gian trở nên sang trọng hơn cũng như gia tăng trải nghiệm của khách hàng khi ghé qua cửa tiệm mua bánh. "
+        },
           
            
 
