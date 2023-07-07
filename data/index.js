@@ -357,6 +357,14 @@ for (const [key, value] of Object.entries(Minastore)) {
           des: "Để mỗi khi bước chân vào bếp là niềm cảm hứng nấu nướng lại tràn đầy. Phố thiết kế tin rằng gian bếp và khu vực bàn ăn là nơi gắn kết yêu thương giữa các thành viên trong gia đình. Đó là nơi trổ tài nấu nướng của mẹ, của bà. Là nơi thử nghiệm các món mới của con cháu. Cũng là nơi các ông bố nịnh vợ bằng bữa sáng ngon lành dù có phần hơi vụng về. ",
           des1: "Cùng Phố thiết kế ngắm nhìn thiết kế phòng bếp và phòng ăn của dự án nhà phố nhé!"
         },
+        {
+          id: 7,
+          name: "HOMESTAY ĐÀ LẠT",
+          img: Homestaydalats,
+          des: "Gác lại những ồn ã, vội vã sau cánh cửa, homestay Đà Lạt mang đến một không gian nghỉ ngơi thư thái và gần gũi. Căn hộ hiện lên với phong cách Scandinavi đơn giản cùng tông màu gỗ và trắng, kết hợp vật liệu mây quen thuộc tạo nên một tổng thể hài hòa, ấm áp, ấn tượng.",
+          des1: "",
+          des2: ""
+        }, 
         
       ]
     },
@@ -617,17 +625,9 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des: "'Phố ơi mình có nhận dự án nho nhỏ 30m2 không?' Với chúng mình, dù diện tích nhỏ hay to đều có những phương án thiết kế thi công phù hợp, vậy nên đừng ngần ngại đưa cho chúng mình một đề bài cụ thể, đội ngũ KTS của PTK sẽ có những tư vấn giúp bạn dễ dàng hình dung ra không gian kinh doanh của mình.",
           des1: "Cảm ơn niềm tin của khách hàng đã gửi cho #Phothietke để chúng mình có cơ hội góp một phần nhỏ thay đổi diện mạo thành phố với những tụ điểm ăn chơi cực kỳ chất lượng dành cho giới trẻ.",
           des2: ""
-        },   
+        },    
         {
           id: 20,
-          name: "HOMESTAY ĐÀ LẠT",
-          img: Homestaydalats,
-          des: "Gác lại những ồn ã, vội vã sau cánh cửa, homestay Đà Lạt mang đến một không gian nghỉ ngơi thư thái và gần gũi. Căn hộ hiện lên với phong cách Scandinavi đơn giản cùng tông màu gỗ và trắng, kết hợp vật liệu mây quen thuộc tạo nên một tổng thể hài hòa, ấm áp, ấn tượng.",
-          des1: "",
-          des2: ""
-        },  
-        {
-          id: 21,
           name: "COFFEE TRUNG KIÊN",
           img: cafetrungkiens,
           des: "Bạn nghĩ sao khi ngồi uống Cafe trên một quả đồi, ngồi phóng tầm mắt ra thiên nhiên hùng vĩ, hưởng không khí trong lành và yên bình? Hãy thử cảm giác đó khi ghé qua Coffee Trung kiên bạn nhé! ",
@@ -635,7 +635,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         },  
         {
-          id: 22,
+          id: 21,
           name: "COFFEE 23",
           img: coffee23s,
           des: "Nằm trên con đường Phan Bội Châu, Coffee 23 mang cho mình một vibe rất nhẹ nhàng, thanh lịch. Ánh sáng và không khí tự nhiên tràn ngập trong toàn không gian bởi lối thiết kế mở, sẵn sàng đem đến cho bạn trải nghiệm một buổi Cafe thoải mái nhất!",
@@ -643,7 +643,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: "✅ Liên hệ với đội ngũ KTS của Phố Thiết Kế để được chia sẻ, tư vấn những điều phù hợp nhất với dự án của bạn nhé!"
         }, 
         {
-          id: 23,
+          id: 22,
           name: "ROYAL TEA ",
           img: royalcoffees,
           des: "Điểm dừng chân mang đậm vibe Hàn Quốc",
@@ -651,14 +651,14 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         }, 
         {
-          id: 24,
+          id: 23,
           name: "KIÊN COFFEE",
           img: kiencoffees,
           des: "Kiên Coffee - Một không gian cafe xinh xắn được thiết kế tại Quảng Xương - Thanh Hoá. Phố Thiết Kế gửi một tone màu nâu gỗ ấm áp, nhẹ nhàng làm chủ đạo. Không gian mang một chút phong cách Nhật Bản kết hợp với vật liệu mây tre đan quen thuộc của Việt Nam tạo nên một sự giao thoa khá thú vị. Sẵn sàng khám phá không gian cafe mới chưa bạn ơi!!!"
           
         }, 
         {
-          id: 25,
+          id: 24,
           name: "MIN COFFEE & TEA",
           img: mincoffees,
           des: "Một quán coffee 'tone kẹo' sẽ khiến bạn đắm chìm trong sự ngọt ngào và dễ chịu ngay từ lần ghé đầu tiên. Với tone màu pastel ngọt ngào, chiếc tiệm xinh xắn này sẽ đưa bạn vào một thế giới của sự tối giản và nhẹ nhàng.",
@@ -666,7 +666,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         }, 
         {
-          id: 26,
+          id: 25,
           name: "LƯỜI COFFEE",
           img: luoicoffees,
           des: "Có những ngày chỉ muốn trốn khỏi chiếc laptop một chút, dành thời gian cho bản thân, nhâm nhi chút trà hay cafe, cười thoải mái với hội bạn thân, thì bạn ghé qua nhà Lười nhé! ",
@@ -674,7 +674,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: "Không gian trong nhà được thiết kế dành cho những tín đồ board game: mèo nổ, ma sói hay poker…"
         }, 
         {
-          id: 27,
+          id: 26,
           name: "TENGO COFFEE",
           img: tengocoffees,
           des: "The details are not the details. They make the design",
@@ -682,7 +682,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         }, 
         {
-          id: 28,
+          id: 27,
           name: "NHÀ TÔI COFFEE",
           img: Caphenhatois,
           des: "Thêm một không gian coffee sân vườn với hồ cá lớn dành cho ai yêu thích nhâm nhi một ly cafe trong không khí thoáng đãng, mát mẻ với thiên nhiên xanh ngát.",
@@ -690,7 +690,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         },
         {
-          id: 29,
+          id: 28,
           name: "MITA CAFE",
           img: Mitacafes,
           des: "Lên cho các bạn ở Nghi Sơn, Thanh Hoá một chốn tụ tập nhỏ nhỏ xinh xinh nhưng vô cùng ấm cúng đây. ",
@@ -698,7 +698,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         },
         {
-          id: 30,
+          id: 29,
           name: "BẦU BEN CAFE",
           img: Baubens,
           des: "Bầu Ben Coffee mang trong mình một sự nhẹ nhàng với không gian trong nhà mang tone hồng khá ngọt ngào.Đôi khi cuộc sống bận rộn và chật chội quá mức thì Bầu Ben Coffee cung cấp một khu vườn nhỏ đủ để bạn có thể thả lỏng với thiên nhiên, cây cỏ và làm sạch những mệt mỏi và muộn phiền",
@@ -706,7 +706,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         },
         {
-          id: 31,
+          id: 30,
           name: "ZOEK CAKE",
           img: Zoekcakes,
           des: "Zoen Cake là một tiệm bánh ngọt tuyệt vời, nơi bạn có thể khám phá vô vàn những món bánh tuyệt hảo. Theo phong cách khá dễ thương, Zoen mang đến cho khách hàng một trải nghiệm thú vị và ngọt ngào như những lớp kem trên bề mặt bánh.",
@@ -714,7 +714,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         },
         {
-          id: 32,
+          id: 31,
           name: "SIX COFFEE",
           img: Sixcoffes,
           des: "Nếu bạn là người yêu thích sự thoáng đãng, mộc mạc và muốn tận hưởng không khí trong lành giữa thành phố đầy bụi mịn này thì Six Coffee là một điểm đến mà bạn nên ghé qua.",
@@ -722,7 +722,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: ""
         },
         {
-          id: 33,
+          id: 32,
           name: "TIỆM BÁNH BỘT MỲ",
           img: Tiembotbanhmys,
           des: "Quán bánh mang vibe Hàn Xẻng quá ư là xinh! ",
@@ -730,7 +730,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: "Một tiệm bánh mang tone trắng - xanh đem đến cảm giác êm dịu cho bất kỳ ai ghé qua đây.   Sự kết hợp của 2 tone màu này với lối thiết kế tối giản làm không gian trở nên sang trọng hơn cũng như gia tăng trải nghiệm của khách hàng khi ghé qua cửa tiệm mua bánh. "
         },
         {
-          id: 34,
+          id: 33,
           name: "SU SẮN COFFEE & TEA",
           img: susancoffees,
           des: "chúng tôi vẫn thường nghĩ, thời gian, tâm tư, tâm sức đôi khi chỉ là hữu hạn trong đời. vậy mà khi bạn cần lắng nghe, những điều này đối với chúng tôi lại trở thành vô hạn. và rất tự nhiên, một chốn dừng chân an toàn cho những tâm hồn dạo quanh và nhâm nhi một thức uống trong đêm lại khiến cho chúng tôi tin lấy một sự gắn kết giữa Ngã tư và bạn.những chiếc bàn nhỏ xinh xắn sẽ được chúng tôi chuẩn bị khi bạn liên hệ, mong muốn và ghé qua. cùng nhau ngồi nơi đó mà luyên thuyên cả đêm đủ thứ trên đời, tạm quên nỗi phiền muộn của riêng ta. ",
@@ -738,7 +738,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: " ",
         },
         {
-          id: 35,
+          id: 34,
           name: "RUBY HOUSE COFFEE & TEA",
           img: rubyhousecoffees,
           des: " ",
@@ -746,7 +746,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: " "
         },
         {
-          id: 36,
+          id: 35,
           name: "CATUS COFFEE",
           img: Catuscoffees,
           des: "Nằm tại Nghi Sơn, một thị xã ven biển Thanh Hoá, Cà phê Catus Coffee hiện lên như một hòn ngọc rực rỡ. Khi bước vào quán, bạn sẽ bị cuốn vào một không gian đẹp như trong tranh vẽ, nơi thời gian dường như chầm chậm lại và những câu chuyện của quá khứ được kể lại một cách mê hoặc. ",
@@ -754,7 +754,7 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des2: "Khi đêm tới, Catus Coffee chuyển hóa mình thành một không gian lung linh với ánh sáng lộng lẫy. Điểm sáng lấp lánh khắp nơi trong quán, biến nơi đây thành một điểm dừng chân lý tưởng. Từng chi tiết nhỏ nhất đều được chăm sóc tỉ mỉ. Hương thơm của cà phê tinh tế ngập tràn không gian, kích thích vị giác và cảm nhận một cách sâu sắc. "
         },
         {
-          id: 37,
+          id: 36,
           name: "ROLL COFFEE",
           img: rollcoffees,
           des: "Roll Caffe là một quán cà phê ngoài trời độc đáo, với nhiều concept khác nhau để khám phá và tạo nên những bức ảnh đẹp. Nơi đây mang đến cảm giác như đang nghỉ dưỡng tại khuôn viên một khu nghỉ dưỡng giữa biển, với không gian mát mẻ và thoáng đãng. Roll Caffe đã nâng cấp không gian quán cà phê với phong cách độc đáo, sử dụng vật liệu phản chiếu trong thiết kế, mang đến một trải nghiệm thú vị khi bạn nhìn thấy mình dưới góc độ mới.",
