@@ -1,0 +1,11 @@
+export const Samson1 = require('./1.jpg');
+export const Samson2 = require('./2.jpg');
+export const Samson3 = require('./3.jpg');
+export const Samson4 = require('./4.jpg');
+export const Samson5 = require('./5.jpg');
+export const Samson6 = require('./6.jpg');
+export const Samson7 = require('./7.jpg');
+export const Samson8 = require('./8.jpg');
+export const Samson9 = require('./9.jpg');
+export const Samson10 = require('./10.jpg');
+export const Samson11= require('./11.jpg');

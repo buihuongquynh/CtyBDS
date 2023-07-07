@@ -51,6 +51,14 @@ import * as mincoffee from "../assets/img/projectImg/cafeNhahang/Min Coffee _ Te
 import * as royalcoffee from "../assets/img/projectImg/cafeNhahang/Royal Coffee"
 import * as tengocoffee from "../assets/img/projectImg/cafeNhahang/Tengo Coffee"
 import * as vuasmartcity from "../assets/img/projectImg/shopThoiTrang/Vua Smart city"
+import * as Catuscoffee from "../assets/img/projectImg/cafeNhahang/Catus coffee"
+import * as rollcoffee from "../assets/img/projectImg/cafeNhahang/Roll coffee"
+import * as rubyhousecoffee from "../assets/img/projectImg/cafeNhahang/Ruby house coffee"
+import * as susancoffee from "../assets/img/projectImg/cafeNhahang/Su sắn coffee"
+import * as nhakhoangason from "../assets/img/projectImg/Show room dược phẩm/Nha khoa Tasashi Nga sơn"
+import * as nhakhoasamson from "../assets/img/projectImg/Show room dược phẩm/Nha khoa Tasashi Sầm sơn"
+import * as nailthuyle from "../assets/img/projectImg/phukienmipham/tIỆM NAIL THỦY LÊ"
+import * as nailtrungson from "../assets/img/projectImg/phukienmipham/Tiệm nail Trường Sơn"
 import banle1 from "../assets/img/retails/banle/Ảnh1.jpg"
 import banle2 from "../assets/img/retails/banle/Ảnh2.jpg"
 import banle3 from "../assets/img/retails/banle/Ảnh3.jpg"
@@ -108,7 +116,39 @@ const data = () => {
  const Sixcoffes = []
  const Tiembotbanhmys = []
  const Zoekcakes = []
+ const Catuscoffees=[]
+  const rollcoffees=[]
+  const rubyhousecoffees=[]
+  const susancoffees=[]
+  const nhakhoangasons=[]
+  const nhakhoasamsons=[]
+  const nailthuyles=[]
+  const nailtrungsons=[]
 
+  for (const [key, value] of Object.entries(Catuscoffee)) {
+    Catuscoffees.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(nhakhoasamson)) {
+    nhakhoasamsons.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(rollcoffee)) {
+    rollcoffees.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(rubyhousecoffee)) {
+    rubyhousecoffees.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(susancoffee)) {
+    susancoffees.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(nhakhoangason)) {
+    nhakhoangasons.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(nailthuyle)) {
+    nailthuyles.push(value.default.src)
+  }
+  for (const [key, value] of Object.entries(nailtrungson)) {
+    nailtrungsons.push(value.default.src)
+  }
  for (const [key, value] of Object.entries(LinhSpa1)) {
   LinhSpa1s.push(value.default.src)
 }
@@ -408,6 +448,22 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des3: `Phố luôn tìm hiểu đối tượng khách hàng và lựa chọn vibe thiết kế phù hợp nhất với từng mô hình kinh doanh. Điều này giúp Linh Spa mang đến trải nghiệm dịch vụ tốt nhất cho khách hàng. Cho dù là một không gian hiện đại và sang trọng hoặc một không gian gần gũi và ấm cúng, mọi chi tiết đều được tinh chỉnh để đảm bảo khách hàng cảm thấy thoải mái và hài lòng.`,
             
         },
+        {
+          id: 6,
+          name: "TIỆM NAIL  THỦY LÊ",
+          img: nailthuyles,
+          des: `Một tiệm nail thu hút được sự chú ý của khách hàng không chỉ ở nhân viên phục vụ, mà còn bởi sự ảnh hưởng của lối trang trí. Chính vì vậy vấn đề trang trí tiệm nail nhỏ hay lớn rất được các quan tâm bởi chủ đầu tư.`,
+          des1: ``  ,
+           
+        },
+        {
+          id: 7,
+          name: "TIỆM NAIL TRƯỜNG SƠN CS1 ",
+          img: LinhSpa1s,
+          des: `Mở cửa tiệm đẹp thu hút được sự chú ý của khách hàng không chỉ bởi chất lượng dịch vụ thái độ nhân viên mà còn ảnh hưởng rất nhiều bởi phong cách kiến trúc không gian nhất là với mảng spa làm đẹp.`,
+          des1: `Mỗi dự án khi thiết kế luôn đảm bảo bạn có được một cửa tiệm hoàn hảo từng chi tiết phù hợp với khả năng tài chính. Cho dù bạn có số vốn nhiều hay ít thì bạn vẫn sở hữu một cửa tiệm đẹp, phong cách cho riêng mình.`  ,
+          
+        },
       ]
     },
     {
@@ -673,7 +729,38 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des1: "Gọi em là bánh kem, vì em rất ngọt ngào",
           des2: "Một tiệm bánh mang tone trắng - xanh đem đến cảm giác êm dịu cho bất kỳ ai ghé qua đây.   Sự kết hợp của 2 tone màu này với lối thiết kế tối giản làm không gian trở nên sang trọng hơn cũng như gia tăng trải nghiệm của khách hàng khi ghé qua cửa tiệm mua bánh. "
         },
-          
+        {
+          id: 34,
+          name: "SU SẮN COFFEE & TEA",
+          img: susancoffees,
+          des: "chúng tôi vẫn thường nghĩ, thời gian, tâm tư, tâm sức đôi khi chỉ là hữu hạn trong đời. vậy mà khi bạn cần lắng nghe, những điều này đối với chúng tôi lại trở thành vô hạn. và rất tự nhiên, một chốn dừng chân an toàn cho những tâm hồn dạo quanh và nhâm nhi một thức uống trong đêm lại khiến cho chúng tôi tin lấy một sự gắn kết giữa Ngã tư và bạn.những chiếc bàn nhỏ xinh xắn sẽ được chúng tôi chuẩn bị khi bạn liên hệ, mong muốn và ghé qua. cùng nhau ngồi nơi đó mà luyên thuyên cả đêm đủ thứ trên đời, tạm quên nỗi phiền muộn của riêng ta. ",
+          des1: "",
+          des2: " ",
+        },
+        {
+          id: 35,
+          name: "RUBY HOUSE COFFEE & TEA",
+          img: rubyhousecoffees,
+          des: " ",
+          des1: "",
+          des2: " "
+        },
+        {
+          id: 36,
+          name: "CATUS COFFEE",
+          img: Catuscoffees,
+          des: "Nằm tại Nghi Sơn, một thị xã ven biển Thanh Hoá, Cà phê Catus Coffee hiện lên như một hòn ngọc rực rỡ. Khi bước vào quán, bạn sẽ bị cuốn vào một không gian đẹp như trong tranh vẽ, nơi thời gian dường như chầm chậm lại và những câu chuyện của quá khứ được kể lại một cách mê hoặc. ",
+          des1: "Không gian ngoại vi của Catus Coffee mang đậm chất vintage, hòa quyện với vẻ ấm áp và mộc mạc của tự nhiên. Những tông màu đất nhẹ nhàng và chất liệu gỗ tự nhiên tràn ngập không gian, tạo nên một cảm giác thân thuộc và êm dịu.",
+          des2: "Khi đêm tới, Catus Coffee chuyển hóa mình thành một không gian lung linh với ánh sáng lộng lẫy. Điểm sáng lấp lánh khắp nơi trong quán, biến nơi đây thành một điểm dừng chân lý tưởng. Từng chi tiết nhỏ nhất đều được chăm sóc tỉ mỉ. Hương thơm của cà phê tinh tế ngập tràn không gian, kích thích vị giác và cảm nhận một cách sâu sắc. "
+        },
+        {
+          id: 37,
+          name: "ROLL COFFEE",
+          img: rollcoffees,
+          des: "Roll Caffe là một quán cà phê ngoài trời độc đáo, với nhiều concept khác nhau để khám phá và tạo nên những bức ảnh đẹp. Nơi đây mang đến cảm giác như đang nghỉ dưỡng tại khuôn viên một khu nghỉ dưỡng giữa biển, với không gian mát mẻ và thoáng đãng. Roll Caffe đã nâng cấp không gian quán cà phê với phong cách độc đáo, sử dụng vật liệu phản chiếu trong thiết kế, mang đến một trải nghiệm thú vị khi bạn nhìn thấy mình dưới góc độ mới.",
+          des1: "",
+          des2: " "
+        },
            
 
       ]
@@ -705,6 +792,22 @@ Hi vọng đây sẽ trở thành địa điểm làm tóc mới dành cho nhữ
           des: `Lại một lần nữa PTK đảm nhận vai trò xây dựng kiến tạo không gian chăm sóc bệnh nhân cho "Nha khoa Tadashi". Với ý nghĩa, thương hiệu đem đến những nụ cười rực rỡ, PTK đã lựa chọn tone màu vàng, tựa như ánh sáng, làm điểm nhấn chủ đạo.`,
           des1: `Bên cạnh đó, thay vì những mảng tường kín, KTS tạo ra một không gian mở với các lớp kính bao phủ 2 mặt tiền mang lại cảm giác TIN CẬY, THOẢI MÁI, THƯ GIÃN cho bất kỳ khách hàng nào ghé qua TADASHI.`,
           des2: `Với lối thiết kế hiện đại và hình khối khỏe khoắn, tất cả tạo nên không gian mới mẻ hài hòa và cá tính gắn liền với hình ảnh, màu sắc thương hiệu.`
+        },
+        {
+          id: 4,
+          name: "NHA KHOA TADASHI NGA SƠN",
+          img: nhakhoangasons,
+          des: `Những dự án thiết kế phòng khám, spa dường như rất có duyên với Phố Thiết Kế, Một phòng khám đẹp không chỉ nằm ở nội thất tinh tế mà điều quan trọng nhất là thiết kế khoa học và chuẩn công năng. Cách sắp xếp, bài trí nội thất hợp lý chính là cơ sở cốt lõi để quy trình khám chữa bệnh diễn ra thuận lợi. Cùng PTK chiêm ngưỡng những hình ảnh  3D chuỗi dự án Nha Khoa Tadashi tại Thanh Hóa và cùng cảm nhận nhé. `,
+          des1: ``,
+          des2: ``,
+        },
+        {
+          id: 5,
+          name: "NHA KHOA TADASHI SẦM SƠN",
+          img: nhakhoasamsons,
+          des: `Những dự án thiết kế phòng khám, spa dường như rất có duyên với Phố Thiết Kế, Một phòng khám đẹp không chỉ nằm ở nội thất tinh tế mà điều quan trọng nhất là thiết kế khoa học và chuẩn công năng. Cách sắp xếp, bài trí nội thất hợp lý chính là cơ sở cốt lõi để quy trình khám chữa bệnh diễn ra thuận lợi. Cùng PTK chiêm ngưỡng những hình ảnh  3D chuỗi dự án Nha Khoa Tadashi tại Thanh Hóa và cùng cảm nhận nhé.  `,
+          des1: ``,
+          des2: ``,
         },
       ]
     },
